@@ -1,0 +1,201 @@
+sku,name,category,unit_price,cost_price,weight_kg,reorder_point,safety_stock,supplier_name,status
+TEXT-0001,Textiles Product 2,Textiles,47925.62,38297.02,386.08,96,37,JSW Supplies Ltd 18,active
+RMAT-0001,Raw Materials Product 2,Raw Materials,19453.3,14165.46,5.46,141,28,Hindalco Enterprises Inc 34,active
+CHEM-0001,Chemicals Product 2,Chemicals,8378.75,6428.69,494.57,192,60,JSW Steel Ltd 8,active
+COMP-0001,Components Product 2,Components,7165.63,4941.77,196.35,79,17,Adani Corporation Ltd 49,active
+ELEC-0001,Electronics Product 2,Electronics,23519.41,14820.4,90.55,63,91,Mahindra Materials Pvt Ltd 21,active
+MACH-0001,Machinery Product 2,Machinery,14673.76,10242.86,293.26,150,54,Birla Steel Co 11,active
+PACK-0001,Packaging Product 2,Packaging,42195.06,30697.65,324.61,93,70,Birla Steel Co 11,active
+TEXT-0002,Textiles Product 3,Textiles,18393.76,13021.04,169.29,187,86,Vedanta Corporation Pvt Ltd 3,active
+TEXT-0003,Textiles Product 4,Textiles,42615.57,29871.74,454.79,74,62,Vedanta Industries Ltd 36,active
+CHEM-0002,Chemicals Product 3,Chemicals,24990.97,17650.67,52.58,23,45,Bharat Industries Ltd 16,active
+MACH-0002,Machinery Product 3,Machinery,8957.58,5981.61,95.88,66,12,Godrej Global Pvt Ltd 29,active
+MACH-0003,Machinery Product 4,Machinery,15446.0,11116.42,3.76,94,35,Mahindra Materials Pvt Ltd 21,active
+TEXT-0004,Textiles Product 5,Textiles,49092.12,35546.2,238.81,197,78,Godrej Global Pvt Ltd 29,active
+TEXT-0005,Textiles Product 6,Textiles,48164.24,36431.48,433.41,33,20,Hindalco Enterprises Inc 34,active
+COMP-0002,Components Product 3,Components,27699.88,20243.64,484.91,39,98,Mahindra Materials Pvt Ltd 21,active
+COMP-0003,Components Product 4,Components,37524.18,25114.88,62.02,73,13,Jindal Enterprises Pvt Ltd 35,active
+CONS-0001,Consumables Product 2,Consumables,49278.45,34149.71,488.96,63,47,Jindal Corporation Ltd 23,active
+MACH-0004,Machinery Product 5,Machinery,27817.54,21152.79,462.36,100,84,Essar Enterprises Ltd 4,active
+ELEC-0002,Electronics Product 3,Electronics,2530.05,1573.33,337.69,157,74,JSW Supplies Ltd 18,active
+ELEC-0003,Electronics Product 4,Electronics,36997.63,28124.65,24.58,183,31,Adani Solutions Inc 44,active
+RMAT-0002,Raw Materials Product 3,Raw Materials,324.56,228.14,338.68,115,12,Tata Corporation Inc 43,active
+MACH-0005,Machinery Product 6,Machinery,33613.48,21765.79,426.41,114,41,Godrej Solutions Ltd 45,active
+CONS-0002,Consumables Product 3,Consumables,29556.98,20080.66,137.49,118,89,Adani Enterprises Inc 15,active
+MACH-0006,Machinery Product 7,Machinery,17162.15,12760.54,403.74,116,99,Essar Enterprises Ltd 4,active
+COMP-0004,Components Product 5,Components,6927.38,4952.9,498.79,174,73,Birla Solutions Co 19,active
+ELEC-0004,Electronics Product 5,Electronics,45773.41,32013.16,67.27,38,42,Birla Solutions Co 19,active
+PACK-0002,Packaging Product 3,Packaging,981.67,678.0,317.31,178,40,JSW Trading Inc 9,active
+CONS-0003,Consumables Product 4,Consumables,37622.96,26643.5,142.34,82,90,Vedanta Logistics Pvt Ltd 48,active
+TEXT-0006,Textiles Product 7,Textiles,45462.33,32092.24,371.18,58,63,Bharat Industries Ltd 16,active
+ELEC-0005,Electronics Product 6,Electronics,12144.47,8069.98,77.81,82,88,Adani Enterprises Inc 15,active
+ELEC-0006,Electronics Product 7,Electronics,39619.52,29982.66,219.25,174,52,Mahindra Logistics Inc 26,discontinued
+TEXT-0007,Textiles Product 8,Textiles,40750.46,31806.17,393.82,104,26,Hindalco Supplies Co 31,active
+PACK-0003,Packaging Product 4,Packaging,32680.81,25852.81,256.41,188,48,Tata Enterprises Inc 5,active
+CONS-0004,Consumables Product 5,Consumables,5239.83,3186.95,123.11,122,15,Vedanta Logistics Pvt Ltd 48,active
+PACK-0004,Packaging Product 5,Packaging,15697.24,9578.33,55.89,134,44,Adani Corporation Inc 24,active
+CONS-0005,Consumables Product 6,Consumables,10430.33,6888.34,197.12,61,47,Jindal Steel Pvt Ltd 33,active
+PACK-0005,Packaging Product 6,Packaging,43151.95,25901.81,254.13,69,54,Tata Enterprises Inc 5,active
+CHEM-0003,Chemicals Product 4,Chemicals,39051.0,30000.57,130.25,61,39,Bharat Trading Co 20,active
+CONS-0006,Consumables Product 7,Consumables,34194.59,22077.76,165.43,64,93,Jindal Corporation Ltd 23,active
+CHEM-0004,Chemicals Product 5,Chemicals,35606.75,22435.48,23.78,77,22,Vedanta Corporation Ltd 22,active
+ELEC-0007,Electronics Product 8,Electronics,9497.27,5757.78,55.4,147,65,Reliance Enterprises Inc 0,active
+ELEC-0008,Electronics Product 9,Electronics,29550.75,22750.74,2.47,70,86,Adani Trading Inc 27,active
+CHEM-0005,Chemicals Product 6,Chemicals,38669.58,29818.04,127.21,64,92,JSW Steel Ltd 8,active
+CONS-0007,Consumables Product 8,Consumables,49234.01,33100.38,406.6,46,38,Jindal Global Co 28,active
+ELEC-0009,Electronics Product 10,Electronics,10896.15,7439.95,158.89,168,17,Jindal Global Co 28,active
+MACH-0007,Machinery Product 8,Machinery,1049.8,664.63,362.62,172,73,Bharat Steel Inc 17,active
+COMP-0005,Components Product 6,Components,44511.97,31993.7,63.1,159,22,Adani Enterprises Inc 15,active
+ELEC-0010,Electronics Product 11,Electronics,25413.91,20289.32,2.1,186,11,JSW Steel Ltd 8,discontinued
+TEXT-0008,Textiles Product 9,Textiles,6432.81,5014.12,440.2,94,58,Adani Trading Inc 27,active
+RMAT-0003,Raw Materials Product 4,Raw Materials,2620.93,1884.22,147.45,81,69,Larsen Logistics Co 14,active
+RMAT-0004,Raw Materials Product 5,Raw Materials,29826.12,19275.31,436.96,171,32,Reliance Enterprises Inc 0,active
+RMAT-0005,Raw Materials Product 6,Raw Materials,19868.71,14613.91,362.91,157,61,Mahindra Logistics Inc 26,active
+MACH-0008,Machinery Product 9,Machinery,21021.69,14776.5,6.33,26,81,Adani Corporation Ltd 49,active
+CHEM-0006,Chemicals Product 7,Chemicals,4794.19,3729.55,197.56,48,71,Birla Solutions Co 19,active
+PACK-0006,Packaging Product 7,Packaging,9004.24,5761.89,429.51,197,92,Vedanta Logistics Pvt Ltd 48,active
+PACK-0007,Packaging Product 8,Packaging,36701.4,28468.29,189.59,94,56,Vedanta Corporation Ltd 22,active
+MACH-0009,Machinery Product 10,Machinery,39169.71,27966.65,52.4,160,91,Jindal Enterprises Pvt Ltd 35,active
+COMP-0006,Components Product 7,Components,5083.14,3257.68,371.83,102,12,Jindal Materials Co 41,discontinued
+CONS-0008,Consumables Product 9,Consumables,35993.7,27985.61,197.38,132,38,JSW Supplies Ltd 18,active
+TEXT-0009,Textiles Product 10,Textiles,20516.08,14778.86,467.7,110,52,Adani Trading Inc 27,active
+PACK-0008,Packaging Product 9,Packaging,19765.94,12377.86,81.52,75,71,JSW Supplies Ltd 18,active
+ELEC-0011,Electronics Product 12,Electronics,12255.48,7595.76,376.78,125,89,Vedanta Logistics Pvt Ltd 48,active
+CHEM-0007,Chemicals Product 8,Chemicals,9369.73,6600.06,234.26,101,33,JSW Trading Inc 9,active
+ELEC-0012,Electronics Product 13,Electronics,47970.68,35042.77,247.8,179,19,Jindal Corporation Ltd 23,active
+RMAT-0006,Raw Materials Product 7,Raw Materials,38263.7,29667.46,450.83,38,98,Larsen Logistics Co 14,discontinued
+PACK-0009,Packaging Product 10,Packaging,3683.92,2311.88,152.3,60,59,Essar Supplies Co 47,active
+COMP-0007,Components Product 8,Components,30876.13,21874.9,82.74,34,32,Tata Corporation Inc 43,active
+ELEC-0013,Electronics Product 14,Electronics,29252.97,21852.73,148.09,172,43,Tata Corporation Inc 43,active
+ELEC-0014,Electronics Product 15,Electronics,38640.41,24782.52,470.78,93,20,Vedanta Industries Ltd 36,active
+MACH-0010,Machinery Product 11,Machinery,13300.54,10232.05,89.83,137,47,Tata Enterprises Inc 5,active
+RMAT-0007,Raw Materials Product 8,Raw Materials,35541.24,27376.24,437.3,154,40,Birla Steel Co 11,active
+MACH-0011,Machinery Product 12,Machinery,12315.35,7786.39,470.02,33,89,Birla Steel Co 11,active
+PACK-0010,Packaging Product 11,Packaging,24581.33,17353.17,268.33,168,49,Adani Corporation Inc 24,active
+PACK-0011,Packaging Product 12,Packaging,47617.26,33160.95,476.61,46,24,Reliance Enterprises Inc 6,active
+CONS-0009,Consumables Product 10,Consumables,12733.91,7716.89,59.56,48,92,Adani Enterprises Co 10,active
+CONS-0010,Consumables Product 11,Consumables,23304.21,15848.96,265.99,138,26,Jindal Global Co 28,discontinued
+RMAT-0008,Raw Materials Product 9,Raw Materials,37106.57,25742.75,76.52,169,92,Mahindra Materials Co 42,active
+TEXT-0010,Textiles Product 11,Textiles,17185.94,13042.26,311.39,29,77,Vedanta Corporation Pvt Ltd 3,active
+COMP-0008,Components Product 9,Components,46196.79,31764.82,319.54,155,10,Adani Enterprises Co 10,discontinued
+PACK-0012,Packaging Product 13,Packaging,3196.95,2211.18,64.6,98,23,Larsen Logistics Co 14,active
+CHEM-0008,Chemicals Product 9,Chemicals,46100.44,30602.91,363.12,149,51,Birla Solutions Co 19,active
+MACH-0012,Machinery Product 13,Machinery,23691.92,18716.91,171.42,120,25,Jindal Global Co 28,active
+CONS-0011,Consumables Product 12,Consumables,2108.66,1454.82,446.25,154,77,Tata Corporation Inc 43,discontinued
+CHEM-0009,Chemicals Product 10,Chemicals,33033.79,21818.69,473.77,148,42,Jindal Solutions Ltd 25,active
+CHEM-0010,Chemicals Product 11,Chemicals,28134.76,20931.04,254.52,150,91,Birla Solutions Co 19,active
+RMAT-0009,Raw Materials Product 10,Raw Materials,17183.89,11713.07,220.08,66,21,Vedanta Industries Pvt Ltd 30,active
+PACK-0013,Packaging Product 14,Packaging,32810.34,24036.26,9.98,179,39,Hindalco Supplies Co 31,active
+RMAT-0010,Raw Materials Product 11,Raw Materials,43045.46,27950.97,333.96,50,21,Bharat Supplies Co 37,active
+COMP-0009,Components Product 10,Components,14247.69,10471.3,455.17,153,28,Hindalco Global Ltd 7,active
+TEXT-0011,Textiles Product 12,Textiles,47650.83,34404.48,127.63,75,66,Jindal Steel Pvt Ltd 33,active
+MACH-0013,Machinery Product 14,Machinery,20043.84,14774.02,11.71,117,46,Vedanta Logistics Pvt Ltd 48,active
+CONS-0012,Consumables Product 13,Consumables,22252.75,17517.09,427.01,79,38,Jindal Global Co 28,active
+MACH-0014,Machinery Product 15,Machinery,31646.9,21102.86,122.18,92,92,Jindal Corporation Ltd 23,active
+PACK-0014,Packaging Product 15,Packaging,48912.4,36635.31,382.36,61,78,Tata Corporation Inc 43,active
+MACH-0015,Machinery Product 16,Machinery,12087.29,8811.2,144.73,74,33,Vedanta Corporation Ltd 22,active
+PACK-0015,Packaging Product 16,Packaging,11020.94,8411.31,430.3,122,25,Bharat Trading Co 20,active
+ELEC-0015,Electronics Product 16,Electronics,39895.79,30633.38,69.25,145,79,Bharat Industries Ltd 16,active
+ELEC-0016,Electronics Product 17,Electronics,49930.61,31881.6,77.07,24,48,Birla Solutions Co 19,active
+CONS-0013,Consumables Product 14,Consumables,49042.98,30108.86,69.08,125,81,Essar Supplies Co 47,active
+CHEM-0011,Chemicals Product 12,Chemicals,33206.32,20666.58,416.28,123,25,Adani Solutions Inc 44,active
+TEXT-0012,Textiles Product 13,Textiles,25088.23,18495.86,326.38,20,99,Mahindra Logistics Inc 26,discontinued
+ELEC-0017,Electronics Product 18,Electronics,4850.43,3616.33,488.33,77,38,Adani Corporation Inc 24,active
+RMAT-0011,Raw Materials Product 12,Raw Materials,2665.82,1957.92,176.73,78,80,Bharat Trading Co 20,active
+CONS-0014,Consumables Product 15,Consumables,20891.63,13878.5,374.44,148,82,Mahindra Materials Co 42,active
+RMAT-0012,Raw Materials Product 13,Raw Materials,7281.04,5648.73,48.14,78,23,Godrej Solutions Ltd 45,active
+PACK-0016,Packaging Product 17,Packaging,2735.07,1641.33,218.21,173,79,Vedanta Corporation Pvt Ltd 3,active
+PACK-0017,Packaging Product 18,Packaging,41174.05,26087.89,73.52,31,87,Vedanta Industries Pvt Ltd 30,active
+TEXT-0013,Textiles Product 14,Textiles,40978.07,25347.04,197.3,118,76,Jindal Solutions Ltd 25,active
+PACK-0018,Packaging Product 19,Packaging,25258.51,18945.23,232.39,75,43,Vedanta Industries Ltd 36,active
+MACH-0016,Machinery Product 17,Machinery,37599.39,23453.83,43.08,80,25,Adani Enterprises Co 10,active
+ELEC-0018,Electronics Product 19,Electronics,19985.48,15949.97,68.69,197,68,Mahindra Materials Co 42,active
+CONS-0015,Consumables Product 16,Consumables,43766.7,34799.74,436.44,101,27,Birla Solutions Co 19,active
+CHEM-0012,Chemicals Product 13,Chemicals,14525.27,10849.58,283.25,154,59,Vedanta Industries Pvt Ltd 30,active
+PACK-0019,Packaging Product 20,Packaging,1426.23,869.85,300.82,86,53,Hindalco Enterprises Inc 34,active
+PACK-0020,Packaging Product 21,Packaging,37919.72,29020.81,280.66,48,44,Bharat Trading Co 20,active
+RMAT-0013,Raw Materials Product 14,Raw Materials,15806.01,11266.82,338.36,171,15,Adani Corporation Inc 24,active
+ELEC-0019,Electronics Product 20,Electronics,44736.12,32624.18,86.06,171,90,Adani Enterprises Co 10,active
+COMP-0010,Components Product 11,Components,46783.54,28626.73,107.67,105,62,Vedanta Corporation Ltd 22,active
+PACK-0021,Packaging Product 22,Packaging,10783.21,6683.77,103.57,38,48,Hindalco Supplies Co 31,active
+ELEC-0020,Electronics Product 21,Electronics,43028.07,28574.05,180.44,63,14,Reliance Enterprises Inc 6,active
+PACK-0022,Packaging Product 23,Packaging,30563.2,19593.4,444.19,25,93,Tata Corporation Pvt Ltd 13,active
+COMP-0011,Components Product 12,Components,5854.79,4238.36,61.07,55,86,Tata Enterprises Inc 5,active
+ELEC-0021,Electronics Product 22,Electronics,26350.42,21062.82,22.18,57,46,Mahindra Materials Co 42,active
+CHEM-0013,Chemicals Product 14,Chemicals,28885.36,21988.64,85.25,164,98,Essar Supplies Co 47,active
+TEXT-0014,Textiles Product 15,Textiles,48547.15,32824.98,198.82,163,62,Jindal Corporation Ltd 23,active
+MACH-0017,Machinery Product 18,Machinery,9741.1,6045.88,433.09,25,63,Bharat Industries Ltd 16,active
+MACH-0018,Machinery Product 19,Machinery,21632.8,15719.04,463.39,164,93,Birla Solutions Co 19,active
+COMP-0012,Components Product 13,Components,22607.22,16132.22,230.96,72,69,Bharat Industries Ltd 16,active
+PACK-0023,Packaging Product 24,Packaging,17351.97,11725.05,47.41,75,24,Bharat Industries Ltd 16,active
+CONS-0016,Consumables Product 17,Consumables,10805.49,7699.29,377.79,115,33,Birla Solutions Co 19,active
+CONS-0017,Consumables Product 18,Consumables,29909.99,21947.64,26.38,138,95,Larsen Industries Co 46,active
+ELEC-0022,Electronics Product 23,Electronics,28990.98,17421.37,19.37,188,71,Larsen Industries Co 46,active
+ELEC-0023,Electronics Product 24,Electronics,37198.65,28658.92,248.26,56,51,Mahindra Materials Co 1,active
+TEXT-0015,Textiles Product 16,Textiles,16602.73,12879.61,186.59,173,60,Bharat Supplies Co 37,active
+MACH-0019,Machinery Product 20,Machinery,38767.9,27111.1,268.29,63,96,JSW Steel Ltd 8,discontinued
+COMP-0013,Components Product 14,Components,9461.7,6801.59,439.09,124,43,Tata Corporation Inc 43,active
+CHEM-0014,Chemicals Product 15,Chemicals,24140.0,17208.89,491.07,151,64,Jindal Materials Co 41,active
+CONS-0018,Consumables Product 19,Consumables,20939.2,13059.36,397.4,59,85,JSW Supplies Ltd 18,active
+MACH-0020,Machinery Product 21,Machinery,43729.28,26447.21,260.28,111,51,Adani Enterprises Inc 15,active
+TEXT-0016,Textiles Product 17,Textiles,33449.7,22590.15,309.4,44,13,JSW Steel Ltd 8,active
+CONS-0019,Consumables Product 20,Consumables,10794.89,6778.38,94.32,108,40,Adani Corporation Inc 24,active
+TEXT-0017,Textiles Product 18,Textiles,20309.2,15471.43,487.21,64,17,Essar Supplies Co 47,active
+CONS-0020,Consumables Product 21,Consumables,31748.3,21773.15,215.6,85,13,Adani Solutions Inc 44,active
+PACK-0024,Packaging Product 25,Packaging,47939.51,29151.05,352.93,118,37,Adani Corporation Ltd 49,active
+CHEM-0015,Chemicals Product 16,Chemicals,46800.12,35918.86,58.84,70,15,Mahindra Materials Co 1,active
+CONS-0021,Consumables Product 22,Consumables,26791.42,20981.67,283.77,147,45,Hindalco Global Ltd 7,active
+CONS-0022,Consumables Product 23,Consumables,48440.74,32074.11,94.76,112,35,Vedanta Corporation Pvt Ltd 3,discontinued
+RMAT-0014,Raw Materials Product 15,Raw Materials,43378.42,32168.08,415.03,42,97,Tata Enterprises Inc 5,active
+PACK-0025,Packaging Product 26,Packaging,6434.07,4884.47,272.88,89,58,Essar Supplies Co 47,active
+RMAT-0015,Raw Materials Product 16,Raw Materials,35271.43,24569.65,228.26,175,44,Vedanta Logistics Pvt Ltd 48,active
+RMAT-0016,Raw Materials Product 17,Raw Materials,4578.69,2818.12,389.96,150,50,Birla Solutions Co 19,active
+COMP-0014,Components Product 15,Components,1855.28,1171.62,102.99,70,97,Jindal Global Co 28,active
+CHEM-0016,Chemicals Product 17,Chemicals,46815.23,37238.64,118.26,121,14,Adani Corporation Inc 24,active
+CONS-0023,Consumables Product 24,Consumables,9836.7,7020.59,456.23,66,58,Vedanta Corporation Pvt Ltd 3,active
+COMP-0015,Components Product 16,Components,40049.12,28977.85,432.08,132,95,JSW Trading Inc 9,active
+ELEC-0024,Electronics Product 25,Electronics,11373.86,7820.3,472.85,172,44,Essar Enterprises Ltd 4,active
+ELEC-0025,Electronics Product 26,Electronics,9222.16,6124.87,326.63,51,70,Jindal Solutions Ltd 25,active
+COMP-0016,Components Product 17,Components,36123.15,22893.93,468.34,157,26,Birla Steel Co 11,active
+TEXT-0018,Textiles Product 19,Textiles,26025.52,18260.51,218.39,69,99,Jindal Corporation Ltd 23,active
+TEXT-0019,Textiles Product 20,Textiles,21146.13,12970.3,296.52,63,30,Jindal Corporation Ltd 23,active
+TEXT-0020,Textiles Product 21,Textiles,49071.22,34045.66,448.39,70,52,Vedanta Corporation Pvt Ltd 3,active
+COMP-0017,Components Product 18,Components,32444.37,24539.34,214.14,102,67,Mahindra Materials Co 42,active
+COMP-0018,Components Product 19,Components,17448.91,12781.43,335.96,187,96,Godrej Global Pvt Ltd 29,active
+TEXT-0021,Textiles Product 22,Textiles,40624.94,28484.27,368.31,108,51,Bharat Trading Co 20,active
+TEXT-0022,Textiles Product 23,Textiles,6644.64,4250.69,313.45,40,77,Jindal Enterprises Pvt Ltd 35,active
+MACH-0021,Machinery Product 22,Machinery,5625.14,4450.66,77.3,70,27,Tata Corporation Pvt Ltd 13,active
+PACK-0026,Packaging Product 27,Packaging,44153.0,33207.87,354.11,170,25,Jindal Solutions Ltd 25,active
+COMP-0019,Components Product 20,Components,7456.56,4881.7,154.24,88,21,Jindal Corporation Ltd 23,active
+COMP-0020,Components Product 21,Components,3589.59,2499.16,391.13,124,77,Hindalco Enterprises Inc 34,active
+RMAT-0017,Raw Materials Product 18,Raw Materials,41045.8,26603.86,180.47,52,25,Mahindra Materials Pvt Ltd 21,active
+PACK-0027,Packaging Product 28,Packaging,12122.26,9096.01,156.99,53,34,Birla Solutions Co 19,active
+ELEC-0026,Electronics Product 27,Electronics,15217.93,10254.68,118.08,117,78,Mahindra Materials Pvt Ltd 21,active
+PACK-0028,Packaging Product 29,Packaging,32185.62,24893.47,499.41,104,65,Jindal Corporation Ltd 23,active
+COMP-0021,Components Product 22,Components,39593.43,27406.03,40.67,147,11,Godrej Solutions Ltd 45,active
+CHEM-0017,Chemicals Product 18,Chemicals,20427.38,14577.66,276.13,135,85,Jindal Corporation Ltd 23,active
+MACH-0022,Machinery Product 23,Machinery,39670.95,30529.47,497.41,140,88,Adani Enterprises Co 10,active
+RMAT-0018,Raw Materials Product 19,Raw Materials,20142.92,13165.75,303.19,133,94,Adani Enterprises Inc 15,active
+CONS-0024,Consumables Product 25,Consumables,14885.35,9436.72,97.67,154,15,Mahindra Logistics Inc 26,active
+COMP-0022,Components Product 23,Components,41722.63,30718.95,96.04,153,25,Birla Solutions Co 19,active
+CONS-0025,Consumables Product 26,Consumables,45672.93,28683.11,338.89,199,83,Tata Corporation Pvt Ltd 13,active
+CONS-0026,Consumables Product 27,Consumables,48229.49,31489.98,215.04,197,48,Larsen Logistics Co 14,active
+COMP-0023,Components Product 24,Components,38615.28,26090.94,417.58,171,29,Bharat Supplies Co 37,active
+TEXT-0023,Textiles Product 24,Textiles,49704.48,30206.85,104.08,181,56,Adani Trading Inc 27,active
+COMP-0024,Components Product 25,Components,19822.21,14855.06,185.83,62,26,Essar Enterprises Ltd 4,active
+TEXT-0024,Textiles Product 25,Textiles,24022.91,18554.41,321.16,152,72,Bharat Trading Co 20,discontinued
+RMAT-0019,Raw Materials Product 20,Raw Materials,20227.38,15871.81,123.01,198,75,Bharat Trading Co 20,active
+CONS-0027,Consumables Product 28,Consumables,23464.75,15020.08,92.77,92,51,Tata Enterprises Inc 5,active
+RMAT-0020,Raw Materials Product 21,Raw Materials,45389.48,34520.71,133.09,128,34,Jindal Materials Co 41,active
+PACK-0029,Packaging Product 30,Packaging,47195.54,32112.3,112.42,92,86,Reliance Enterprises Inc 6,active
+PACK-0030,Packaging Product 31,Packaging,8180.88,5954.46,391.47,48,28,Mahindra Materials Co 1,active
+TEXT-0025,Textiles Product 26,Textiles,42434.2,27392.64,25.36,174,88,Tata Corporation Inc 43,active
+ELEC-0027,Electronics Product 28,Electronics,38022.35,23789.01,390.44,48,94,Godrej Global Pvt Ltd 29,active
+CONS-0028,Consumables Product 29,Consumables,43846.24,30933.15,372.41,28,83,Mahindra Materials Pvt Ltd 21,active
+TEXT-0026,Textiles Product 27,Textiles,5980.41,3873.32,251.49,141,55,Larsen Logistics Co 14,active
+COMP-0025,Components Product 26,Components,39365.88,30808.95,123.44,159,76,Birla Solutions Co 19,active
+PACK-0031,Packaging Product 32,Packaging,9507.66,7216.75,480.32,21,74,Jindal Solutions Ltd 25,active
+RMAT-0021,Raw Materials Product 22,Raw Materials,17667.33,12855.54,237.02,32,98,Adani Corporation Ltd 49,active
+TEXT-0027,Textiles Product 28,Textiles,43789.4,28761.33,393.92,128,44,Bharat Trading Co 20,discontinued
+CHEM-0018,Chemicals Product 19,Chemicals,15135.89,11413.04,168.49,62,64,Adani Solutions Inc 44,active
+CONS-0029,Consumables Product 30,Consumables,1320.1,850.18,355.99,77,60,Mahindra Materials Co 42,active

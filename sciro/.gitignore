@@ -1,0 +1,48 @@
+# SCIRO — Supply Chain Intelligence & Revenue Optimization
+
+## Environment Variables
+.env
+.env.*
+!.env.example
+
+## Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+## Virtual Environment
+.venv/
+venv/
+env/
+
+## IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+## OS
+.DS_Store
+Thumbs.db
+
+## Data (keep sample, ignore raw uploads)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+## Logs
+logs/
+*.log
+
+## Models (trained artifacts)
+models/saved/*
+!models/saved/.gitkeep
+
+## Docker
+docker-compose.override.yml

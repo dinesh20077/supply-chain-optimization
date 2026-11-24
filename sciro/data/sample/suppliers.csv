@@ -1,0 +1,51 @@
+name,contact_email,contact_phone,region_name,lead_time_days,reliability_score,status
+Reliance Enterprises Inc 0,contact@relianceenterprisesinc0.com,+91 8480620597,South-East,13,0.78,active
+Mahindra Materials Co 1,contact@mahindramaterialsco1.com,+91 7648544205,South-West,3,0.91,active
+Vedanta Industries Ltd 2,contact@vedantaindustriesltd2.com,+91 7486771344,North,28,0.63,inactive
+Vedanta Corporation Pvt Ltd 3,contact@vedantacorporationpvtltd3.com,+91 7304714164,West,5,0.86,active
+Essar Enterprises Ltd 4,contact@essarenterprisesltd4.com,+91 9784883822,North-West,27,0.54,active
+Tata Enterprises Inc 5,contact@tataenterprisesinc5.com,+91 8727545501,East,4,0.87,active
+Reliance Enterprises Inc 6,contact@relianceenterprisesinc6.com,+91 8550573603,Central,14,0.85,active
+Hindalco Global Ltd 7,contact@hindalcogloballtd7.com,+91 7292461557,Pan-India,10,0.95,active
+JSW Steel Ltd 8,contact@jswsteelltd8.com,+91 9776471959,South,4,0.86,active
+JSW Trading Inc 9,contact@jswtradinginc9.com,+91 8390313939,Central,11,0.99,active
+Adani Enterprises Co 10,contact@adanienterprisesco10.com,+91 8720049147,East,9,0.89,active
+Birla Steel Co 11,contact@birlasteelco11.com,+91 8764361506,North-West,4,0.76,active
+Birla Industries Inc 12,contact@birlaindustriesinc12.com,+91 9611571299,North-East,6,0.9,inactive
+Tata Corporation Pvt Ltd 13,contact@tatacorporationpvtltd13.com,+91 8700246449,South,9,0.82,active
+Larsen Logistics Co 14,contact@larsenlogisticsco14.com,+91 8203808513,North-East,16,0.63,active
+Adani Enterprises Inc 15,contact@adanienterprisesinc15.com,+91 7731699220,South,9,0.96,active
+Bharat Industries Ltd 16,contact@bharatindustriesltd16.com,+91 7626592991,South,29,0.58,active
+Bharat Steel Inc 17,contact@bharatsteelinc17.com,+91 7828154307,West,10,0.77,active
+JSW Supplies Ltd 18,contact@jswsuppliesltd18.com,+91 7920108817,South,3,0.97,active
+Birla Solutions Co 19,contact@birlasolutionsco19.com,+91 9945419012,East,4,0.78,active
+Bharat Trading Co 20,contact@bharattradingco20.com,+91 8418807078,South,16,0.68,active
+Mahindra Materials Pvt Ltd 21,contact@mahindramaterialspvtltd21.com,+91 8639529940,North-East,9,0.78,active
+Vedanta Corporation Ltd 22,contact@vedantacorporationltd22.com,+91 7151978446,South-East,19,0.52,active
+Jindal Corporation Ltd 23,contact@jindalcorporationltd23.com,+91 8576987624,South,7,0.91,active
+Adani Corporation Inc 24,contact@adanicorporationinc24.com,+91 9229788918,North,5,0.79,active
+Jindal Solutions Ltd 25,contact@jindalsolutionsltd25.com,+91 7951125141,North-East,15,0.53,active
+Mahindra Logistics Inc 26,contact@mahindralogisticsinc26.com,+91 7838395787,South-West,28,0.53,active
+Adani Trading Inc 27,contact@adanitradinginc27.com,+91 7420039581,North,27,0.68,active
+Jindal Global Co 28,contact@jindalglobalco28.com,+91 7293857666,South-East,19,0.6,active
+Godrej Global Pvt Ltd 29,contact@godrejglobalpvtltd29.com,+91 7366220144,South,8,0.84,active
+Vedanta Industries Pvt Ltd 30,contact@vedantaindustriespvtltd30.com,+91 8162279698,Central,14,0.88,active
+Hindalco Supplies Co 31,contact@hindalcosuppliesco31.com,+91 8576021702,North-East,11,0.78,active
+Essar Steel Inc 32,contact@essarsteelinc32.com,+91 7505971991,South-West,14,0.95,inactive
+Jindal Steel Pvt Ltd 33,contact@jindalsteelpvtltd33.com,+91 7500561115,North,9,0.88,active
+Hindalco Enterprises Inc 34,contact@hindalcoenterprisesinc34.com,+91 8251981717,North,14,0.85,active
+Jindal Enterprises Pvt Ltd 35,contact@jindalenterprisespvtltd35.com,+91 7887627353,West,17,0.68,active
+Vedanta Industries Ltd 36,contact@vedantaindustriesltd36.com,+91 7159937641,West,13,0.93,active
+Bharat Supplies Co 37,contact@bharatsuppliesco37.com,+91 7611450650,North,8,0.82,active
+JSW Corporation Ltd 38,contact@jswcorporationltd38.com,+91 9597751390,South-West,3,0.96,inactive
+Reliance Steel Inc 39,contact@reliancesteelinc39.com,+91 9660688022,Central,4,0.8,inactive
+Adani Trading Co 40,contact@adanitradingco40.com,+91 9001086989,East,11,0.76,inactive
+Jindal Materials Co 41,contact@jindalmaterialsco41.com,+91 7688404211,North-West,9,0.91,active
+Mahindra Materials Co 42,contact@mahindramaterialsco42.com,+91 7010207597,North-West,15,0.62,active
+Tata Corporation Inc 43,contact@tatacorporationinc43.com,+91 8130713954,North-East,12,0.89,active
+Adani Solutions Inc 44,contact@adanisolutionsinc44.com,+91 9455626491,South,13,0.85,active
+Godrej Solutions Ltd 45,contact@godrejsolutionsltd45.com,+91 7203647646,Pan-India,7,0.8,active
+Larsen Industries Co 46,contact@larsenindustriesco46.com,+91 9244412053,North-East,10,0.91,active
+Essar Supplies Co 47,contact@essarsuppliesco47.com,+91 8514565395,South-West,11,0.98,active
+Vedanta Logistics Pvt Ltd 48,contact@vedantalogisticspvtltd48.com,+91 7235834010,North,3,0.76,active
+Adani Corporation Ltd 49,contact@adanicorporationltd49.com,+91 7307904878,Central,20,0.61,active
