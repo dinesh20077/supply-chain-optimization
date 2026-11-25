@@ -40,6 +40,21 @@ from sciro.ingestion.loader import (
 )
 from sciro.ingestion.validators import validate_dataframe
 from sciro.etl.cleaning import clean_dataframe
+from sciro.dashboard.charts import (
+    create_revenue_trend_chart,
+    create_revenue_at_risk_donut,
+    create_product_revenue_bar,
+    create_regional_revenue_chart,
+    create_supplier_risk_distribution,
+    create_supplier_scatter,
+    create_inventory_health_donut,
+    create_stockout_risk_scatter,
+    create_customer_segment_treemap,
+    create_customer_ltv_bar,
+    create_feature_importance_chart,
+    create_revenue_forecast_chart,
+    create_monte_carlo_histogram,
+)
 
 # =============================================================================
 # Page Config
@@ -52,43 +67,155 @@ st.set_page_config(
 )
 
 # =============================================================================
-# Custom CSS
+# Custom CSS — Enterprise Executive Theme
 # =============================================================================
 st.markdown("""
 <style>
-    /* Main theme */
-    .main .block-container { padding-top: 1rem; }
-    .stMetric { background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
-                padding: 1rem; border-radius: 12px; border: 1px solid #475569; }
-    .stMetric label { color: #94a3b8 !important; font-size: 0.85rem !important; }
-    .stMetric [data-testid="stMetricValue"] { color: #f1f5f9 !important; font-size: 1.8rem !important; }
-    .stMetric [data-testid="stMetricDelta"] { font-size: 0.9rem !important; }
+    /* Font family & layout */
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+    
+    html, body, [class*="css"] {
+        font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    }
+    .main .block-container { 
+        padding-top: 1.2rem; 
+        padding-bottom: 3rem;
+        max-width: 1400px;
+    }
 
-    /* Sidebar */
-    [data-testid="stSidebar"] { background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%); }
-    [data-testid="stSidebar"] .stMarkdown { color: #e2e8f0; }
+    /* Gradient Headers */
+    h1, h2, h3 {
+        font-weight: 700 !important;
+        letter-spacing: -0.02em !important;
+    }
+    h2 {
+        background: linear-gradient(135deg, #f8fafc 0%, #cbd5e1 50%, #38bdf8 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 0.5rem !important;
+    }
+    h3 {
+        color: #e2e8f0 !important;
+        font-size: 1.15rem !important;
+        margin-top: 1rem !important;
+    }
 
-    /* Cards */
-    .card { background: #1e293b; border-radius: 12px; padding: 1.5rem;
-            border: 1px solid #334155; margin-bottom: 1rem; }
-    .card h3 { color: #38bdf8; margin-top: 0; }
-    .card p { color: #94a3b8; }
+    /* Enterprise Glassmorphic KPI Cards */
+    [data-testid="stMetric"] {
+        background: linear-gradient(135deg, rgba(19, 27, 46, 0.95) 0%, rgba(30, 41, 59, 0.85) 100%) !important;
+        border: 1px solid rgba(56, 189, 248, 0.2) !important;
+        border-top: 2px solid #06b6d4 !important;
+        border-radius: 14px !important;
+        padding: 1.1rem 1.25rem !important;
+        box-shadow: 0 4px 20px -2px rgba(6, 182, 212, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.05) !important;
+        transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    }
+    [data-testid="stMetric"]:hover {
+        transform: translateY(-3px) !important;
+        border-color: rgba(56, 189, 248, 0.5) !important;
+        box-shadow: 0 8px 30px -4px rgba(6, 182, 212, 0.25) !important;
+    }
+    [data-testid="stMetric"] label {
+        color: #94a3b8 !important;
+        font-size: 0.82rem !important;
+        font-weight: 500 !important;
+        text-transform: uppercase !important;
+        letter-spacing: 0.05em !important;
+    }
+    [data-testid="stMetric"] [data-testid="stMetricValue"] {
+        color: #f8fafc !important;
+        font-size: 1.85rem !important;
+        font-weight: 700 !important;
+        letter-spacing: -0.02em !important;
+    }
+    [data-testid="stMetric"] [data-testid="stMetricDelta"] {
+        font-weight: 600 !important;
+        font-size: 0.85rem !important;
+    }
 
-    /* Risk badges */
-    .risk-low { color: #4ade80; font-weight: bold; }
-    .risk-medium { color: #fbbf24; font-weight: bold; }
-    .risk-high { color: #f97316; font-weight: bold; }
-    .risk-critical { color: #ef4444; font-weight: bold; }
+    /* Sidebar Styling */
+    [data-testid="stSidebar"] {
+        background: linear-gradient(180deg, #090d16 0%, #0f172a 100%) !important;
+        border-right: 1px solid #1e293b !important;
+    }
+    [data-testid="stSidebar"] .stMarkdown h3 {
+        color: #38bdf8 !important;
+        font-size: 1.1rem !important;
+    }
 
-    /* Tab styling */
-    .stTabs [data-baseweb="tab-list"] { gap: 8px; }
+    /* Buttons with Vibrant Gradient */
+    .stButton > button[kind="primary"], .stButton > button {
+        background: linear-gradient(135deg, #0284c7 0%, #6366f1 100%) !important;
+        color: #ffffff !important;
+        font-weight: 600 !important;
+        border: none !important;
+        border-radius: 10px !important;
+        padding: 0.55rem 1.25rem !important;
+        box-shadow: 0 4px 15px rgba(2, 132, 199, 0.35) !important;
+        transition: all 0.2s ease !important;
+    }
+    .stButton > button:hover {
+        transform: translateY(-1px) !important;
+        box-shadow: 0 6px 20px rgba(99, 102, 241, 0.5) !important;
+    }
+
+    /* Tabs Styling */
+    .stTabs [data-baseweb="tab-list"] {
+        gap: 10px !important;
+        background-color: transparent !important;
+        border-bottom: 1px solid #1e293b !important;
+        padding-bottom: 6px !important;
+    }
     .stTabs [data-baseweb="tab"] {
-        background-color: #1e293b; border-radius: 8px; padding: 8px 16px;
-        color: #94a3b8; border: 1px solid #334155;
+        background: rgba(30, 41, 59, 0.6) !important;
+        border-radius: 10px !important;
+        padding: 8px 18px !important;
+        color: #94a3b8 !important;
+        font-weight: 500 !important;
+        border: 1px solid #334155 !important;
+        transition: all 0.2s ease !important;
+    }
+    .stTabs [data-baseweb="tab"]:hover {
+        color: #f1f5f9 !important;
+        border-color: #64748b !important;
     }
     .stTabs [aria-selected="true"] {
-        background-color: #0ea5e9 !important; color: white !important;
+        background: linear-gradient(135deg, rgba(6, 182, 212, 0.25) 0%, rgba(99, 102, 241, 0.35) 100%) !important;
+        border-color: #06b6d4 !important;
+        color: #ffffff !important;
+        font-weight: 600 !important;
+        box-shadow: 0 0 15px rgba(6, 182, 212, 0.2) !important;
     }
+
+    /* Expander styling */
+    .streamlit-expanderHeader {
+        background: #131b2e !important;
+        border-radius: 10px !important;
+        border: 1px solid #1e293b !important;
+        color: #e2e8f0 !important;
+        font-weight: 500 !important;
+    }
+
+    /* Dataframes */
+    [data-testid="stDataFrame"] {
+        border-radius: 10px !important;
+        overflow: hidden !important;
+        border: 1px solid #1e293b !important;
+    }
+
+    /* Badges */
+    .badge {
+        display: inline-block;
+        padding: 0.25rem 0.65rem;
+        border-radius: 9999px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 0.025em;
+    }
+    .badge-success { background: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); }
+    .badge-warning { background: rgba(245, 158, 11, 0.15); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.3); }
+    .badge-danger { background: rgba(244, 63, 94, 0.15); color: #fb7185; border: 1px solid rgba(244, 63, 94, 0.3); }
+    .badge-info { background: rgba(6, 182, 212, 0.15); color: #38bdf8; border: 1px solid rgba(6, 182, 212, 0.3); }
 </style>
 """, unsafe_allow_html=True)
 
@@ -114,18 +241,28 @@ if "data" not in st.session_state:
 # Auth Functions
 # =============================================================================
 def login_page():
-    """Render the login page."""
-    st.markdown("## 🔗 SCIRO")
-    st.markdown("### Supply Chain Intelligence & Revenue Optimization")
-    st.markdown("---")
+    """Render the executive login portal."""
+    st.markdown("""
+    <div style='text-align: center; padding: 2rem 0 1.5rem 0;'>
+        <div style='font-size: 2.8rem; font-weight: 800; background: linear-gradient(135deg, #38bdf8 0%, #818cf8 50%, #c084fc 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;'>
+            SCIRO Enterprise
+        </div>
+        <div style='color: #94a3b8; font-size: 1rem; margin-top: 0.35rem;'>
+            Supply Chain Intelligence & Revenue Optimization Decision Platform
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
 
-    col1, col2, col3 = st.columns([1, 2, 1])
+    col1, col2, col3 = st.columns([1.2, 1.8, 1.2])
     with col2:
-        st.markdown("#### 🔐 Login")
-        username = st.text_input("Username", key="login_user")
-        password = st.text_input("Password", type="password", key="login_pass")
+        st.markdown("""
+        <div style='background: linear-gradient(145deg, #131b2e 0%, #1e293b 100%); border: 1px solid rgba(56, 189, 248, 0.25); border-radius: 16px; padding: 2rem; box-shadow: 0 10px 40px -10px rgba(0,0,0,0.5);'>
+            <h4 style='color: #f8fafc; margin-top:0; margin-bottom: 1.2rem; font-weight:600;'>🔐 Enterprise Authentication</h4>
+        """, unsafe_allow_html=True)
+        username = st.text_input("Username", key="login_user", placeholder="Enter username (e.g. admin)")
+        password = st.text_input("Password", type="password", key="login_pass", placeholder="••••••••")
 
-        if st.button("Login", type="primary", use_container_width=True):
+        if st.button("Sign In to SCIRO", type="primary", use_container_width=True):
             token = st.session_state.auth_manager.authenticate(username, password)
             if token:
                 st.session_state.authenticated = True
@@ -135,13 +272,17 @@ def login_page():
             else:
                 st.error("Invalid credentials. Try admin/admin123, analyst/analyst123, or viewer/viewer123")
 
-        st.markdown("---")
-        st.markdown(
-            "<div style='text-align:center;color:#64748b;font-size:0.8rem;'>"
-            "Demo accounts: admin / analyst / viewer (password: [role]123)"
-            "</div>",
-            unsafe_allow_html=True,
-        )
+        st.markdown("""
+            <div style='margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid #334155; text-align: center;'>
+                <div style='color: #64748b; font-size: 0.8rem; margin-bottom: 0.5rem;'>Available Demo Roles</div>
+                <div style='display: flex; justify-content: center; gap: 8px;'>
+                    <span class='badge badge-info'>admin : admin123</span>
+                    <span class='badge badge-success'>analyst : analyst123</span>
+                    <span class='badge badge-warning'>viewer : viewer123</span>
+                </div>
+            </div>
+        </div>
+        """, unsafe_allow_html=True)
 
 
 def check_permission(permission: str) -> bool:
@@ -378,32 +519,39 @@ def page_executive_dashboard():
 
     st.markdown("---")
 
-    # Revenue trend chart
-    st.markdown("### 📈 Revenue Trend")
-    if require_datasets("orders", "order_items"):
-        try:
-            from sciro.analytics.revenue import get_monthly_revenue_trend
-            trend = get_monthly_revenue_trend(data["orders"], data["order_items"], months=12)
-            if not trend.empty:
-                st.line_chart(trend.set_index("month")["revenue"])
-        except Exception as e:
-            st.warning(f"⚠️ Could not generate Revenue Trend: {e}")
+    # Visual Analytics Row
+    col_chart1, col_chart2 = st.columns([3, 2])
 
-    # Risk overview
-    st.markdown("### ⚠️ Revenue-at-Risk Summary")
-    if require_datasets("suppliers", "products", "inventory", "orders", "order_items", "shipments"):
-        try:
-            from sciro.analytics.risk_engine import get_risk_dashboard_data
-            risk = get_risk_dashboard_data(
-                data["suppliers"], data["products"], data["inventory"],
-                data["orders"], data["order_items"], data["shipments"],
-            )
-            c1, c2, c3 = st.columns(3)
-            c1.metric("Total Revenue at Risk", f"₹{risk['total_revenue_at_risk']:,.0f}")
-            c2.metric("Products at Risk", risk["total_products_at_risk"])
-            c3.metric("Affected Customers", risk["total_affected_customers"])
-        except Exception as e:
-            st.warning(f"⚠️ Could not compute Revenue-at-Risk summary: {e}")
+    with col_chart1:
+        st.markdown("### 📈 Revenue Trajectory & Volume")
+        if require_datasets("orders", "order_items"):
+            try:
+                from sciro.analytics.revenue import get_monthly_revenue_trend
+                trend = get_monthly_revenue_trend(data["orders"], data["order_items"], months=12)
+                if not trend.empty:
+                    fig_trend = create_revenue_trend_chart(trend)
+                    st.plotly_chart(fig_trend, use_container_width=True)
+            except Exception as e:
+                st.warning(f"⚠️ Could not generate Revenue Trend: {e}")
+
+    with col_chart2:
+        st.markdown("### ⚠️ Revenue-at-Risk Breakdown")
+        if require_datasets("suppliers", "products", "inventory", "orders", "order_items", "shipments"):
+            try:
+                from sciro.analytics.risk_engine import get_risk_dashboard_data
+                risk = get_risk_dashboard_data(
+                    data["suppliers"], data["products"], data["inventory"],
+                    data["orders"], data["order_items"], data["shipments"],
+                )
+                c1, c2, c3 = st.columns(3)
+                c1.metric("Revenue at Risk", f"₹{risk['total_revenue_at_risk']:,.0f}")
+                c2.metric("Products at Risk", risk["total_products_at_risk"])
+                c3.metric("Affected Customers", risk["total_affected_customers"])
+
+                fig_risk = create_revenue_at_risk_donut(risk)
+                st.plotly_chart(fig_risk, use_container_width=True)
+            except Exception as e:
+                st.warning(f"⚠️ Could not compute Revenue-at-Risk summary: {e}")
 
 
 def page_data_ingestion():
@@ -616,11 +764,16 @@ def page_supply_chain():
             display_cols = ["supplier_name", "risk_score", "risk_level", "on_time_delivery_pct",
                             "avg_delay_days", "products_supplied", "total_shipping_cost"]
             available_cols = [c for c in display_cols if c in scored.columns]
-            st.dataframe(scored[available_cols], use_container_width=True, height=400)
+            st.dataframe(scored[available_cols], use_container_width=True, height=350)
 
-            # Risk distribution chart
-            dist = scored["risk_level"].value_counts()
-            st.bar_chart(dist)
+            # Interactive Plotly visual analytics
+            col_sc1, col_sc2 = st.columns(2)
+            with col_sc1:
+                fig_dist = create_supplier_risk_distribution(scored)
+                st.plotly_chart(fig_dist, use_container_width=True)
+            with col_sc2:
+                fig_scatter = create_supplier_scatter(scored)
+                st.plotly_chart(fig_scatter, use_container_width=True)
         except Exception as e:
             st.warning(f"⚠️ Could not compute Supplier Risk Scores: {e}")
 
@@ -659,10 +812,9 @@ def page_inventory():
                 data["inventory"], data["products"], data["orders"],
                 data["order_items"], data.get("suppliers"),
             )
-            # Summary counts
-            counts = status["stock_status"].value_counts()
-            st.bar_chart(counts)
-            st.dataframe(status, use_container_width=True, height=400)
+            fig_inv_donut = create_inventory_health_donut(status)
+            st.plotly_chart(fig_inv_donut, use_container_width=True)
+            st.dataframe(status, use_container_width=True, height=350)
         except Exception as e:
             st.warning(f"⚠️ Could not evaluate Stock Status: {e}")
 
@@ -675,6 +827,8 @@ def page_inventory():
             stockout = calculate_stockout_probability(status)
             high_risk = stockout[stockout["stockout_risk"].isin(["HIGH", "CRITICAL"])]
             st.metric("Products at High Stockout Risk", len(high_risk))
+            fig_stock_scatter = create_stockout_risk_scatter(stockout)
+            st.plotly_chart(fig_stock_scatter, use_container_width=True)
             if not high_risk.empty:
                 display_cols = ["product_sku", "name", "region_name", "quantity_available",
                                 "days_of_supply", "stockout_probability", "stockout_risk"]
@@ -725,7 +879,8 @@ def page_revenue():
 
             trend = get_monthly_revenue_trend(data["orders"], data["order_items"], months=12)
             if not trend.empty:
-                st.line_chart(trend.set_index("month")[["revenue", "orders"]])
+                fig_trend = create_revenue_trend_chart(trend)
+                st.plotly_chart(fig_trend, use_container_width=True)
         except Exception as e:
             st.warning(f"⚠️ Could not compute Revenue Overview: {e}")
 
@@ -735,7 +890,8 @@ def page_revenue():
                 data["orders"], data["order_items"], data["products"], days=90,
             )
             if not products.empty:
-                st.bar_chart(products.set_index("product_name")["revenue"].head(15))
+                fig_prod = create_product_revenue_bar(products, top_n=15)
+                st.plotly_chart(fig_prod, use_container_width=True)
                 st.dataframe(products, use_container_width=True)
         except Exception as e:
             st.warning(f"⚠️ Could not compute Product Revenue: {e}")
@@ -744,7 +900,8 @@ def page_revenue():
         try:
             regions = get_revenue_by_region(data["orders"], data["order_items"], days=90)
             if not regions.empty:
-                st.bar_chart(regions.set_index("region_name")["revenue"])
+                fig_reg = create_regional_revenue_chart(regions)
+                st.plotly_chart(fig_reg, use_container_width=True)
                 st.dataframe(regions, use_container_width=True)
         except Exception as e:
             st.warning(f"⚠️ Could not compute Regional Revenue: {e}")
@@ -780,8 +937,9 @@ def page_customers():
 
             ltv = calculate_customer_ltv(data["customers"], data["orders"], data["order_items"])
             if not ltv.empty:
-                st.markdown("### Customer LTV Distribution")
-                st.bar_chart(ltv["clv_tier"].value_counts())
+                st.markdown("### 🏆 Customer LTV Distribution")
+                fig_ltv = create_customer_ltv_bar(ltv)
+                st.plotly_chart(fig_ltv, use_container_width=True)
         except Exception as e:
             st.warning(f"⚠️ Could not compute Customer Summary: {e}")
 
@@ -789,9 +947,10 @@ def page_customers():
         try:
             segments = segment_customers(data["customers"], data["orders"], data["order_items"])
             if not segments.empty:
-                seg_counts = segments["segment"].value_counts()
-                st.bar_chart(seg_counts)
-                st.dataframe(segments, use_container_width=True, height=400)
+                st.markdown("### 🎯 RFM Behavioral Segmentation")
+                fig_treemap = create_customer_segment_treemap(segments)
+                st.plotly_chart(fig_treemap, use_container_width=True)
+                st.dataframe(segments, use_container_width=True, height=350)
         except Exception as e:
             st.warning(f"⚠️ Could not segment Customers: {e}")
 
@@ -800,10 +959,23 @@ def page_customers():
             churn = calculate_churn_probability(data["customers"], data["orders"])
             if not churn.empty:
                 risk_counts = churn["churn_risk"].value_counts()
-                st.bar_chart(risk_counts)
+                risk_df = pd.DataFrame({"risk_level": risk_counts.index, "count": risk_counts.values})
+                from sciro.dashboard.charts import apply_theme
+                import plotly.express as px
+                fig_churn = px.pie(
+                    risk_df,
+                    names="risk_level",
+                    values="count",
+                    hole=0.6,
+                    color="risk_level",
+                    color_discrete_map={"Low": "#10b981", "Medium": "#f59e0b", "High": "#f43f5e"},
+                )
+                fig_churn = apply_theme(fig_churn, "Customer Churn Risk Breakdown", height=340)
+                st.plotly_chart(fig_churn, use_container_width=True)
+
                 high_churn = churn[churn["churn_risk"] == "High"]
                 if not high_churn.empty:
-                    st.markdown(f"### {len(high_churn)} High Churn Risk Customers")
+                    st.markdown(f"### ⚠️ {len(high_churn)} High Churn Risk Customers")
                     st.dataframe(high_churn, use_container_width=True)
         except Exception as e:
             st.warning(f"⚠️ Could not calculate Churn Risk: {e}")
@@ -846,8 +1018,8 @@ def page_ml_models():
                     st.dataframe(forecast, use_container_width=True)
 
                     imp = forecaster.get_feature_importance()
-                    st.markdown("### Feature Importance")
-                    st.bar_chart(imp.set_index("feature")["importance"])
+                    fig_imp = create_feature_importance_chart(imp)
+                    st.plotly_chart(fig_imp, use_container_width=True)
                 except Exception as e:
                     st.error(f"Error: {e}")
 
@@ -867,9 +1039,10 @@ def page_ml_models():
                     st.success(f"✅ Model trained — MAE: ₹{metrics['mae']:,.0f}, R²: {metrics['r2']}, MAPE: {metrics['mape']}%")
 
                     forecast = predictor.forecast_next_months(features, months_ahead=months_ahead)
-                    st.markdown("### Revenue Forecast")
+                    fig_rev_fore = create_revenue_forecast_chart(forecast)
+                    st.plotly_chart(fig_rev_fore, use_container_width=True)
+                    st.markdown("### Revenue Forecast Data")
                     st.dataframe(forecast, use_container_width=True)
-                    st.line_chart(forecast.set_index("month")["predicted_revenue"])
                 except Exception as e:
                     st.error(f"Error: {e}")
 
@@ -895,8 +1068,8 @@ def page_ml_models():
                         st.dataframe(at_risk, use_container_width=True)
 
                     imp = predictor.get_feature_importance()
-                    st.markdown("### Feature Importance")
-                    st.bar_chart(imp.set_index("feature")["importance"])
+                    fig_imp3 = create_feature_importance_chart(imp)
+                    st.plotly_chart(fig_imp3, use_container_width=True)
                 except Exception as e:
                     st.error(f"Error: {e}")
 
@@ -979,9 +1152,13 @@ def page_simulation():
                     c2.metric("P95 Revenue at Risk", f"₹{result.revenue_at_risk_p95:,.0f}")
                     c3.metric("Avg Products Affected", f"{result.affected_products_mean:.0f}")
 
-                    st.markdown("### Distribution of Revenue Loss")
-                    hist_data = pd.DataFrame({"revenue_loss": result.total_lost_revenue_distribution})
-                    st.bar_chart(hist_data["revenue_loss"].value_counts().sort_index())
+                    st.markdown("### 📊 Distribution of Revenue Loss (Monte Carlo Simulation)")
+                    fig_mc = create_monte_carlo_histogram(
+                        result.total_lost_revenue_distribution,
+                        p95_loss=result.revenue_at_risk_p95,
+                        mean_loss=result.revenue_at_risk_mean,
+                    )
+                    st.plotly_chart(fig_mc, use_container_width=True)
 
                     if result.product_impact:
                         st.markdown("### Most Vulnerable Products")
@@ -1171,10 +1348,25 @@ def main():
         login_page()
         return
 
-    # Sidebar navigation
+    # Sidebar branding
     session = st.session_state.session_data
-    st.sidebar.markdown(f"### 🔗 SCIRO")
-    st.sidebar.markdown(f"👤 **{session['full_name']}** ({session['role']})")
+    role_color = "#38bdf8" if session['role'] == "admin" else ("#34d399" if session['role'] == "analyst" else "#fbbf24")
+    st.sidebar.markdown(f"""
+    <div style='padding: 0.5rem 0 1rem 0; border-bottom: 1px solid #1e293b; margin-bottom: 0.8rem;'>
+        <div style='font-size: 1.6rem; font-weight: 800; background: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;'>
+            SCIRO AI
+        </div>
+        <div style='font-size: 0.75rem; color: #64748b; font-weight: 500; letter-spacing: 0.05em;'>
+            ENTERPRISE DECISION PLATFORM
+        </div>
+        <div style='margin-top: 0.75rem; display: flex; align-items: center; justify-content: space-between;'>
+            <span style='color: #cbd5e1; font-size: 0.85rem; font-weight: 500;'>👤 {session['full_name']}</span>
+            <span style='font-size: 0.7rem; font-weight: 600; padding: 2px 8px; border-radius: 9999px; background: rgba(56, 189, 248, 0.15); color: {role_color}; border: 1px solid {role_color}40;'>
+                {session['role'].upper()}
+            </span>
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
 
     if st.sidebar.button("🚪 Logout"):
         st.session_state.auth_manager.logout(st.session_state.auth_token)
