@@ -67,7 +67,8 @@ st.set_page_config(
 )
 
 # =============================================================================
-# Custom CSS — Enterprise Executive Theme
+# =============================================================================
+# Custom CSS — Enterprise Executive Theme & Slate Layering
 # =============================================================================
 st.markdown("""
 <style>
@@ -77,10 +78,42 @@ st.markdown("""
     html, body, [class*="css"] {
         font-family: 'Inter', system-ui, -apple-system, sans-serif;
     }
+
+    /* Hide Streamlit Header Chrome, Deploy Button & Menus */
+    #MainMenu { visibility: hidden !important; display: none !important; }
+    header[data-testid="stHeader"] { visibility: hidden !important; display: none !important; }
+    footer { visibility: hidden !important; display: none !important; }
+    [data-testid="stToolbar"] { visibility: hidden !important; display: none !important; }
+    [data-testid="stDecoration"] { visibility: hidden !important; display: none !important; }
+    [data-testid="stStatusWidget"] { visibility: hidden !important; display: none !important; }
+    .stDeployButton { display: none !important; }
+
+    /* Layered Slate Backgrounds & Layout */
+    .stApp, [data-testid="stAppViewContainer"] {
+        background-color: #0b0f19 !important;
+        color: #f1f5f9 !important;
+    }
     .main .block-container { 
-        padding-top: 1.2rem; 
-        padding-bottom: 3rem;
+        padding-top: 1.5rem; 
+        padding-bottom: 3.5rem;
         max-width: 1400px;
+    }
+
+    /* Sidebar Styling — Deep Midnight Slate */
+    [data-testid="stSidebar"] {
+        background-color: #111827 !important;
+        border-right: 1px solid rgba(255, 255, 255, 0.08) !important;
+    }
+    [data-testid="stSidebar"] > div:first-child {
+        background-color: #111827 !important;
+    }
+    [data-testid="stSidebar"] .stMarkdown h3 {
+        color: #e2e8f0 !important;
+        font-size: 0.95rem !important;
+        font-weight: 600 !important;
+        letter-spacing: 0.03em !important;
+        margin-top: 0.5rem !important;
+        margin-bottom: 0.4rem !important;
     }
 
     /* Gradient Headers */
@@ -102,96 +135,208 @@ st.markdown("""
 
     /* Enterprise Glassmorphic KPI Cards */
     [data-testid="stMetric"] {
-        background: linear-gradient(135deg, rgba(19, 27, 46, 0.95) 0%, rgba(30, 41, 59, 0.85) 100%) !important;
-        border: 1px solid rgba(56, 189, 248, 0.2) !important;
-        border-top: 2px solid #06b6d4 !important;
-        border-radius: 14px !important;
-        padding: 1.1rem 1.25rem !important;
-        box-shadow: 0 4px 20px -2px rgba(6, 182, 212, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.05) !important;
+        background: #1e293b !important;
+        border: 1px solid rgba(255, 255, 255, 0.08) !important;
+        border-top: 2px solid #4f46e5 !important;
+        border-radius: 12px !important;
+        padding: 1rem 1.2rem !important;
+        box-shadow: 0 4px 16px -2px rgba(0, 0, 0, 0.4) !important;
         transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
     }
     [data-testid="stMetric"]:hover {
-        transform: translateY(-3px) !important;
-        border-color: rgba(56, 189, 248, 0.5) !important;
-        box-shadow: 0 8px 30px -4px rgba(6, 182, 212, 0.25) !important;
+        transform: translateY(-2px) !important;
+        border-color: rgba(79, 70, 229, 0.45) !important;
+        box-shadow: 0 8px 24px -4px rgba(79, 70, 229, 0.25) !important;
     }
     [data-testid="stMetric"] label {
         color: #94a3b8 !important;
-        font-size: 0.82rem !important;
+        font-size: 0.8rem !important;
         font-weight: 500 !important;
         text-transform: uppercase !important;
         letter-spacing: 0.05em !important;
     }
     [data-testid="stMetric"] [data-testid="stMetricValue"] {
         color: #f8fafc !important;
-        font-size: 1.85rem !important;
+        font-size: 1.8rem !important;
         font-weight: 700 !important;
         letter-spacing: -0.02em !important;
     }
     [data-testid="stMetric"] [data-testid="stMetricDelta"] {
         font-weight: 600 !important;
-        font-size: 0.85rem !important;
+        font-size: 0.82rem !important;
     }
 
-    /* Sidebar Styling */
-    [data-testid="stSidebar"] {
-        background: linear-gradient(180deg, #090d16 0%, #0f172a 100%) !important;
-        border-right: 1px solid #1e293b !important;
+    /* Skeleton / Ghosted KPI Cards */
+    .skeleton-kpi {
+        background: #1e293b;
+        border: 1px dashed rgba(255, 255, 255, 0.12);
+        border-top: 2px solid #334155;
+        border-radius: 12px;
+        padding: 1rem 1.2rem;
+        opacity: 0.75;
+        transition: all 0.2s ease;
     }
-    [data-testid="stSidebar"] .stMarkdown h3 {
-        color: #38bdf8 !important;
-        font-size: 1.1rem !important;
+    .skeleton-kpi:hover {
+        opacity: 0.9;
+        border-color: rgba(255, 255, 255, 0.2);
+    }
+    .skeleton-kpi-label {
+        color: #64748b;
+        font-size: 0.78rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+    .skeleton-kpi-value {
+        color: #94a3b8;
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin: 4px 0;
+        letter-spacing: -0.02em;
+    }
+    .skeleton-kpi-sub {
+        color: #475569;
+        font-size: 0.8rem;
     }
 
-    /* Buttons with Vibrant Gradient */
+    /* Hero Onboarding Card */
+    .hero-card {
+        background: linear-gradient(145deg, rgba(30, 41, 59, 0.85) 0%, rgba(17, 24, 39, 0.95) 100%);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-top: 2px solid #4f46e5;
+        border-radius: 18px;
+        padding: 2.2rem 2rem;
+        max-width: 680px;
+        margin: 1.5rem auto 1rem auto;
+        text-align: center;
+        box-shadow: 0 20px 45px -10px rgba(0, 0, 0, 0.6);
+        backdrop-filter: blur(12px);
+    }
+    .hero-badge {
+        display: inline-block;
+        padding: 4px 12px;
+        border-radius: 9999px;
+        font-size: 0.72rem;
+        font-weight: 600;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        background: rgba(79, 70, 229, 0.15);
+        color: #818cf8;
+        border: 1px solid rgba(79, 70, 229, 0.3);
+        margin-bottom: 0.9rem;
+    }
+    .hero-title {
+        font-size: 1.7rem;
+        font-weight: 800;
+        color: #f8fafc;
+        letter-spacing: -0.02em;
+        margin-bottom: 0.5rem;
+    }
+    .hero-subtitle {
+        color: #94a3b8;
+        font-size: 0.92rem;
+        line-height: 1.55;
+        max-width: 560px;
+        margin: 0 auto 1.6rem auto;
+    }
+    .steps-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: rgba(11, 15, 25, 0.65);
+        border: 1px solid rgba(255, 255, 255, 0.06);
+        border-radius: 12px;
+        padding: 1.1rem 1.2rem;
+        margin-bottom: 1.6rem;
+    }
+    .step-item {
+        flex: 1;
+        text-align: center;
+    }
+    .step-badge {
+        display: inline-block;
+        width: 26px;
+        height: 26px;
+        line-height: 24px;
+        border-radius: 50%;
+        background: rgba(79, 70, 229, 0.25);
+        color: #a5b4fc;
+        font-size: 0.76rem;
+        font-weight: 700;
+        margin-bottom: 5px;
+        border: 1px solid rgba(79, 70, 229, 0.4);
+    }
+    .step-title {
+        color: #e2e8f0;
+        font-size: 0.82rem;
+        font-weight: 600;
+    }
+    .step-desc {
+        color: #64748b;
+        font-size: 0.72rem;
+        margin-top: 2px;
+    }
+    .step-arrow {
+        color: #475569;
+        font-size: 1.1rem;
+        font-weight: 600;
+        padding: 0 4px;
+    }
+
+    /* Buttons with Authoritative Enterprise Accent (Electric Indigo & Cyan) */
     .stButton > button[kind="primary"], .stButton > button {
-        background: linear-gradient(135deg, #0284c7 0%, #6366f1 100%) !important;
+        background: linear-gradient(135deg, #4f46e5 0%, #0ea5e9 100%) !important;
         color: #ffffff !important;
         font-weight: 600 !important;
-        border: none !important;
-        border-radius: 10px !important;
-        padding: 0.55rem 1.25rem !important;
-        box-shadow: 0 4px 15px rgba(2, 132, 199, 0.35) !important;
-        transition: all 0.2s ease !important;
+        border: 1px solid rgba(255, 255, 255, 0.12) !important;
+        border-radius: 8px !important;
+        padding: 0.52rem 1.25rem !important;
+        box-shadow: 0 4px 14px -2px rgba(79, 70, 229, 0.35) !important;
+        transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
     }
     .stButton > button:hover {
+        background: linear-gradient(135deg, #4338ca 0%, #0284c7 100%) !important;
         transform: translateY(-1px) !important;
-        box-shadow: 0 6px 20px rgba(99, 102, 241, 0.5) !important;
+        box-shadow: 0 6px 20px -2px rgba(79, 70, 229, 0.55) !important;
+        border-color: rgba(255, 255, 255, 0.2) !important;
+    }
+    .stButton > button:active {
+        transform: translateY(0px) !important;
     }
 
     /* Tabs Styling */
     .stTabs [data-baseweb="tab-list"] {
-        gap: 10px !important;
+        gap: 8px !important;
         background-color: transparent !important;
-        border-bottom: 1px solid #1e293b !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
         padding-bottom: 6px !important;
     }
     .stTabs [data-baseweb="tab"] {
-        background: rgba(30, 41, 59, 0.6) !important;
-        border-radius: 10px !important;
-        padding: 8px 18px !important;
+        background: #1e293b !important;
+        border-radius: 8px !important;
+        padding: 7px 16px !important;
         color: #94a3b8 !important;
         font-weight: 500 !important;
-        border: 1px solid #334155 !important;
+        border: 1px solid rgba(255, 255, 255, 0.08) !important;
         transition: all 0.2s ease !important;
     }
     .stTabs [data-baseweb="tab"]:hover {
         color: #f1f5f9 !important;
-        border-color: #64748b !important;
+        border-color: rgba(255, 255, 255, 0.16) !important;
     }
     .stTabs [aria-selected="true"] {
-        background: linear-gradient(135deg, rgba(6, 182, 212, 0.25) 0%, rgba(99, 102, 241, 0.35) 100%) !important;
-        border-color: #06b6d4 !important;
+        background: linear-gradient(135deg, rgba(79, 70, 229, 0.25) 0%, rgba(14, 165, 233, 0.25) 100%) !important;
+        border-color: #4f46e5 !important;
         color: #ffffff !important;
         font-weight: 600 !important;
-        box-shadow: 0 0 15px rgba(6, 182, 212, 0.2) !important;
+        box-shadow: 0 0 14px rgba(79, 70, 229, 0.25) !important;
     }
 
     /* Expander styling */
     .streamlit-expanderHeader {
-        background: #131b2e !important;
-        border-radius: 10px !important;
-        border: 1px solid #1e293b !important;
+        background: #1e293b !important;
+        border-radius: 8px !important;
+        border: 1px solid rgba(255, 255, 255, 0.08) !important;
         color: #e2e8f0 !important;
         font-weight: 500 !important;
     }
@@ -200,7 +345,7 @@ st.markdown("""
     [data-testid="stDataFrame"] {
         border-radius: 10px !important;
         overflow: hidden !important;
-        border: 1px solid #1e293b !important;
+        border: 1px solid rgba(255, 255, 255, 0.08) !important;
     }
 
     /* Badges */
@@ -215,7 +360,7 @@ st.markdown("""
     .badge-success { background: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); }
     .badge-warning { background: rgba(245, 158, 11, 0.15); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.3); }
     .badge-danger { background: rgba(244, 63, 94, 0.15); color: #fb7185; border: 1px solid rgba(244, 63, 94, 0.3); }
-    .badge-info { background: rgba(6, 182, 212, 0.15); color: #38bdf8; border: 1px solid rgba(6, 182, 212, 0.3); }
+    .badge-info { background: rgba(14, 165, 233, 0.15); color: #38bdf8; border: 1px solid rgba(14, 165, 233, 0.3); }
 </style>
 """, unsafe_allow_html=True)
 
@@ -371,82 +516,289 @@ def require_datasets(*keys: str) -> bool:
     return True
 
 
-def data_sidebar():
-    """Data loading sidebar section."""
-    st.sidebar.markdown("---")
-    st.sidebar.markdown("### 📂 Data Source")
+# =============================================================================
+# Empty State & Header Components
+# =============================================================================
+def render_executive_header():
+    """Render unified clean header for Executive Overview."""
+    col_head1, col_head2 = st.columns([3, 1])
+    with col_head1:
+        st.markdown("""
+        <div style='margin-bottom: 1.2rem;'>
+            <div style='font-size: 2rem; font-weight: 800; color: #f8fafc; letter-spacing: -0.02em;'>
+                Executive Overview
+            </div>
+            <div style='color: #94a3b8; font-size: 0.95rem; font-weight: 400; margin-top: 3px;'>
+                Real-time supply chain intelligence & predictive risk analytics
+            </div>
+        </div>
+        """, unsafe_allow_html=True)
+    with col_head2:
+        status_text = "● System Live • Active Analytics" if st.session_state.data_loaded else "○ Standby • Ready to Ingest"
+        status_cls = "badge-success" if st.session_state.data_loaded else "badge-info"
+        st.markdown(f"""
+        <div style='text-align: right; margin-top: 0.6rem;'>
+            <span class='badge {status_cls}' style='font-size: 0.8rem; padding: 6px 14px; font-weight: 600;'>
+                {status_text}
+            </span>
+        </div>
+        """, unsafe_allow_html=True)
 
-    settings = get_settings()
-    data_dir = st.sidebar.text_input(
-        "Data Directory",
-        value=str(settings.SAMPLE_DATA_DIR),
-        key="data_dir_input",
-    )
 
-    if st.sidebar.button("🔄 Load Data", use_container_width=True):
-        with st.spinner("Loading data..."):
-            data = load_all_data(data_dir)
-            if data:
-                st.session_state.data = data
-                st.session_state.data_loaded = True
-                st.sidebar.success(f"✅ Loaded {len(data)} datasets")
-            else:
-                st.sidebar.error("❌ No data files found")
+def render_page_header(title: str, subtitle: str, pill_text: str = ""):
+    """Render unified clean header for SCIRO dashboard pages."""
+    col_h1, col_h2 = st.columns([3, 1])
+    with col_h1:
+        st.markdown(f"""
+        <div style='margin-bottom: 1.2rem;'>
+            <div style='font-size: 1.9rem; font-weight: 800; color: #f8fafc; letter-spacing: -0.02em;'>
+                {title}
+            </div>
+            <div style='color: #94a3b8; font-size: 0.95rem; font-weight: 400; margin-top: 2px;'>
+                {subtitle}
+            </div>
+        </div>
+        """, unsafe_allow_html=True)
+    with col_h2:
+        if pill_text:
+            st.markdown(f"""
+            <div style='text-align: right; margin-top: 0.6rem;'>
+                <span class='badge badge-info' style='font-size: 0.8rem; padding: 6px 14px; font-weight: 600;'>
+                    {pill_text}
+                </span>
+            </div>
+            """, unsafe_allow_html=True)
 
-    if st.session_state.data_loaded:
-        st.sidebar.markdown("**Loaded datasets:**")
-        for name, df in st.session_state.data.items():
-            st.sidebar.markdown(f"  • {name}: {len(df):,} rows")
 
-    st.sidebar.markdown("---")
-    st.sidebar.markdown("### 📤 Quick File Upload")
-    quick_file = st.sidebar.file_uploader(
-        "Upload PDF / Excel / CSV",
-        type=["csv", "xlsx", "xls", "pdf"],
-        key="sidebar_quick_file",
-        help="Upload an Excel spreadsheet (.xlsx/.xls), PDF table/report (.pdf), or CSV file.",
-    )
-    if quick_file is not None:
-        quick_entity = st.sidebar.selectbox(
-            "Assign as Entity",
-            options=["Auto-detect", "suppliers", "products", "inventory", "shipments", "customers", "orders", "order_items", "regions"],
-            key="sidebar_quick_entity",
-        )
-        ext = detect_format(quick_file.name)
-        sheet_choice = None
-        if ext in (".xlsx", ".xls"):
-            sheets = get_excel_sheet_names(quick_file)
-            if len(sheets) > 1:
-                sheet_choice = st.sidebar.selectbox("Sheet", sheets, key="sidebar_quick_sheet")
-            elif sheets:
-                sheet_choice = sheets[0]
+def render_skeleton_kpis():
+    """Display ghosted/skeleton KPI cards across the top when no data is loaded."""
+    col1, col2, col3, col4 = st.columns(4)
+    with col1:
+        st.markdown("""
+        <div class='skeleton-kpi'>
+            <div class='skeleton-kpi-label'>Total Revenue (30d)</div>
+            <div class='skeleton-kpi-value'>₹--</div>
+            <div class='skeleton-kpi-sub'>-- vs previous period</div>
+        </div>
+        """, unsafe_allow_html=True)
+    with col2:
+        st.markdown("""
+        <div class='skeleton-kpi'>
+            <div class='skeleton-kpi-label'>Total Inventory Value</div>
+            <div class='skeleton-kpi-value'>₹--</div>
+            <div class='skeleton-kpi-sub'>-- active SKUs tracked</div>
+        </div>
+        """, unsafe_allow_html=True)
+    with col3:
+        st.markdown("""
+        <div class='skeleton-kpi'>
+            <div class='skeleton-kpi-label'>On-Time Delivery Rate</div>
+            <div class='skeleton-kpi-value'>--%</div>
+            <div class='skeleton-kpi-sub'>-- avg transit delay</div>
+        </div>
+        """, unsafe_allow_html=True)
+    with col4:
+        st.markdown("""
+        <div class='skeleton-kpi'>
+            <div class='skeleton-kpi-label'>Supply Risk Index</div>
+            <div class='skeleton-kpi-value'>-- / 100</div>
+            <div class='skeleton-kpi-sub'>-- suppliers monitored</div>
+        </div>
+        """, unsafe_allow_html=True)
 
-        if st.sidebar.button("📥 Import & Apply", use_container_width=True, key="sidebar_quick_btn"):
-            try:
-                df = load_file(quick_file, sheet_name=sheet_choice, normalize=True)
-                if df.empty:
-                    st.sidebar.error("File is empty or no data detected.")
-                else:
-                    target = quick_entity.lower()
-                    if target == "auto-detect":
-                        fname = quick_file.name.lower()
-                        sname = (sheet_choice or "").lower()
-                        candidates = ["suppliers", "products", "inventory", "shipments", "customers", "orders", "order_items", "regions"]
-                        inferred = None
-                        for c in candidates:
-                            if c in fname or c in sname:
-                                inferred = c
-                                break
-                        target = inferred or os.path.splitext(quick_file.name)[0].lower().replace(" ", "_")
 
-                    # Backfill any missing baseline tables so single-file upload doesn't break other analytics
+def render_hero_onboarding():
+    """Render centered glassmorphic hero onboarding card with 3-step visual guide and 1-click demo button."""
+    col1, col2, col3 = st.columns([1, 4, 1])
+    with col2:
+        st.markdown("""
+        <div class='hero-card'>
+            <div class='hero-badge'>SCIRO Enterprise Intelligence</div>
+            <div class='hero-title'>Welcome to SCIRO Platform</div>
+            <div class='hero-subtitle'>
+                Autonomous multi-tier supply chain orchestration, inventory optimization, and predictive revenue-at-risk analytics powered by enterprise ML.
+            </div>
+            <div class='steps-container'>
+                <div class='step-item'>
+                    <div class='step-badge'>1</div>
+                    <div class='step-title'>Connect Source</div>
+                    <div class='step-desc'>CSV, Excel, PDF, ERP</div>
+                </div>
+                <div class='step-arrow'>→</div>
+                <div class='step-item'>
+                    <div class='step-badge'>2</div>
+                    <div class='step-title'>AI Processing</div>
+                    <div class='step-desc'>ETL, ML Risk & Evals</div>
+                </div>
+                <div class='step-arrow'>→</div>
+                <div class='step-item'>
+                    <div class='step-badge'>3</div>
+                    <div class='step-title'>Live Insights</div>
+                    <div class='step-desc'>KPIs & What-If Matrix</div>
+                </div>
+            </div>
+        </div>
+        """, unsafe_allow_html=True)
+
+        btn_c1, btn_c2, btn_c3 = st.columns([1, 3, 1])
+        with btn_c2:
+            if st.button("✨ Explore with Demo Supply Chain Data", type="primary", use_container_width=True, key="hero_explore_demo_btn"):
+                with st.spinner("Initializing SCIRO analytics engine & loading demo datasets..."):
                     ensure_full_data_context()
-                    st.session_state.data[target] = df
                     st.session_state.data_loaded = True
-                    st.sidebar.success(f"✅ Loaded '{target}' ({len(df):,} rows)")
+                st.rerun()
+
+        st.markdown("""
+        <div style='text-align: center; margin-top: 0.8rem; color: #64748b; font-size: 0.8rem;'>
+            Or select <strong>Upload Custom File</strong> from the Data Source sidebar menu.
+        </div>
+        """, unsafe_allow_html=True)
+
+
+def render_generic_empty_state(page_title: str):
+    """Render clean empty-state card for analytical sub-pages."""
+    col1, col2, col3 = st.columns([1, 3, 1])
+    with col2:
+        st.markdown(f"""
+        <div class='hero-card' style='max-width: 580px; margin: 2rem auto 1rem auto; padding: 2rem 1.8rem;'>
+            <div class='hero-badge'>Demo Dataset Available</div>
+            <div class='hero-title' style='font-size: 1.45rem;'>Data Required for {page_title}</div>
+            <div class='hero-subtitle' style='font-size: 0.88rem; margin-bottom: 1.4rem;'>
+                This module cross-references your multi-tier supply chain records to compute live indicators and ML predictions. Load demo data to explore immediately.
+            </div>
+        </div>
+        """, unsafe_allow_html=True)
+
+        btn_c1, btn_c2, btn_c3 = st.columns([1, 2.5, 1])
+        with btn_c2:
+            if st.button(f"⚡ Load Demo Data for {page_title}", type="primary", use_container_width=True, key=f"btn_demo_{page_title.lower().replace(' ', '_')}"):
+                with st.spinner("Loading demo datasets..."):
+                    ensure_full_data_context()
+                    st.session_state.data_loaded = True
+                st.rerun()
+
+
+def data_sidebar():
+    """Data loading sidebar section with dropdown source selector and hidden dev paths."""
+    st.sidebar.markdown("### 🔌 Data Source")
+
+    source_choice = st.sidebar.selectbox(
+        "Source Mode",
+        options=[
+            "Enterprise Demo Warehouse (Built-in)",
+            "Upload Custom File (CSV, Excel, PDF)",
+            "Cloud ERP Connector (SAP / NetSuite)",
+        ],
+        key="sidebar_source_mode",
+        label_visibility="collapsed",
+    )
+
+    if source_choice == "Enterprise Demo Warehouse (Built-in)":
+        if not st.session_state.data_loaded:
+            if st.sidebar.button("⚡ Connect & Load Demo Data", use_container_width=True, key="btn_load_demo_sb"):
+                with st.spinner("Loading demo records..."):
+                    ensure_full_data_context()
+                    st.session_state.data_loaded = True
+                st.sidebar.success("✅ Demo warehouse active")
+                st.rerun()
+        else:
+            st.sidebar.markdown("""
+            <div style='background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.25); border-radius: 8px; padding: 6px 10px; margin-bottom: 8px; font-size: 0.8rem; color: #34d399;'>
+                ● Active Demo Warehouse Connected
+            </div>
+            """, unsafe_allow_html=True)
+            if st.sidebar.button("🔄 Reload Demo Data", use_container_width=True, key="btn_reload_demo_sb"):
+                with st.spinner("Refreshing data..."):
+                    ensure_full_data_context()
+                    st.session_state.data_loaded = True
+                st.sidebar.success("✅ Refreshed")
+                st.rerun()
+
+    elif source_choice == "Upload Custom File (CSV, Excel, PDF)":
+        quick_file = st.sidebar.file_uploader(
+            "Upload File",
+            type=["csv", "xlsx", "xls", "pdf"],
+            key="sidebar_quick_file",
+            help="Upload an Excel spreadsheet (.xlsx/.xls), PDF table/report (.pdf), or CSV file.",
+        )
+        if quick_file is not None:
+            quick_entity = st.sidebar.selectbox(
+                "Assign as Entity",
+                options=["Auto-detect", "suppliers", "products", "inventory", "shipments", "customers", "orders", "order_items", "regions"],
+                key="sidebar_quick_entity",
+            )
+            ext = detect_format(quick_file.name)
+            sheet_choice = None
+            if ext in (".xlsx", ".xls"):
+                sheets = get_excel_sheet_names(quick_file)
+                if len(sheets) > 1:
+                    sheet_choice = st.sidebar.selectbox("Sheet", sheets, key="sidebar_quick_sheet")
+                elif sheets:
+                    sheet_choice = sheets[0]
+
+            if st.sidebar.button("📥 Import & Apply", use_container_width=True, key="sidebar_quick_btn"):
+                try:
+                    df = load_file(quick_file, sheet_name=sheet_choice, normalize=True)
+                    if df.empty:
+                        st.sidebar.error("File is empty or no data detected.")
+                    else:
+                        target = quick_entity.lower()
+                        if target == "auto-detect":
+                            fname = quick_file.name.lower()
+                            sname = (sheet_choice or "").lower()
+                            candidates = ["suppliers", "products", "inventory", "shipments", "customers", "orders", "order_items", "regions"]
+                            inferred = None
+                            for c in candidates:
+                                if c in fname or c in sname:
+                                    inferred = c
+                                    break
+                            target = inferred or os.path.splitext(quick_file.name)[0].lower().replace(" ", "_")
+
+                        ensure_full_data_context()
+                        st.session_state.data[target] = df
+                        st.session_state.data_loaded = True
+                        st.sidebar.success(f"✅ Loaded '{target}' ({len(df):,} rows)")
+                        st.rerun()
+                except Exception as e:
+                    st.sidebar.error(f"Upload error: {e}")
+
+    elif source_choice == "Cloud ERP Connector (SAP / NetSuite)":
+        st.sidebar.markdown("""
+        <div style='background: rgba(14, 165, 233, 0.1); border: 1px solid rgba(14, 165, 233, 0.25); border-radius: 8px; padding: 8px; font-size: 0.8rem; color: #38bdf8;'>
+            <strong>Cloud ERP Connector:</strong> Configured for SAP S/4HANA & NetSuite SuiteTalk API.
+        </div>
+        """, unsafe_allow_html=True)
+        if st.sidebar.button("⚡ Sync Cloud ERP Data", use_container_width=True, key="btn_sync_erp"):
+            with st.spinner("Syncing simulated ERP cloud records..."):
+                ensure_full_data_context()
+                st.session_state.data_loaded = True
+            st.sidebar.success("✅ Synced ERP database")
+            st.rerun()
+
+    if st.session_state.data_loaded and st.session_state.get("data"):
+        with st.sidebar.expander("📊 Loaded Entities Summary", expanded=False):
+            for name, df in st.session_state.data.items():
+                st.markdown(f"<span style='color:#94a3b8; font-size: 0.82rem;'>• {name}: <strong style='color:#e2e8f0;'>{len(df):,}</strong> rows</span>", unsafe_allow_html=True)
+
+    # Hide developer local path behind an Advanced Settings expander
+    settings = get_settings()
+    with st.sidebar.expander("⚙️ Advanced Path Settings", expanded=False):
+        data_dir = st.text_input(
+            "Local Directory Path",
+            value=str(settings.SAMPLE_DATA_DIR),
+            key="data_dir_input",
+            help="Specify a local filesystem folder holding SCIRO CSV files.",
+        )
+        if st.button("Load from Local Path", key="btn_load_custom_path", use_container_width=True):
+            with st.spinner("Loading from directory..."):
+                data = load_all_data(data_dir)
+                if data:
+                    st.session_state.data = data
+                    st.session_state.data_loaded = True
+                    st.success(f"✅ Loaded {len(data)} datasets")
                     st.rerun()
-            except Exception as e:
-                st.sidebar.error(f"Upload error: {e}")
+                else:
+                    st.error("❌ No data files found in path")
 
 
 # =============================================================================
@@ -454,10 +806,11 @@ def data_sidebar():
 # =============================================================================
 def page_executive_dashboard():
     """Executive dashboard with KPI overview."""
-    st.markdown("## 📊 Executive Dashboard")
+    render_executive_header()
 
     if not st.session_state.data_loaded:
-        st.info("👆 Please load data using the sidebar to see the dashboard.")
+        render_skeleton_kpis()
+        render_hero_onboarding()
         return
 
     # Ensure baseline data context is populated if user uploaded a single dataset
@@ -556,8 +909,11 @@ def page_executive_dashboard():
 
 def page_data_ingestion():
     """Data Upload & Ingestion page supporting PDF, Excel, and CSV."""
-    st.markdown("## 📁 Data Upload & Ingestion")
-    st.markdown("Upload supply chain records from **Excel spreadsheets (`.xlsx`, `.xls`)**, **PDF documents & invoices (`.pdf`)**, or **CSV files (`.csv`)**.")
+    render_page_header(
+        "Data Ingestion & Pipeline",
+        "Enterprise multi-format data intake supporting Excel (.xlsx, .xls), PDF invoices/tables (.pdf), and CSV (.csv)",
+        "● ETL Ready",
+    )
     st.markdown("---")
 
     tab_upload, tab_active, tab_templates = st.tabs(["📤 Upload & Inspect File", "📊 Active Datasets", "📋 Schema Templates"])
@@ -733,9 +1089,13 @@ def page_data_ingestion():
 
 def page_supply_chain():
     """Supply chain analytics page."""
-    st.markdown("## 🔗 Supply Chain Analytics")
+    render_page_header(
+        "Supply Chain Intelligence",
+        "Multi-tier supplier performance, on-time delivery scoring, and transit risk analytics",
+        "● Supplier Engine",
+    )
     if not st.session_state.data_loaded:
-        st.info("Please load data first.")
+        render_generic_empty_state("Supply Chain Intelligence")
         return
 
     ensure_full_data_context()
@@ -790,9 +1150,13 @@ def page_supply_chain():
 
 def page_inventory():
     """Inventory analytics page."""
-    st.markdown("## 📦 Inventory Analytics")
+    render_page_header(
+        "Inventory & Warehouse Optimization",
+        "Stock health classification, days-of-supply tracking, and proactive stockout prevention",
+        "● Inventory Engine",
+    )
     if not st.session_state.data_loaded:
-        st.info("Please load data first.")
+        render_generic_empty_state("Inventory Optimization")
         return
 
     ensure_full_data_context()
@@ -850,9 +1214,13 @@ def page_inventory():
 
 def page_revenue():
     """Revenue analytics page."""
-    st.markdown("## 💰 Revenue Analytics")
+    render_page_header(
+        "Revenue & Financial Performance",
+        "Sales trends, product margins, regional distribution, and revenue-at-risk breakdown",
+        "● Revenue Engine",
+    )
     if not st.session_state.data_loaded:
-        st.info("Please load data first.")
+        render_generic_empty_state("Revenue Analytics")
         return
 
     ensure_full_data_context()
@@ -909,9 +1277,13 @@ def page_revenue():
 
 def page_customers():
     """Customer analytics page."""
-    st.markdown("## 👥 Customer Analytics")
+    render_page_header(
+        "Customer Intelligence & Retention",
+        "RFM behavioral segmentation, customer lifetime value (LTV) tiers, and churn probability modeling",
+        "● Customer Engine",
+    )
     if not st.session_state.data_loaded:
-        st.info("Please load data first.")
+        render_generic_empty_state("Customer Intelligence")
         return
 
     ensure_full_data_context()
@@ -983,9 +1355,13 @@ def page_customers():
 
 def page_ml_models():
     """ML models page (Module 3)."""
-    st.markdown("## 🤖 ML Prediction Engine")
+    render_page_header(
+        "Machine Learning Predictive Center",
+        "Train, evaluate, and forecast with demand, revenue, stockout, and supplier risk models",
+        "● ML Models Ready",
+    )
     if not st.session_state.data_loaded:
-        st.info("Please load data first.")
+        render_generic_empty_state("ML Predictive Center")
         return
 
     ensure_full_data_context()
@@ -1099,9 +1475,13 @@ def page_ml_models():
 
 def page_simulation():
     """Simulation & optimization page (Module 4)."""
-    st.markdown("## 🎲 Simulation & Optimization")
+    render_page_header(
+        "Simulation & Stress Testing Lab",
+        "Monte Carlo supply chain disruption shocks, price elasticity tuning, and inventory reallocation",
+        "● Simulation Engine",
+    )
     if not st.session_state.data_loaded:
-        st.info("Please load data first.")
+        render_generic_empty_state("Simulation Lab")
         return
 
     ensure_full_data_context()
@@ -1239,11 +1619,13 @@ def page_simulation():
 
 def page_copilot():
     """AI Copilot page."""
-    st.markdown("## 🤖 AI Copilot")
-    st.markdown("Ask me anything about your supply chain, revenue, inventory, or customers.")
-
+    render_page_header(
+        "AI Supply Chain Copilot",
+        "Natural language conversational assistant for ad-hoc queries, risk inquiries, and instant insights",
+        "● Copilot Active",
+    )
     if not st.session_state.data_loaded:
-        st.info("Please load data first to use the copilot.")
+        render_generic_empty_state("AI Copilot")
         return
 
     ensure_full_data_context()
@@ -1294,7 +1676,11 @@ def page_copilot():
 
 def page_settings():
     """Settings & user management (admin only)."""
-    st.markdown("## ⚙️ Settings")
+    render_page_header(
+        "Settings & Governance",
+        "User management, access controls, and runtime system configuration",
+        "● Admin Portal",
+    )
 
     if not check_permission("manage_users"):
         st.warning("⛔ Only admins can access settings.")
@@ -1348,51 +1734,71 @@ def main():
         login_page()
         return
 
-    # Sidebar branding
+    # Top Brand Identity in Sidebar
+    st.sidebar.markdown("""
+    <div style='padding: 0.6rem 0 1rem 0; border-bottom: 1px solid rgba(255, 255, 255, 0.08); margin-bottom: 1rem;'>
+        <div style='display: flex; align-items: center; gap: 11px;'>
+            <div style='width: 36px; height: 36px; border-radius: 9px; background: linear-gradient(135deg, #4f46e5 0%, #06b6d4 100%); display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1.15rem; color: #ffffff; box-shadow: 0 4px 12px rgba(79, 70, 229, 0.35);'>
+                S
+            </div>
+            <div>
+                <div style='font-size: 1.25rem; font-weight: 800; color: #f8fafc; letter-spacing: -0.02em; line-height: 1.1;'>
+                    SCIRO <span style='color: #06b6d4;'>AI</span>
+                </div>
+                <div style='font-size: 0.68rem; color: #94a3b8; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;'>
+                    Supply Chain Intelligence
+                </div>
+            </div>
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+
+    # Prime Top Navigation
+    pages = {
+        ":material/dashboard: Executive Overview": page_executive_dashboard,
+        ":material/cloud_upload: Data Ingestion": page_data_ingestion,
+        ":material/hub: Supply Chain": page_supply_chain,
+        ":material/inventory_2: Inventory Health": page_inventory,
+        ":material/payments: Revenue Analytics": page_revenue,
+        ":material/group: Customers": page_customers,
+        ":material/psychology: ML Models": page_ml_models,
+        ":material/tune: Simulation & Risk": page_simulation,
+        ":material/smart_toy: AI Copilot": page_copilot,
+        ":material/settings: Settings": page_settings,
+    }
+
+    selection = st.sidebar.radio("Navigation", list(pages.keys()), label_visibility="collapsed")
+
+    # Divider & Data Source Section
+    st.sidebar.markdown("<div style='margin: 1.1rem 0; border-top: 1px solid rgba(255, 255, 255, 0.08);'></div>", unsafe_allow_html=True)
+    data_sidebar()
+
+    # Pinned User Profile & Logout at Bottom
+    st.sidebar.markdown("<div style='margin: 1.2rem 0; border-top: 1px solid rgba(255, 255, 255, 0.08);'></div>", unsafe_allow_html=True)
     session = st.session_state.session_data
     role_color = "#38bdf8" if session['role'] == "admin" else ("#34d399" if session['role'] == "analyst" else "#fbbf24")
     st.sidebar.markdown(f"""
-    <div style='padding: 0.5rem 0 1rem 0; border-bottom: 1px solid #1e293b; margin-bottom: 0.8rem;'>
-        <div style='font-size: 1.6rem; font-weight: 800; background: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;'>
-            SCIRO AI
-        </div>
-        <div style='font-size: 0.75rem; color: #64748b; font-weight: 500; letter-spacing: 0.05em;'>
-            ENTERPRISE DECISION PLATFORM
-        </div>
-        <div style='margin-top: 0.75rem; display: flex; align-items: center; justify-content: space-between;'>
-            <span style='color: #cbd5e1; font-size: 0.85rem; font-weight: 500;'>👤 {session['full_name']}</span>
-            <span style='font-size: 0.7rem; font-weight: 600; padding: 2px 8px; border-radius: 9999px; background: rgba(56, 189, 248, 0.15); color: {role_color}; border: 1px solid {role_color}40;'>
+    <div style='background: #1e293b; border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 12px; padding: 0.85rem 1rem; margin-bottom: 0.65rem;'>
+        <div style='display: flex; align-items: center; justify-content: space-between;'>
+            <div>
+                <div style='color: #f8fafc; font-size: 0.85rem; font-weight: 600;'>{session['full_name']}</div>
+                <div style='color: #94a3b8; font-size: 0.72rem; text-transform: capitalize;'>System {session['role']}</div>
+            </div>
+            <span class='badge' style='background: rgba(79, 70, 229, 0.15); color: {role_color}; border: 1px solid {role_color}40; font-size: 0.7rem;'>
                 {session['role'].upper()}
             </span>
         </div>
     </div>
     """, unsafe_allow_html=True)
 
-    if st.sidebar.button("🚪 Logout"):
+    if st.sidebar.button(":material/logout: Sign Out", use_container_width=True, key="btn_logout"):
         st.session_state.auth_manager.logout(st.session_state.auth_token)
         st.session_state.authenticated = False
         st.session_state.auth_token = None
         st.session_state.session_data = None
         st.rerun()
 
-    data_sidebar()
-    st.sidebar.markdown("---")
-
-    # Navigation
-    pages = {
-        "📊 Dashboard": page_executive_dashboard,
-        "📁 Data Upload & Ingestion": page_data_ingestion,
-        "🔗 Supply Chain": page_supply_chain,
-        "📦 Inventory": page_inventory,
-        "💰 Revenue": page_revenue,
-        "👥 Customers": page_customers,
-        "🤖 ML Models": page_ml_models,
-        "🎲 Simulation": page_simulation,
-        "💬 AI Copilot": page_copilot,
-        "⚙️ Settings": page_settings,
-    }
-
-    selection = st.sidebar.radio("Navigation", list(pages.keys()), label_visibility="collapsed")
+    # Render Active Page
     pages[selection]()
 
 
