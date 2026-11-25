@@ -825,8 +825,12 @@ def data_sidebar():
 
     if st.session_state.data_loaded and st.session_state.get("data"):
         with st.sidebar.expander("📊 Loaded Entities Summary", expanded=False):
-            for name, df in st.session_state.data.items():
-                st.markdown(f"<span style='color:#94a3b8; font-size: 0.82rem;'>• {name}: <strong style='color:#e2e8f0;'>{len(df):,}</strong> rows</span>", unsafe_allow_html=True)
+            for name, df in list(st.session_state.data.items()):
+                if isinstance(df, tuple):
+                    df = df[0]
+                    st.session_state.data[name] = df
+                if hasattr(df, "__len__"):
+                    st.markdown(f"<span style='color:#94a3b8; font-size: 0.82rem;'>• {name}: <strong style='color:#e2e8f0;'>{len(df):,}</strong> rows</span>", unsafe_allow_html=True)
 
     # Hide developer local path behind an Advanced Settings expander
     settings = get_settings()
@@ -1050,9 +1054,13 @@ def page_data_ingestion():
             cleaned_df = df.copy()
             if apply_clean:
                 try:
-                    cleaned_df = clean_dataframe(cleaned_df)
+                    clean_res = clean_dataframe(cleaned_df)
+                    if isinstance(clean_res, tuple):
+                        cleaned_df, clean_report = clean_res
+                    else:
+                        cleaned_df = clean_res
                 except Exception as e:
-                    logger.warning("ETL clean notice: %s", e)
+                    pass
 
             if run_val and target_entity in ["suppliers", "products", "inventory", "shipments", "customers", "orders", "order_items", "regions"]:
                 valid_records, errors = validate_dataframe(cleaned_df, target_entity)
@@ -1069,6 +1077,8 @@ def page_data_ingestion():
 
             with act_col1:
                 if st.button(f"🚀 Load into SCIRO Active Data as '{target_entity}'", type="primary", use_container_width=True):
+                    if isinstance(cleaned_df, tuple):
+                        cleaned_df = cleaned_df[0]
                     ensure_full_data_context()
                     st.session_state.data[target_entity] = cleaned_df
                     st.session_state.data_loaded = True
@@ -1089,7 +1099,12 @@ def page_data_ingestion():
         if not st.session_state.data_loaded or not st.session_state.data:
             st.info("No datasets loaded yet. Upload a file or load sample data from the sidebar.")
         else:
-            for name, dframe in st.session_state.data.items():
+            for name, dframe in list(st.session_state.data.items()):
+                if isinstance(dframe, tuple):
+                    dframe = dframe[0]
+                    st.session_state.data[name] = dframe
+                if not hasattr(dframe, "columns"):
+                    continue
                 with st.expander(f"📁 {name.upper()} ({len(dframe):,} rows, {len(dframe.columns)} cols)", expanded=False):
                     c1, c2 = st.columns([3, 1])
                     with c1:
