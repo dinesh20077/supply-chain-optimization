@@ -1,0 +1,1001 @@
+tracking_number,supplier_name,product_sku,destination_region,quantity,status,carrier,shipping_cost,shipped_date,expected_delivery_date,actual_delivery_date
+SHIP-26-02001,Orchid Logistics Enterprises 40,PKGS-0249,South-Western,368,received,Ecom Express,5756.54,2026-04-01,2026-03-29,2026-04-25
+SHIP-26-02002,Riverstone Materials Solutions Pvt Ltd 43,ELGD-0256,Eastern,80,received,Ecom Express,2381.94,2026-03-27,2026-04-27,2026-05-18
+SHIP-26-02003,Riverstone Materials Solutions Pvt Ltd 43,PKGS-0267,South-Eastern,87,awaiting_pickup,Safexpress,2449.89,2025-11-06,2025-11-09,
+SHIP-26-02004,Orchid Logistics Enterprises 40,OPSU-0254,Southern,336,received,Shadowfax,642.58,2026-09-21,2026-09-19,2026-08-02
+SHIP-26-02005,Crestline Industrial Solutions Pvt Ltd 28,APRL-0260,South-Western,404,received,Safexpress,1377.41,2026-01-05,2026-03-04,2026-02-15
+SHIP-26-02006,Summit Industrial Industries LLP 44,INCH-0163,North-Eastern,307,received,Ecom Express,4638.84,2026-04-09,2026-05-08,2026-04-23
+SHIP-26-02007,Lotus Supply Corporation 37,OPSU-0123,National,255,awaiting_pickup,India Post,1879.38,2026-08-08,2026-10-02,
+SHIP-26-02008,Evergreen Technologies Enterprises 30,PART-0179,North-Western,314,received,Shadowfax,4149.01,2026-01-04,2025-12-28,2026-01-27
+SHIP-26-02009,Quantum Manufacturing Corporation 42,EQPM-0195,Eastern,89,received,Ecom Express,3593.95,2026-06-05,2026-05-16,2026-05-28
+SHIP-26-02010,BluePeak Materials Corporation 27,OPSU-0192,South-Western,41,received,Ekart,3078.94,2026-05-09,2026-06-25,2026-06-09
+SHIP-26-02011,Vertex Technologies Corporation 22,PKGS-0273,Himalayan,63,received,Ecom Express,2528.87,2026-04-02,2026-05-20,2026-05-23
+SHIP-26-02012,Horizon Logistics Solutions Pvt Ltd 8,PART-0158,Western,381,received,Safexpress,2176.99,2026-05-20,2026-05-29,2026-06-21
+SHIP-26-02013,Orchid Logistics Enterprises 40,APRL-0208,Southern,465,aborted,Safexpress,4095.55,2025-10-01,2025-11-16,
+SHIP-26-02014,Lotus Industrial Corporation 12,PKGS-0127,North-Eastern,165,received,Shadowfax,1570.16,2026-02-26,2026-03-14,2026-01-29
+SHIP-26-02015,Granite Logistics Corporation 32,INCH-0181,Western,275,awaiting_pickup,Shadowfax,2944.85,2026-02-22,2026-02-13,
+SHIP-26-02016,Horizon Global Solutions Pvt Ltd 33,PKGS-0194,National,540,aborted,Ekart,2355.46,2026-05-22,2026-06-18,
+SHIP-26-02017,Nova Trading Industries LLP 39,EQPM-0172,South-Western,325,behind_schedule,Ekart,870.29,2026-07-19,2026-08-14,
+SHIP-26-02018,Evergreen Technologies Enterprises 30,APRL-0129,Central,277,on_route,Safexpress,4030.87,2025-12-21,2025-12-19,
+SHIP-26-02019,Summit Materials Industries LLP 19,INCH-0103,Southern,387,received,Ekart,468.03,2026-08-15,2026-08-22,2026-09-06
+SHIP-26-02020,Granite Trading Corporation 7,EQPM-0193,National,255,received,Shadowfax,918.38,2025-12-15,2025-12-06,2026-01-22
+SHIP-26-02021,Horizon Global Solutions Pvt Ltd 33,PART-0258,Southern,449,behind_schedule,Ecom Express,4435.04,2026-07-25,2026-07-31,
+SHIP-26-02022,Kinetic Materials Private Ltd 11,ELGD-0105,National,523,received,India Post,4513.79,2026-03-15,2026-02-12,2026-03-04
+SHIP-26-02023,Summit Industrial Industries LLP 44,APRL-0260,Himalayan,334,received,Safexpress,5402.09,2026-01-10,2026-02-06,2026-02-14
+SHIP-26-02024,Orchid Logistics Enterprises 40,INCH-0154,Central,300,received,Safexpress,2427.27,2026-03-25,2026-02-16,2026-02-05
+SHIP-26-02025,Vertex Technologies Corporation 22,EQPM-0146,Western,23,awaiting_pickup,Shadowfax,2639.33,2026-08-06,2026-09-23,
+SHIP-26-02026,Granite Trading Corporation 7,EQPM-0157,Southern,383,received,Ekart,1548.87,2026-08-12,2026-07-23,2026-07-29
+SHIP-26-02027,Westbridge Logistics Solutions Pvt Ltd 48,OPSU-0128,Western,382,received,Ecom Express,246.74,2026-04-06,2026-05-05,2026-04-04
+SHIP-26-02028,Crestline Materials Solutions Pvt Ltd 3,OPSU-0231,Western,539,received,Ecom Express,4388.77,2025-12-19,2025-12-30,2025-12-29
+SHIP-26-02029,Dharma Industrial Industries LLP 4,ELGD-0120,North-Western,494,received,Ekart,1556.92,2025-09-22,2025-10-06,2025-10-31
+SHIP-26-02030,Zenith Global Enterprises 25,OPSU-0246,Himalayan,71,on_route,Ecom Express,2841.4,2026-02-28,2026-01-28,
+SHIP-26-02031,Frontier Trading Private Ltd 31,OPSU-0175,Himalayan,247,on_route,Ecom Express,848.25,2026-09-22,2026-09-27,
+SHIP-26-02032,Granite Logistics Corporation 32,INCH-0245,Central,427,received,Shadowfax,4183.66,2026-04-11,2026-06-08,2026-05-10
+SHIP-26-02033,Aarav Global Private Ltd 1,BASE-0177,Central,117,received,India Post,2202.16,2026-02-28,2026-02-19,2026-03-27
+SHIP-26-02034,Westbridge Logistics Solutions Pvt Ltd 48,APRL-0178,North-Eastern,325,on_route,Ekart,402.4,2026-07-27,2026-07-12,
+SHIP-26-02035,Aarav Global Private Ltd 1,BASE-0150,Western,314,received,India Post,217.61,2026-03-01,2026-01-31,2026-02-17
+SHIP-26-02036,Westbridge Logistics Solutions Pvt Ltd 48,OPSU-0246,Eastern,119,received,India Post,1580.18,2025-12-13,2025-11-21,2025-12-25
+SHIP-26-02037,Quantum Global Corporation 17,EQPM-0239,Southern,301,received,Ecom Express,777.49,2026-09-06,2026-09-26,2026-10-09
+SHIP-26-02038,Yellowstone Logistics Industries LLP 24,PKGS-0166,South-Eastern,378,received,Shadowfax,3975.4,2026-04-28,2026-05-08,2026-06-14
+SHIP-26-02039,Lotus Supply Corporation 37,ELGD-0142,Himalayan,350,received,Ekart,386.34,2026-06-29,2026-07-23,2026-07-24
+SHIP-26-02040,Nova Technologies Industries LLP 14,ELGD-0169,Southern,274,received,India Post,3716.16,2026-09-01,2026-09-28,2026-10-16
+SHIP-26-02041,Trident Supply Enterprises 45,ELGD-0233,National,225,received,Ekart,2278.94,2026-05-07,2026-06-03,2026-06-28
+SHIP-26-02042,Orchid Logistics Enterprises 40,PKGS-0206,South-Eastern,229,aborted,India Post,1948.18,2026-03-19,2026-02-27,
+SHIP-26-02043,Zenith Manufacturing Enterprises 50,ELGD-0233,North-Western,111,received,Ecom Express,4263.06,2025-09-21,2025-11-22,2025-11-07
+SHIP-26-02044,Lotus Supply Corporation 37,OPSU-0144,Southern,511,received,Ecom Express,2554.91,2026-01-06,2026-01-06,2026-01-26
+SHIP-26-02045,Nova Trading Industries LLP 39,OPSU-0192,National,388,received,Ecom Express,3052.17,2026-03-03,2026-03-23,2026-02-22
+SHIP-26-02046,Aarav Manufacturing Private Ltd 26,INCH-0138,South-Western,312,on_route,India Post,1845.15,2026-03-30,2026-05-27,
+SHIP-26-02047,Trident Industrial Enterprises 20,BASE-0270,Central,350,awaiting_pickup,India Post,3632.95,2025-10-28,2025-09-25,
+SHIP-26-02048,Trident Industrial Enterprises 20,OPSU-0176,Southern,339,received,Ekart,2073.09,2026-01-24,2026-01-15,2025-12-10
+SHIP-26-02049,Unity Technologies Private Ltd 46,PKGS-0214,North-Eastern,367,on_route,Ecom Express,2387.54,2026-05-27,2026-06-04,
+SHIP-26-02050,Horizon Logistics Solutions Pvt Ltd 8,ELGD-0198,National,504,received,Shadowfax,1851.97,2026-04-16,2026-04-07,2026-04-20
+SHIP-26-02051,Lotus Industrial Corporation 12,INCH-0200,North-Eastern,462,received,Safexpress,1166.68,2025-10-09,2025-12-08,2025-11-11
+SHIP-26-02052,Vertex Technologies Corporation 22,BASE-0288,North-Western,518,received,India Post,1922.22,2026-07-07,2026-08-20,2026-07-17
+SHIP-26-02053,Frontier Trading Private Ltd 31,APRL-0160,National,304,received,Shadowfax,3066.48,2026-08-02,2026-07-24,2026-09-20
+SHIP-26-02054,Quantum Manufacturing Corporation 42,OPSU-0128,North-Western,32,received,Ekart,2305.24,2026-04-05,2026-05-04,2026-04-18
+SHIP-26-02055,Kinetic Industrial Private Ltd 36,OPSU-0134,Himalayan,402,received,Ekart,1210.24,2026-09-04,2026-07-31,2026-09-13
+SHIP-26-02056,Frontier Trading Private Ltd 31,PART-0179,South-Eastern,296,awaiting_pickup,India Post,3803.54,2025-10-01,2025-10-14,
+SHIP-26-02057,Jade Manufacturing Enterprises 10,APRL-0178,Central,39,received,Shadowfax,3459.49,2025-10-26,2025-12-02,2025-10-26
+SHIP-26-02058,Quantum Manufacturing Corporation 42,APRL-0201,South-Eastern,578,received,Shadowfax,4358.52,2026-04-19,2026-04-17,2026-04-12
+SHIP-26-02059,Westbridge Logistics Solutions Pvt Ltd 48,PKGS-0229,South-Eastern,186,received,Ekart,1025.47,2025-12-17,2025-12-16,2026-01-04
+SHIP-26-02060,Yellowstone Global Industries LLP 49,PART-0269,Himalayan,57,received,Safexpress,4711.8,2026-04-18,2026-04-01,2026-04-19
+SHIP-26-02061,Dharma Industrial Industries LLP 4,APRL-0291,South-Western,71,received,Ecom Express,2675.79,2026-07-03,2026-07-29,2026-07-20
+SHIP-26-02062,Jade Materials Enterprises 35,BASE-0297,Eastern,97,received,India Post,4361.07,2026-05-17,2026-04-09,2026-05-29
+SHIP-26-02063,Nova Technologies Industries LLP 14,BASE-0216,Eastern,178,received,Ecom Express,2234.65,2026-06-03,2026-05-06,2026-07-01
+SHIP-26-02064,Meridian Supply Solutions Pvt Ltd 13,PART-0274,Western,171,received,Ekart,1843.94,2026-10-12,2026-10-18,2026-10-23
+SHIP-26-02065,Yellowstone Logistics Industries LLP 24,OPSU-0300,National,46,behind_schedule,Shadowfax,2126.13,2026-07-09,2026-07-18,
+SHIP-26-02066,Unity Supply Private Ltd 21,INCH-0184,South-Eastern,225,aborted,Ekart,3731.58,2026-05-17,2026-05-31,
+SHIP-26-02067,Unity Technologies Private Ltd 46,PKGS-0155,South-Western,287,received,India Post,5554.26,2026-08-11,2026-09-19,2026-09-25
+SHIP-26-02068,Quantum Global Corporation 17,PART-0284,North-Eastern,224,received,Ecom Express,5122.97,2026-04-26,2026-04-15,2026-06-15
+SHIP-26-02069,Unity Technologies Private Ltd 46,OPSU-0241,Central,489,received,India Post,5399.83,2026-03-29,2026-03-25,2026-03-15
+SHIP-26-02070,Crestline Materials Solutions Pvt Ltd 3,EQPM-0235,South-Western,141,received,India Post,2388.35,2026-06-28,2026-08-13,2026-06-23
+SHIP-26-02071,Aarav Manufacturing Private Ltd 26,PKGS-0135,Southern,467,received,Ekart,956.96,2026-07-28,2026-08-21,2026-09-14
+SHIP-26-02072,Nova Technologies Industries LLP 14,ELGD-0141,North-Eastern,389,on_route,Shadowfax,908.06,2026-10-25,2026-11-03,
+SHIP-26-02073,Pioneer Logistics Private Ltd 16,ELGD-0105,North-Eastern,238,received,Shadowfax,998.82,2026-05-28,2026-05-29,2026-05-30
+SHIP-26-02074,Pioneer Logistics Private Ltd 16,INCH-0245,North-Western,398,received,Ecom Express,3147.99,2025-10-17,2025-09-19,2025-10-24
+SHIP-26-02075,Kinetic Materials Private Ltd 11,ELGD-0198,National,258,received,Ekart,1065.22,2025-12-17,2025-12-28,2025-12-28
+SHIP-26-02076,Evergreen Supply Enterprises 5,ELGD-0223,North-Western,70,behind_schedule,India Post,3086.37,2025-11-22,2025-12-28,
+SHIP-26-02077,Jade Materials Enterprises 35,APRL-0283,Himalayan,151,on_route,Ecom Express,2191.64,2026-07-30,2026-07-20,
+SHIP-26-02078,Granite Trading Corporation 7,EQPM-0122,North-Eastern,481,received,Ekart,1961.98,2025-11-18,2025-11-16,2025-12-25
+SHIP-26-02079,Evergreen Technologies Enterprises 30,INCH-0163,Eastern,296,behind_schedule,Safexpress,4509.1,2026-03-13,2026-05-13,
+SHIP-26-02080,Zenith Global Enterprises 25,BASE-0150,North-Western,268,received,Ekart,3719.24,2026-07-12,2026-08-27,2026-08-02
+SHIP-26-02081,Summit Materials Industries LLP 19,PKGS-0155,Eastern,424,received,Shadowfax,2288.37,2025-12-29,2026-01-12,2026-01-04
+SHIP-26-02082,Meridian Technologies Solutions Pvt Ltd 38,APRL-0132,South-Eastern,134,received,Safexpress,1501.66,2026-06-13,2026-06-14,2026-06-14
+SHIP-26-02083,Crestline Materials Solutions Pvt Ltd 3,APRL-0291,South-Eastern,550,received,Safexpress,2693.39,2026-07-21,2026-09-02,2026-10-24
+SHIP-26-02084,Unity Supply Private Ltd 21,PKGS-0214,Himalayan,34,on_route,Shadowfax,2527.85,2026-09-10,2026-10-10,
+SHIP-26-02085,Orchid Logistics Enterprises 40,INCH-0299,South-Western,309,received,Safexpress,4795.32,2025-12-27,2025-12-16,2026-01-29
+SHIP-26-02086,Lotus Supply Corporation 37,INCH-0299,Western,107,received,Safexpress,4300.82,2025-12-09,2026-01-02,2026-02-02
+SHIP-26-02087,Indus Manufacturing Industries LLP 34,BASE-0270,North-Western,241,awaiting_pickup,India Post,2314.68,2025-11-13,2025-12-24,
+SHIP-26-02088,Yellowstone Logistics Industries LLP 24,PKGS-0207,South-Western,519,received,Safexpress,391.05,2026-05-01,2026-06-03,2026-06-06
+SHIP-26-02089,Trident Supply Enterprises 45,PART-0258,Himalayan,85,received,Safexpress,3872.24,2025-09-23,2025-10-28,2025-11-24
+SHIP-26-02090,Indus Global Industries LLP 9,PART-0252,Eastern,175,received,India Post,4625.02,2025-11-11,2025-11-27,2025-11-17
+SHIP-26-02091,Meridian Supply Solutions Pvt Ltd 13,OPSU-0300,Southern,143,received,India Post,3014.65,2025-11-14,2025-11-27,2025-11-29
+SHIP-26-02092,BluePeak Manufacturing Corporation 2,PKGS-0155,Western,385,aborted,Safexpress,2360.01,2025-10-30,2025-10-30,
+SHIP-26-02093,Crestline Materials Solutions Pvt Ltd 3,BASE-0286,South-Eastern,178,received,Shadowfax,1409.91,2025-12-23,2026-01-22,2026-01-08
+SHIP-26-02094,Horizon Logistics Solutions Pvt Ltd 8,APRL-0108,Himalayan,279,received,Ecom Express,1578.36,2026-04-10,2026-05-19,2026-04-02
+SHIP-26-02095,Lotus Supply Corporation 37,APRL-0261,Southern,88,received,India Post,4672.55,2026-08-21,2026-09-25,2026-09-15
+SHIP-26-02096,Jade Materials Enterprises 35,BASE-0171,Southern,51,received,Ekart,2394.22,2026-07-29,2026-10-03,2026-08-27
+SHIP-26-02097,Westbridge Logistics Solutions Pvt Ltd 48,BASE-0251,South-Western,154,received,Safexpress,2761.88,2026-06-29,2026-06-11,2026-06-04
+SHIP-26-02098,Trident Supply Enterprises 45,PART-0189,National,445,received,Ekart,5188.0,2026-05-01,2026-06-28,2026-06-18
+SHIP-26-02099,Yellowstone Global Industries LLP 49,ELGD-0169,Central,454,received,India Post,232.63,2026-07-20,2026-08-18,2026-09-05
+SHIP-26-02100,BluePeak Manufacturing Corporation 2,EQPM-0239,Central,233,received,India Post,5490.79,2026-08-02,2026-08-09,2026-08-14
+SHIP-26-02101,Pioneer Global Private Ltd 41,OPSU-0117,Western,296,received,Ecom Express,759.86,2026-02-23,2026-03-20,2026-02-05
+SHIP-26-02102,Zenith Manufacturing Enterprises 50,PART-0274,Southern,97,received,Ekart,296.52,2025-12-12,2025-12-17,2025-12-11
+SHIP-26-02103,Frontier Technologies Private Ltd 6,PKGS-0137,National,332,received,Ecom Express,2289.16,2026-06-25,2026-07-28,2026-07-18
+SHIP-26-02104,Jade Manufacturing Enterprises 10,PKGS-0155,Eastern,12,received,Ecom Express,293.81,2025-12-24,2026-01-17,2026-02-09
+SHIP-26-02105,Vertex Technologies Corporation 22,OPSU-0176,North-Western,391,received,Safexpress,496.62,2026-08-09,2026-09-26,2026-09-15
+SHIP-26-02106,Granite Logistics Corporation 32,PART-0125,National,281,received,India Post,1987.16,2026-05-25,2026-05-20,2026-05-23
+SHIP-26-02107,Orchid Logistics Enterprises 40,BASE-0248,North-Western,70,received,Ecom Express,563.87,2025-10-25,2025-11-19,2025-10-30
+SHIP-26-02108,Orchid Trading Enterprises 15,APRL-0298,North-Western,431,received,Ekart,2840.94,2026-09-10,2026-09-19,2026-09-22
+SHIP-26-02109,BluePeak Materials Corporation 27,ELGD-0220,North-Eastern,338,aborted,India Post,1720.39,2026-03-22,2026-02-27,
+SHIP-26-02110,Vertex Technologies Corporation 22,PKGS-0244,South-Eastern,308,received,Shadowfax,2773.4,2026-07-30,2026-09-26,2026-08-07
+SHIP-26-02111,Dharma Industrial Industries LLP 4,BASE-0203,Central,209,received,Safexpress,858.3,2026-07-26,2026-07-19,2026-08-10
+SHIP-26-02112,Jade Materials Enterprises 35,PART-0279,Southern,299,awaiting_pickup,Ekart,4823.24,2026-04-07,2026-04-17,
+SHIP-26-02113,Indus Manufacturing Industries LLP 34,EQPM-0106,National,400,received,Shadowfax,2736.66,2026-04-11,2026-05-18,2026-06-15
+SHIP-26-02114,Westbridge Trading Solutions Pvt Ltd 23,OPSU-0139,South-Western,408,on_route,Shadowfax,2436.61,2026-03-09,2026-04-22,
+SHIP-26-02115,BluePeak Manufacturing Corporation 2,INCH-0200,South-Eastern,360,on_route,Ekart,1288.44,2026-02-23,2026-02-01,
+SHIP-26-02116,Orchid Trading Enterprises 15,ELGD-0169,Central,367,on_route,Ekart,997.24,2026-10-02,2026-09-30,
+SHIP-26-02117,Vertex Technologies Corporation 22,ELGD-0272,South-Western,205,received,Ecom Express,3486.3,2026-05-02,2026-06-22,2026-05-10
+SHIP-26-02118,Granite Logistics Corporation 32,PKGS-0173,Central,503,received,India Post,1827.03,2026-07-30,2026-08-03,2026-08-03
+SHIP-26-02119,Trident Industrial Enterprises 20,PKGS-0107,Eastern,138,received,Ecom Express,2783.51,2025-11-16,2025-10-29,2025-12-22
+SHIP-26-02120,Meridian Technologies Solutions Pvt Ltd 38,PKGS-0209,Eastern,473,behind_schedule,Ekart,4771.89,2026-07-12,2026-08-01,
+SHIP-26-02121,Evergreen Supply Enterprises 5,PART-0158,North-Eastern,87,received,India Post,464.24,2025-09-11,2025-11-01,2025-10-29
+SHIP-26-02122,Nova Trading Industries LLP 39,PKGS-0174,North-Western,56,on_route,Ekart,2174.01,2025-11-17,2025-11-19,
+SHIP-26-02123,Frontier Technologies Private Ltd 6,PART-0282,Central,264,received,Shadowfax,4582.26,2025-09-15,2025-10-11,2025-09-25
+SHIP-26-02124,Evergreen Supply Enterprises 5,INCH-0154,North-Eastern,309,received,Shadowfax,3132.06,2026-09-07,2026-09-13,2026-09-14
+SHIP-26-02125,Horizon Global Solutions Pvt Ltd 33,APRL-0264,Eastern,245,received,Ecom Express,3222.04,2026-06-11,2026-06-26,2026-05-22
+SHIP-26-02126,Riverstone Manufacturing Solutions Pvt Ltd 18,PKGS-0267,Western,44,received,Ekart,1918.7,2026-04-21,2026-04-25,2026-03-25
+SHIP-26-02127,Aarav Manufacturing Private Ltd 26,APRL-0113,North-Eastern,413,received,Ecom Express,2154.2,2026-03-22,2026-02-11,2026-03-09
+SHIP-26-02128,Aarav Manufacturing Private Ltd 26,PART-0258,Western,55,received,Safexpress,2854.32,2026-07-22,2026-06-24,2026-07-22
+SHIP-26-02129,Horizon Logistics Solutions Pvt Ltd 8,OPSU-0212,National,109,received,Ekart,3008.84,2026-05-03,2026-05-31,2026-06-02
+SHIP-26-02130,Unity Supply Private Ltd 21,OPSU-0176,Eastern,329,behind_schedule,Safexpress,4205.91,2026-03-10,2026-05-19,
+SHIP-26-02131,BluePeak Materials Corporation 27,PART-0116,Western,54,received,Ecom Express,2545.06,2026-03-31,2026-05-09,2026-04-20
+SHIP-26-02132,Trident Industrial Enterprises 20,APRL-0294,Western,332,received,Shadowfax,2843.08,2026-06-19,2026-05-21,2026-06-13
+SHIP-26-02133,Vertex Trading Corporation 47,OPSU-0230,South-Western,322,received,Safexpress,3733.72,2025-09-30,2025-10-31,2025-10-08
+SHIP-26-02134,Meridian Technologies Solutions Pvt Ltd 38,INCH-0181,National,111,received,India Post,3413.46,2026-05-12,2026-05-09,2026-06-12
+SHIP-26-02135,Crestline Materials Solutions Pvt Ltd 3,ELGD-0120,South-Eastern,66,received,India Post,2761.36,2026-09-04,2026-10-09,2026-11-18
+SHIP-26-02136,Orchid Logistics Enterprises 40,APRL-0291,Western,498,received,Shadowfax,4175.53,2025-12-15,2026-01-05,2026-01-27
+SHIP-26-02137,Summit Materials Industries LLP 19,OPSU-0136,Western,314,received,India Post,713.86,2026-02-23,2026-02-09,2026-03-15
+SHIP-26-02138,Quantum Global Corporation 17,EQPM-0118,Western,292,on_route,Ekart,1742.41,2026-09-24,2026-09-12,
+SHIP-26-02139,Orchid Trading Enterprises 15,INCH-0237,Western,256,received,India Post,1831.32,2025-10-04,2025-10-26,2025-11-28
+SHIP-26-02140,Vertex Technologies Corporation 22,APRL-0201,South-Western,218,awaiting_pickup,Safexpress,858.53,2025-12-06,2025-12-11,
+SHIP-26-02141,Indus Manufacturing Industries LLP 34,OPSU-0246,National,334,received,Shadowfax,2400.97,2025-11-05,2025-10-21,2025-11-15
+SHIP-26-02142,Kinetic Industrial Private Ltd 36,BASE-0165,National,34,received,Safexpress,839.89,2026-05-29,2026-05-04,2026-06-26
+SHIP-26-02143,Kinetic Materials Private Ltd 11,BASE-0286,South-Western,270,awaiting_pickup,Ekart,1748.31,2025-12-18,2025-12-03,
+SHIP-26-02144,Westbridge Logistics Solutions Pvt Ltd 48,OPSU-0230,South-Western,173,received,Safexpress,4557.77,2026-05-04,2026-05-06,2026-05-17
+SHIP-26-02145,Pioneer Global Private Ltd 41,APRL-0234,Central,310,received,Ecom Express,5100.99,2026-02-02,2026-03-01,2026-04-04
+SHIP-26-02146,Meridian Technologies Solutions Pvt Ltd 38,PART-0222,South-Eastern,69,received,Safexpress,1948.07,2026-02-22,2026-02-11,2026-03-18
+SHIP-26-02147,Yellowstone Logistics Industries LLP 24,APRL-0283,Southern,147,received,Ecom Express,1294.97,2026-03-02,2026-01-27,2026-01-30
+SHIP-26-02148,Yellowstone Global Industries LLP 49,INCH-0110,South-Eastern,20,received,Shadowfax,2516.99,2026-07-17,2026-07-27,2026-06-23
+SHIP-26-02149,Horizon Global Solutions Pvt Ltd 33,EQPM-0210,Eastern,286,received,Shadowfax,3497.77,2026-01-15,2026-02-16,2026-02-23
+SHIP-26-02150,Trident Industrial Enterprises 20,BASE-0297,North-Eastern,300,received,Shadowfax,693.54,2026-06-14,2026-07-02,2026-07-11
+SHIP-26-02151,Trident Supply Enterprises 45,ELGD-0211,Southern,179,received,India Post,1918.37,2026-06-01,2026-07-17,2026-06-21
+SHIP-26-02152,Unity Technologies Private Ltd 46,OPSU-0287,North-Eastern,137,received,Ekart,881.22,2025-11-29,2026-01-17,2025-12-26
+SHIP-26-02153,BluePeak Materials Corporation 27,BASE-0150,South-Western,471,received,India Post,363.18,2026-05-03,2026-06-09,2026-05-31
+SHIP-26-02154,Dharma Supply Industries LLP 29,EQPM-0226,National,33,received,Shadowfax,1503.75,2026-08-30,2026-08-26,2026-07-29
+SHIP-26-02155,Trident Industrial Enterprises 20,EQPM-0111,Himalayan,15,received,Ekart,806.34,2026-01-28,2026-02-18,2026-01-12
+SHIP-26-02156,Crestline Materials Solutions Pvt Ltd 3,ELGD-0131,South-Western,504,received,Safexpress,2466.69,2026-01-21,2026-02-27,2026-03-02
+SHIP-26-02157,Trident Supply Enterprises 45,ELGD-0220,Southern,321,received,Ecom Express,2300.19,2026-07-19,2026-08-13,2026-08-23
+SHIP-26-02158,Trident Supply Enterprises 45,EQPM-0111,North-Eastern,243,awaiting_pickup,Ekart,4224.87,2026-07-27,2026-07-22,
+SHIP-26-02159,Dharma Industrial Industries LLP 4,ELGD-0202,Western,275,received,Ecom Express,326.56,2025-10-23,2025-10-26,2025-10-25
+SHIP-26-02160,BluePeak Manufacturing Corporation 2,PART-0262,Western,435,aborted,Ekart,691.38,2026-10-23,2026-10-31,
+SHIP-26-02161,Kinetic Materials Private Ltd 11,OPSU-0280,South-Western,10,received,Safexpress,1225.34,2026-05-22,2026-05-03,2026-06-15
+SHIP-26-02162,Lotus Industrial Corporation 12,PART-0262,South-Eastern,112,received,Shadowfax,4704.82,2025-12-03,2025-12-26,2025-11-19
+SHIP-26-02163,Frontier Technologies Private Ltd 6,OPSU-0192,Eastern,60,on_route,Shadowfax,4660.22,2025-12-27,2025-12-17,
+SHIP-26-02164,Horizon Logistics Solutions Pvt Ltd 8,PKGS-0296,Western,123,received,Ekart,2354.07,2026-03-04,2026-03-10,2026-03-09
+SHIP-26-02165,Summit Materials Industries LLP 19,BASE-0177,South-Western,83,behind_schedule,Shadowfax,2484.84,2025-11-28,2025-11-25,
+SHIP-26-02166,Evergreen Technologies Enterprises 30,BASE-0177,Western,62,received,Shadowfax,3564.6,2025-11-14,2025-12-18,2025-12-28
+SHIP-26-02167,BluePeak Materials Corporation 27,OPSU-0144,North-Western,138,received,India Post,4173.87,2026-02-23,2026-03-25,2026-03-29
+SHIP-26-02168,BluePeak Materials Corporation 27,EQPM-0146,Western,63,aborted,India Post,4682.22,2026-03-10,2026-05-12,
+SHIP-26-02169,Westbridge Logistics Solutions Pvt Ltd 48,OPSU-0247,South-Eastern,96,received,Safexpress,1487.74,2026-09-03,2026-09-17,2026-09-13
+SHIP-26-02170,Frontier Technologies Private Ltd 6,PART-0268,Central,361,received,Shadowfax,1314.92,2026-01-04,2026-03-07,2026-03-03
+SHIP-26-02171,Indus Manufacturing Industries LLP 34,PART-0268,Western,461,received,India Post,2949.14,2026-03-12,2026-03-25,2026-04-12
+SHIP-26-02172,Riverstone Materials Solutions Pvt Ltd 43,APRL-0291,North-Western,525,awaiting_pickup,Ekart,1868.32,2026-01-25,2026-02-06,
+SHIP-26-02173,Vertex Technologies Corporation 22,PKGS-0207,South-Eastern,329,received,Ekart,2350.72,2026-09-27,2026-10-17,2026-10-22
+SHIP-26-02174,Trident Supply Enterprises 45,PKGS-0229,Himalayan,133,received,Shadowfax,5017.45,2026-05-16,2026-07-31,2026-06-03
+SHIP-26-02175,Kinetic Materials Private Ltd 11,PKGS-0271,Central,172,received,Shadowfax,3798.71,2026-10-22,2026-11-12,2026-10-25
+SHIP-26-02176,Westbridge Trading Solutions Pvt Ltd 23,PKGS-0214,Southern,260,received,India Post,3556.54,2025-10-25,2025-12-25,2025-12-13
+SHIP-26-02177,Pioneer Global Private Ltd 41,ELGD-0119,South-Eastern,400,received,Ekart,1731.56,2026-02-12,2026-03-06,2026-04-12
+SHIP-26-02178,Lotus Supply Corporation 37,OPSU-0117,South-Eastern,20,received,Shadowfax,2990.46,2026-08-01,2026-07-08,2026-07-02
+SHIP-26-02179,Unity Technologies Private Ltd 46,PKGS-0273,National,289,behind_schedule,Ecom Express,956.29,2026-07-02,2026-07-13,
+SHIP-26-02180,Zenith Manufacturing Enterprises 50,OPSU-0287,Himalayan,213,received,India Post,1365.52,2026-03-22,2026-04-20,2026-04-28
+SHIP-26-02181,Kinetic Industrial Private Ltd 36,PKGS-0133,South-Eastern,88,received,Safexpress,1688.99,2026-03-21,2026-04-23,2026-05-22
+SHIP-26-02182,Granite Trading Corporation 7,BASE-0297,National,341,aborted,India Post,1481.48,2025-10-27,2025-12-09,
+SHIP-26-02183,Riverstone Materials Solutions Pvt Ltd 43,INCH-0181,National,122,received,Safexpress,966.91,2026-05-29,2026-07-22,2026-07-28
+SHIP-26-02184,Quantum Global Corporation 17,APRL-0114,Central,179,received,Safexpress,5365.01,2026-05-25,2026-07-07,2026-06-25
+SHIP-26-02185,Frontier Trading Private Ltd 31,OPSU-0175,Western,214,received,Shadowfax,5203.24,2026-09-02,2026-09-26,2026-09-21
+SHIP-26-02186,Aarav Global Private Ltd 1,OPSU-0280,Southern,229,received,Safexpress,2324.39,2026-05-08,2026-05-22,2026-06-20
+SHIP-26-02187,Yellowstone Global Industries LLP 49,APRL-0114,National,351,received,Shadowfax,1651.05,2026-06-28,2026-07-04,2026-07-20
+SHIP-26-02188,Kinetic Industrial Private Ltd 36,APRL-0259,Southern,285,received,Safexpress,720.17,2025-11-29,2026-02-02,2025-12-17
+SHIP-26-02189,Lotus Supply Corporation 37,PKGS-0161,Himalayan,112,received,Safexpress,2125.47,2026-01-18,2026-01-16,2026-02-11
+SHIP-26-02190,Jade Manufacturing Enterprises 10,APRL-0265,Central,212,received,Shadowfax,2585.61,2026-04-20,2026-05-15,2026-05-23
+SHIP-26-02191,Frontier Technologies Private Ltd 6,APRL-0298,Southern,506,received,Ecom Express,4089.43,2026-07-10,2026-07-10,2026-07-11
+SHIP-26-02192,Jade Manufacturing Enterprises 10,EQPM-0172,North-Western,386,received,Ekart,449.71,2026-05-19,2026-06-12,2026-06-18
+SHIP-26-02193,Pioneer Logistics Private Ltd 16,BASE-0277,Central,321,received,Shadowfax,277.16,2026-09-04,2026-09-18,2026-09-13
+SHIP-26-02194,Crestline Industrial Solutions Pvt Ltd 28,PKGS-0173,National,276,received,India Post,4609.99,2026-05-18,2026-05-30,2026-06-09
+SHIP-26-02195,Evergreen Technologies Enterprises 30,PART-0252,Himalayan,230,received,India Post,3666.0,2025-10-30,2025-10-22,2025-09-30
+SHIP-26-02196,Horizon Global Solutions Pvt Ltd 33,PKGS-0244,South-Eastern,91,on_route,Safexpress,4016.08,2026-06-27,2026-07-21,
+SHIP-26-02197,Granite Trading Corporation 7,APRL-0260,Western,369,on_route,Shadowfax,1847.21,2026-09-23,2026-10-14,
+SHIP-26-02198,Jade Manufacturing Enterprises 10,EQPM-0266,North-Eastern,263,on_route,Safexpress,3376.07,2025-12-28,2025-12-25,
+SHIP-26-02199,Zenith Manufacturing Enterprises 50,BASE-0251,North-Western,84,received,Shadowfax,2591.03,2025-11-12,2025-12-19,2025-12-03
+SHIP-26-02200,Riverstone Manufacturing Solutions Pvt Ltd 18,PART-0263,South-Eastern,319,on_route,Ecom Express,2322.25,2026-03-16,2026-03-07,
+SHIP-26-02201,Lotus Industrial Corporation 12,INCH-0163,North-Eastern,72,received,Shadowfax,5255.35,2026-01-11,2026-02-03,2026-02-21
+SHIP-26-02202,Summit Industrial Industries LLP 44,PKGS-0166,South-Eastern,35,awaiting_pickup,Ekart,4719.45,2026-03-30,2026-03-29,
+SHIP-26-02203,Trident Industrial Enterprises 20,EQPM-0170,Western,226,aborted,Ecom Express,2664.33,2026-07-05,2026-06-17,
+SHIP-26-02204,Nova Technologies Industries LLP 14,INCH-0213,Western,423,received,Shadowfax,3183.77,2026-01-18,2025-12-01,2026-01-08
+SHIP-26-02205,Yellowstone Global Industries LLP 49,ELGD-0126,North-Eastern,269,behind_schedule,India Post,4963.22,2025-12-05,2025-11-13,
+SHIP-26-02206,Lotus Industrial Corporation 12,PKGS-0196,North-Eastern,133,received,India Post,429.34,2026-01-24,2026-01-03,2026-01-22
+SHIP-26-02207,Granite Trading Corporation 7,PART-0279,Western,536,received,Safexpress,777.37,2025-12-24,2025-11-28,2026-01-16
+SHIP-26-02208,Aarav Global Private Ltd 1,OPSU-0280,Western,486,received,Ekart,553.0,2026-07-01,2026-06-09,2026-05-18
+SHIP-26-02209,Jade Manufacturing Enterprises 10,ELGD-0257,National,514,behind_schedule,Ekart,5060.13,2025-12-10,2025-12-08,
+SHIP-26-02210,Orchid Trading Enterprises 15,APRL-0113,Himalayan,444,received,Shadowfax,2188.79,2026-04-05,2026-05-03,2026-05-29
+SHIP-26-02211,Unity Supply Private Ltd 21,APRL-0113,North-Eastern,52,received,India Post,3075.28,2026-03-08,2026-03-20,2026-03-19
+SHIP-26-02212,Orchid Logistics Enterprises 40,ELGD-0141,Himalayan,89,received,India Post,3220.67,2025-12-01,2025-10-30,2025-11-22
+SHIP-26-02213,Trident Supply Enterprises 45,OPSU-0300,Southern,300,received,Shadowfax,1589.87,2026-08-23,2026-09-07,2026-09-22
+SHIP-26-02214,BluePeak Materials Corporation 27,ELGD-0105,National,305,received,Ekart,2946.97,2026-01-26,2026-02-25,2026-03-19
+SHIP-26-02215,BluePeak Materials Corporation 27,PKGS-0219,North-Western,357,received,India Post,1252.81,2026-07-28,2026-07-28,2026-08-01
+SHIP-26-02216,Quantum Manufacturing Corporation 42,EQPM-0193,Southern,71,on_route,Ekart,1349.79,2026-08-31,2026-09-06,
+SHIP-26-02217,Jade Manufacturing Enterprises 10,PKGS-0209,Southern,157,received,Ekart,4136.01,2026-04-12,2026-04-01,2026-04-22
+SHIP-26-02218,Vertex Trading Corporation 47,BASE-0102,Central,238,received,Shadowfax,2181.95,2026-06-17,2026-05-27,2026-07-04
+SHIP-26-02219,Evergreen Supply Enterprises 5,PART-0284,South-Eastern,528,behind_schedule,Shadowfax,980.85,2025-12-01,2025-12-29,
+SHIP-26-02220,Kinetic Industrial Private Ltd 36,ELGD-0220,Central,159,received,Ekart,1516.49,2025-10-15,2025-11-27,2025-10-16
+SHIP-26-02221,Granite Logistics Corporation 32,APRL-0208,North-Eastern,285,received,Safexpress,675.16,2026-03-08,2026-03-10,2026-04-17
+SHIP-26-02222,Pioneer Global Private Ltd 41,PKGS-0219,National,254,received,Shadowfax,209.06,2026-05-18,2026-07-04,2026-05-22
+SHIP-26-02223,Jade Materials Enterprises 35,OPSU-0136,National,406,received,India Post,2768.86,2025-12-27,2025-12-01,2026-01-21
+SHIP-26-02224,Riverstone Manufacturing Solutions Pvt Ltd 18,EQPM-0172,Central,223,received,Shadowfax,2757.88,2026-02-10,2026-02-19,2026-02-05
+SHIP-26-02225,Nova Technologies Industries LLP 14,APRL-0259,Western,136,received,Shadowfax,1053.28,2026-05-06,2026-05-13,2026-06-08
+SHIP-26-02226,Aarav Global Private Ltd 1,PKGS-0290,Eastern,411,aborted,Ecom Express,4163.94,2025-10-10,2025-11-18,
+SHIP-26-02227,Frontier Technologies Private Ltd 6,PKGS-0194,Himalayan,49,received,Ekart,3880.97,2026-07-08,2026-06-24,2026-06-20
+SHIP-26-02228,Dharma Supply Industries LLP 29,OPSU-0293,North-Western,433,received,Safexpress,3322.36,2026-02-15,2026-03-25,2026-03-25
+SHIP-26-02229,Granite Logistics Corporation 32,EQPM-0210,North-Western,295,on_route,Ekart,2421.75,2026-06-01,2026-05-15,
+SHIP-26-02230,Kinetic Industrial Private Ltd 36,OPSU-0278,Himalayan,217,received,India Post,2308.77,2026-08-05,2026-08-11,2026-09-08
+SHIP-26-02231,Vertex Trading Corporation 47,PART-0255,South-Eastern,170,received,Shadowfax,624.79,2026-01-08,2025-12-24,2025-12-05
+SHIP-26-02232,Indus Global Industries LLP 9,PART-0179,Eastern,155,awaiting_pickup,Safexpress,3129.01,2025-12-05,2025-11-23,
+SHIP-26-02233,Yellowstone Global Industries LLP 49,OPSU-0231,Western,96,received,Safexpress,5684.33,2026-07-11,2026-07-29,2026-09-05
+SHIP-26-02234,Yellowstone Logistics Industries LLP 24,OPSU-0123,North-Western,11,received,India Post,3019.26,2025-12-28,2026-02-16,2026-01-23
+SHIP-26-02235,Trident Supply Enterprises 45,ELGD-0105,Eastern,302,received,India Post,4907.97,2026-01-08,2026-01-28,2026-01-18
+SHIP-26-02236,Meridian Supply Solutions Pvt Ltd 13,BASE-0188,Himalayan,154,received,Shadowfax,391.3,2026-08-24,2026-09-19,2026-08-20
+SHIP-26-02237,Trident Supply Enterprises 45,PART-0282,Southern,291,aborted,Ecom Express,668.81,2026-06-24,2026-07-05,
+SHIP-26-02238,Westbridge Logistics Solutions Pvt Ltd 48,BASE-0102,North-Eastern,398,aborted,Safexpress,295.17,2026-01-20,2026-02-04,
+SHIP-26-02239,BluePeak Manufacturing Corporation 2,OPSU-0281,South-Eastern,174,received,Ekart,1855.32,2026-02-01,2026-01-24,2026-03-20
+SHIP-26-02240,BluePeak Manufacturing Corporation 2,OPSU-0175,North-Western,512,received,Shadowfax,4706.46,2026-09-16,2026-09-15,2026-09-16
+SHIP-26-02241,Quantum Manufacturing Corporation 42,BASE-0203,Central,209,received,Ekart,5881.14,2026-06-08,2026-06-25,2026-06-05
+SHIP-26-02242,Frontier Technologies Private Ltd 6,APRL-0298,North-Western,436,received,Ecom Express,1811.16,2026-04-23,2026-04-26,2026-04-02
+SHIP-26-02243,Dharma Industrial Industries LLP 4,BASE-0177,Central,139,received,Ekart,4053.06,2026-08-31,2026-10-01,2026-08-04
+SHIP-26-02244,Riverstone Manufacturing Solutions Pvt Ltd 18,ELGD-0164,Western,297,received,Ekart,967.33,2026-07-03,2026-06-17,2026-06-29
+SHIP-26-02245,Frontier Technologies Private Ltd 6,EQPM-0112,North-Eastern,542,behind_schedule,Shadowfax,3714.74,2026-02-28,2026-04-11,
+SHIP-26-02246,Crestline Materials Solutions Pvt Ltd 3,OPSU-0241,North-Western,226,behind_schedule,India Post,243.16,2026-03-26,2026-05-04,
+SHIP-26-02247,Frontier Technologies Private Ltd 6,EQPM-0118,Himalayan,347,received,Shadowfax,2038.18,2026-04-19,2026-05-05,2026-04-24
+SHIP-26-02248,Frontier Trading Private Ltd 31,APRL-0178,National,177,received,Shadowfax,3942.84,2026-07-10,2026-07-07,2026-06-16
+SHIP-26-02249,Kinetic Industrial Private Ltd 36,PKGS-0206,Central,127,awaiting_pickup,India Post,3422.9,2026-01-10,2026-02-02,
+SHIP-26-02250,Nova Trading Industries LLP 39,OPSU-0134,National,460,received,Safexpress,4001.73,2026-06-16,2026-08-07,2026-08-17
+SHIP-26-02251,Yellowstone Logistics Industries LLP 24,EQPM-0227,North-Western,309,received,Ekart,1233.56,2026-03-05,2026-03-10,2026-03-25
+SHIP-26-02252,Zenith Manufacturing Enterprises 50,INCH-0154,Eastern,288,received,Shadowfax,5138.56,2026-10-12,2026-10-22,2026-09-12
+SHIP-26-02253,Aarav Manufacturing Private Ltd 26,PKGS-0271,South-Eastern,25,received,Safexpress,2523.72,2026-09-05,2026-10-05,2026-09-26
+SHIP-26-02254,Quantum Manufacturing Corporation 42,OPSU-0117,Central,230,received,Ekart,1485.3,2026-06-07,2026-06-21,2026-06-14
+SHIP-26-02255,Trident Industrial Enterprises 20,OPSU-0123,Eastern,296,received,Shadowfax,3179.52,2026-05-24,2026-05-18,2026-06-09
+SHIP-26-02256,Indus Global Industries LLP 9,OPSU-0139,Southern,257,received,Ekart,2324.72,2026-05-19,2026-04-08,2026-04-06
+SHIP-26-02257,Quantum Global Corporation 17,ELGD-0148,Eastern,154,received,Safexpress,2863.11,2026-03-26,2026-04-17,2026-05-10
+SHIP-26-02258,Crestline Materials Solutions Pvt Ltd 3,PKGS-0214,South-Western,131,received,Ecom Express,2406.53,2026-08-29,2026-08-19,2026-09-03
+SHIP-26-02259,Orchid Logistics Enterprises 40,OPSU-0175,Eastern,520,on_route,Safexpress,802.55,2026-02-03,2026-03-20,
+SHIP-26-02260,Orchid Logistics Enterprises 40,APRL-0265,North-Eastern,236,received,Ekart,2096.21,2026-03-02,2026-03-20,2026-03-25
+SHIP-26-02261,Lotus Supply Corporation 37,PART-0218,South-Western,328,received,Shadowfax,4260.32,2025-10-11,2025-10-29,2025-11-19
+SHIP-26-02262,Jade Materials Enterprises 35,PART-0263,Central,465,received,Safexpress,4018.55,2026-05-10,2026-06-08,2026-04-27
+SHIP-26-02263,Nova Technologies Industries LLP 14,INCH-0185,North-Eastern,80,behind_schedule,Ekart,1617.65,2026-08-22,2026-08-13,
+SHIP-26-02264,BluePeak Manufacturing Corporation 2,BASE-0171,South-Eastern,162,behind_schedule,Safexpress,2883.26,2026-05-25,2026-05-11,
+SHIP-26-02265,Orchid Trading Enterprises 15,PKGS-0289,North-Western,182,received,Ecom Express,650.44,2025-10-13,2025-11-08,2025-10-21
+SHIP-26-02266,Orchid Logistics Enterprises 40,ELGD-0141,Central,460,received,Safexpress,3667.17,2026-09-26,2026-10-12,2026-10-10
+SHIP-26-02267,Kinetic Materials Private Ltd 11,BASE-0152,Western,541,received,Shadowfax,4141.13,2026-07-28,2026-07-29,2026-08-18
+SHIP-26-02268,Unity Technologies Private Ltd 46,APRL-0201,South-Western,87,received,Shadowfax,3239.52,2026-04-17,2026-05-13,2026-05-03
+SHIP-26-02269,Unity Supply Private Ltd 21,APRL-0149,Himalayan,214,behind_schedule,Ecom Express,1170.72,2026-07-24,2026-07-08,
+SHIP-26-02270,Nova Technologies Industries LLP 14,BASE-0250,North-Western,240,received,Safexpress,2077.42,2026-08-25,2026-07-29,2026-08-27
+SHIP-26-02271,Orchid Trading Enterprises 15,PKGS-0273,North-Eastern,414,on_route,Safexpress,1592.93,2025-10-27,2025-10-17,
+SHIP-26-02272,Pioneer Global Private Ltd 41,PART-0295,North-Western,270,received,Safexpress,2868.4,2026-01-21,2026-03-15,2026-03-01
+SHIP-26-02273,Horizon Global Solutions Pvt Ltd 33,BASE-0151,North-Western,141,aborted,Shadowfax,997.24,2026-02-07,2026-03-09,
+SHIP-26-02274,Orchid Logistics Enterprises 40,INCH-0138,Central,393,aborted,India Post,4091.8,2026-08-22,2026-07-16,
+SHIP-26-02275,Evergreen Supply Enterprises 5,ELGD-0168,South-Eastern,165,received,India Post,5014.73,2026-05-15,2026-07-02,2026-07-17
+SHIP-26-02276,Unity Supply Private Ltd 21,PKGS-0156,Southern,270,received,Shadowfax,1188.77,2025-11-16,2025-11-28,2025-11-17
+SHIP-26-02277,Orchid Trading Enterprises 15,APRL-0283,Central,34,received,India Post,4438.11,2026-06-24,2026-06-15,2026-06-23
+SHIP-26-02278,Pioneer Logistics Private Ltd 16,ELGD-0223,South-Western,34,received,Safexpress,2881.15,2025-12-30,2025-12-27,2025-12-26
+SHIP-26-02279,Granite Trading Corporation 7,EQPM-0193,National,81,awaiting_pickup,Shadowfax,3301.62,2026-08-03,2026-08-07,
+SHIP-26-02280,Evergreen Technologies Enterprises 30,EQPM-0193,North-Eastern,436,received,Ecom Express,3590.97,2025-10-09,2025-11-29,2025-11-26
+SHIP-26-02281,Crestline Materials Solutions Pvt Ltd 3,ELGD-0126,Eastern,261,behind_schedule,Ecom Express,1568.81,2026-08-28,2026-10-05,
+SHIP-26-02282,Lotus Supply Corporation 37,OPSU-0144,Eastern,287,received,Ekart,2620.64,2025-11-15,2025-12-11,2025-12-07
+SHIP-26-02283,Horizon Global Solutions Pvt Ltd 33,BASE-0121,National,219,on_route,Safexpress,2582.84,2026-09-06,2026-09-16,
+SHIP-26-02284,Horizon Global Solutions Pvt Ltd 33,OPSU-0241,North-Western,490,received,Shadowfax,3028.69,2025-10-04,2025-12-15,2025-12-01
+SHIP-26-02285,Aarav Manufacturing Private Ltd 26,ELGD-0202,Southern,178,received,Shadowfax,777.89,2025-11-28,2025-12-31,2026-01-22
+SHIP-26-02286,Zenith Manufacturing Enterprises 50,INCH-0275,South-Eastern,426,behind_schedule,Safexpress,525.23,2026-03-21,2026-03-14,
+SHIP-26-02287,Trident Supply Enterprises 45,PKGS-0271,South-Western,574,received,Ekart,3864.01,2026-09-24,2026-09-18,2026-09-23
+SHIP-26-02288,Dharma Industrial Industries LLP 4,EQPM-0239,South-Eastern,157,received,Ecom Express,469.22,2025-12-12,2025-12-18,2025-11-21
+SHIP-26-02289,Crestline Industrial Solutions Pvt Ltd 28,PART-0255,Eastern,37,received,India Post,3548.81,2025-12-22,2025-12-25,2026-01-13
+SHIP-26-02290,Yellowstone Global Industries LLP 49,ELGD-0220,Southern,105,received,Safexpress,2354.95,2026-03-17,2026-02-05,2026-02-24
+SHIP-26-02291,Vertex Trading Corporation 47,EQPM-0157,South-Western,23,received,Ecom Express,4527.43,2026-01-05,2026-01-29,2026-01-10
+SHIP-26-02292,Pioneer Global Private Ltd 41,PKGS-0289,South-Eastern,59,received,India Post,4087.74,2026-01-27,2026-02-17,2026-02-09
+SHIP-26-02293,Meridian Supply Solutions Pvt Ltd 13,BASE-0216,South-Western,407,received,Ecom Express,439.35,2026-07-08,2026-07-13,2026-06-13
+SHIP-26-02294,Trident Industrial Enterprises 20,ELGD-0256,North-Western,556,received,Shadowfax,5202.8,2025-11-23,2025-11-24,2025-12-15
+SHIP-26-02295,Quantum Manufacturing Corporation 42,EQPM-0191,National,227,received,Shadowfax,3926.54,2026-09-10,2026-09-02,2026-09-14
+SHIP-26-02296,Meridian Technologies Solutions Pvt Ltd 38,BASE-0270,North-Western,185,behind_schedule,Shadowfax,3032.51,2026-09-17,2026-10-13,
+SHIP-26-02297,Pioneer Global Private Ltd 41,BASE-0205,Himalayan,52,behind_schedule,India Post,949.88,2025-12-06,2025-11-30,
+SHIP-26-02298,Zenith Global Enterprises 25,OPSU-0300,North-Eastern,32,aborted,Shadowfax,1497.37,2025-12-05,2026-01-26,
+SHIP-26-02299,Unity Supply Private Ltd 21,APRL-0264,Central,337,received,Ecom Express,4172.02,2026-08-04,2026-07-23,2026-08-07
+SHIP-26-02300,Evergreen Technologies Enterprises 30,PART-0218,Eastern,227,received,Safexpress,3604.72,2026-07-23,2026-07-21,2026-06-20
+SHIP-26-02301,Orchid Trading Enterprises 15,PKGS-0290,Southern,240,received,Ekart,2492.21,2026-06-08,2026-07-07,2026-05-14
+SHIP-26-02302,Meridian Supply Solutions Pvt Ltd 13,OPSU-0246,South-Western,265,aborted,Ecom Express,1782.65,2026-03-25,2026-02-05,
+SHIP-26-02303,Evergreen Technologies Enterprises 30,ELGD-0164,South-Eastern,443,awaiting_pickup,Safexpress,2813.28,2026-04-08,2026-05-23,
+SHIP-26-02304,Vertex Technologies Corporation 22,PKGS-0219,South-Western,429,received,Ekart,5283.91,2025-12-03,2025-12-11,2025-11-01
+SHIP-26-02305,Nova Trading Industries LLP 39,APRL-0160,North-Eastern,236,aborted,Safexpress,1890.21,2026-07-24,2026-07-19,
+SHIP-26-02306,Trident Industrial Enterprises 20,PART-0218,Himalayan,260,received,India Post,3672.65,2026-09-29,2026-09-05,2026-10-11
+SHIP-26-02307,Pioneer Logistics Private Ltd 16,EQPM-0226,South-Eastern,219,received,Shadowfax,917.54,2026-09-11,2026-08-29,2026-09-15
+SHIP-26-02308,BluePeak Manufacturing Corporation 2,EQPM-0153,National,20,on_route,Ekart,2896.05,2026-02-25,2026-02-25,
+SHIP-26-02309,Yellowstone Global Industries LLP 49,ELGD-0120,Central,482,aborted,Ecom Express,1204.36,2026-04-09,2026-03-08,
+SHIP-26-02310,Aarav Manufacturing Private Ltd 26,PART-0116,North-Western,270,received,Safexpress,4860.28,2026-09-02,2026-11-09,2026-10-29
+SHIP-26-02311,Granite Trading Corporation 7,APRL-0129,Western,428,received,Ecom Express,1282.09,2026-09-29,2026-09-03,2026-10-17
+SHIP-26-02312,Summit Industrial Industries LLP 44,PART-0189,Himalayan,381,behind_schedule,Ekart,2696.99,2025-10-03,2025-11-04,
+SHIP-26-02313,Lotus Industrial Corporation 12,OPSU-0246,Eastern,315,received,Ekart,1329.24,2026-01-09,2026-01-15,2025-11-27
+SHIP-26-02314,BluePeak Manufacturing Corporation 2,OPSU-0231,Eastern,461,received,Shadowfax,4135.73,2026-07-21,2026-08-24,2026-08-18
+SHIP-26-02315,Vertex Trading Corporation 47,PKGS-0180,Western,421,received,India Post,2825.3,2026-09-20,2026-10-05,2026-09-03
+SHIP-26-02316,Summit Materials Industries LLP 19,INCH-0140,Himalayan,138,behind_schedule,Ekart,4002.03,2026-05-30,2026-06-28,
+SHIP-26-02317,Unity Supply Private Ltd 21,PART-0104,South-Western,86,received,Shadowfax,1685.93,2026-04-16,2026-06-26,2026-06-03
+SHIP-26-02318,Dharma Industrial Industries LLP 4,BASE-0188,South-Eastern,193,awaiting_pickup,India Post,1832.7,2026-03-29,2026-04-25,
+SHIP-26-02319,Orchid Trading Enterprises 15,ELGD-0217,National,127,received,Shadowfax,4800.86,2026-01-15,2026-02-14,2026-02-19
+SHIP-26-02320,Kinetic Materials Private Ltd 11,OPSU-0204,South-Western,146,received,Safexpress,4867.94,2025-11-30,2025-10-23,2025-10-29
+SHIP-26-02321,Meridian Supply Solutions Pvt Ltd 13,PART-0179,North-Eastern,231,received,Ecom Express,1267.33,2025-12-08,2025-12-06,2025-12-03
+SHIP-26-02322,Lotus Industrial Corporation 12,OPSU-0280,Eastern,105,received,India Post,5716.22,2026-02-04,2026-02-14,2026-03-07
+SHIP-26-02323,Kinetic Industrial Private Ltd 36,PART-0279,North-Western,345,received,India Post,3241.35,2026-04-28,2026-05-26,2026-06-13
+SHIP-26-02324,Dharma Supply Industries LLP 29,ELGD-0145,Himalayan,229,received,India Post,4749.17,2026-02-06,2026-03-10,2026-03-21
+SHIP-26-02325,Yellowstone Global Industries LLP 49,APRL-0234,National,322,received,Ecom Express,4588.3,2026-02-20,2026-03-01,2026-02-26
+SHIP-26-02326,Frontier Technologies Private Ltd 6,OPSU-0192,Central,580,received,India Post,269.74,2026-08-24,2026-08-11,2026-08-07
+SHIP-26-02327,Horizon Logistics Solutions Pvt Ltd 8,OPSU-0175,South-Eastern,185,received,Safexpress,3182.98,2026-01-16,2026-01-19,2026-02-20
+SHIP-26-02328,Quantum Global Corporation 17,BASE-0186,South-Eastern,297,aborted,Shadowfax,1357.99,2026-09-29,2026-09-30,
+SHIP-26-02329,Frontier Trading Private Ltd 31,APRL-0259,South-Western,403,received,India Post,4518.84,2025-11-16,2025-11-26,2025-11-01
+SHIP-26-02330,Quantum Global Corporation 17,APRL-0240,Southern,84,received,Ecom Express,3224.23,2026-08-30,2026-10-25,2026-10-04
+SHIP-26-02331,Westbridge Logistics Solutions Pvt Ltd 48,ELGD-0142,Western,319,behind_schedule,Shadowfax,696.93,2026-01-21,2026-01-16,
+SHIP-26-02332,Trident Supply Enterprises 45,OPSU-0278,Himalayan,25,received,Shadowfax,4273.95,2026-09-23,2026-09-12,2026-09-15
+SHIP-26-02333,Orchid Trading Enterprises 15,PART-0115,Central,245,received,Ecom Express,1809.22,2026-10-08,2026-10-11,2026-10-12
+SHIP-26-02334,Crestline Materials Solutions Pvt Ltd 3,BASE-0251,Eastern,234,received,Safexpress,1583.23,2025-12-09,2026-01-18,2026-01-15
+SHIP-26-02335,Indus Manufacturing Industries LLP 34,EQPM-0266,Central,545,received,Shadowfax,4382.82,2026-04-02,2026-04-26,2026-04-28
+SHIP-26-02336,Indus Manufacturing Industries LLP 34,PKGS-0273,Central,249,received,Ecom Express,5797.35,2026-08-26,2026-09-08,2026-09-17
+SHIP-26-02337,Kinetic Industrial Private Ltd 36,BASE-0250,South-Eastern,357,received,Safexpress,2149.77,2026-01-27,2026-02-01,2026-02-01
+SHIP-26-02338,Quantum Global Corporation 17,EQPM-0227,Southern,94,received,Ekart,5198.73,2026-04-19,2026-06-06,2026-06-11
+SHIP-26-02339,Dharma Industrial Industries LLP 4,OPSU-0192,South-Eastern,13,received,Ekart,1951.76,2026-01-31,2025-12-27,2026-01-31
+SHIP-26-02340,Jade Materials Enterprises 35,PKGS-0156,Southern,177,awaiting_pickup,Shadowfax,2237.65,2026-05-26,2026-06-12,
+SHIP-26-02341,Kinetic Industrial Private Ltd 36,EQPM-0191,North-Western,168,received,Safexpress,2206.94,2026-01-11,2026-01-15,2026-01-31
+SHIP-26-02342,Frontier Technologies Private Ltd 6,ELGD-0162,National,100,received,Ekart,4283.32,2026-08-15,2026-10-02,2026-08-23
+SHIP-26-02343,Crestline Industrial Solutions Pvt Ltd 28,EQPM-0106,North-Eastern,378,received,Ecom Express,4923.34,2026-07-28,2026-09-07,2026-09-03
+SHIP-26-02344,Zenith Global Enterprises 25,APRL-0261,South-Eastern,213,received,India Post,3674.45,2025-12-08,2025-12-12,2026-01-29
+SHIP-26-02345,Jade Manufacturing Enterprises 10,APRL-0160,South-Western,147,received,Ecom Express,1929.89,2025-12-02,2025-11-02,2025-10-31
+SHIP-26-02346,Unity Supply Private Ltd 21,BASE-0171,North-Eastern,528,received,India Post,3315.06,2025-12-06,2025-12-31,2026-01-12
+SHIP-26-02347,Aarav Manufacturing Private Ltd 26,ELGD-0105,South-Eastern,562,on_route,Ekart,4224.92,2025-11-26,2026-01-08,
+SHIP-26-02348,Trident Supply Enterprises 45,PKGS-0267,Southern,236,received,Shadowfax,1086.57,2025-12-23,2026-01-28,2025-12-09
+SHIP-26-02349,Pioneer Global Private Ltd 41,ELGD-0211,South-Western,455,received,Shadowfax,3743.3,2026-09-05,2026-08-29,2026-09-05
+SHIP-26-02350,Frontier Technologies Private Ltd 6,PKGS-0155,Eastern,563,received,Ekart,3497.86,2026-02-20,2026-01-29,2026-01-17
+SHIP-26-02351,Crestline Industrial Solutions Pvt Ltd 28,INCH-0185,North-Western,325,received,Ecom Express,851.35,2026-06-14,2026-08-04,2026-08-10
+SHIP-26-02352,Dharma Supply Industries LLP 29,INCH-0163,North-Eastern,341,received,Ekart,3202.68,2025-12-29,2026-02-03,2026-03-24
+SHIP-26-02353,Evergreen Supply Enterprises 5,APRL-0113,Himalayan,308,received,Safexpress,3281.6,2026-04-04,2026-04-22,2026-04-24
+SHIP-26-02354,Crestline Industrial Solutions Pvt Ltd 28,PART-0236,North-Eastern,246,received,Shadowfax,4221.15,2026-09-20,2026-11-24,2026-11-28
+SHIP-26-02355,Yellowstone Global Industries LLP 49,INCH-0237,National,428,received,Ecom Express,3222.79,2026-01-06,2025-12-26,2026-01-24
+SHIP-26-02356,Aarav Manufacturing Private Ltd 26,BASE-0286,South-Western,100,received,India Post,643.45,2026-01-28,2026-02-20,2026-03-08
+SHIP-26-02357,Lotus Industrial Corporation 12,ELGD-0169,Western,307,received,Ekart,1277.79,2026-08-29,2026-08-28,2026-08-30
+SHIP-26-02358,Orchid Logistics Enterprises 40,PKGS-0219,Eastern,19,awaiting_pickup,Ekart,3314.14,2026-10-08,2026-09-10,
+SHIP-26-02359,Trident Supply Enterprises 45,EQPM-0182,National,77,received,Ecom Express,4564.76,2026-06-23,2026-08-03,2026-08-01
+SHIP-26-02360,Indus Manufacturing Industries LLP 34,ELGD-0105,Southern,287,received,Safexpress,826.04,2026-01-12,2026-01-26,2026-01-24
+SHIP-26-02361,Jade Materials Enterprises 35,PKGS-0289,National,92,on_route,India Post,1033.14,2026-06-29,2026-08-31,
+SHIP-26-02362,Yellowstone Global Industries LLP 49,APRL-0291,North-Eastern,373,behind_schedule,Safexpress,4637.66,2025-10-20,2025-11-22,
+SHIP-26-02363,Crestline Industrial Solutions Pvt Ltd 28,BASE-0216,North-Eastern,16,received,India Post,2846.62,2026-07-01,2026-06-03,2026-06-26
+SHIP-26-02364,Jade Materials Enterprises 35,INCH-0184,South-Eastern,22,received,Ecom Express,1190.73,2026-01-17,2026-02-19,2026-03-01
+SHIP-26-02365,Orchid Trading Enterprises 15,BASE-0121,Himalayan,378,received,Ecom Express,3617.95,2026-08-15,2026-07-15,2026-08-08
+SHIP-26-02366,Orchid Logistics Enterprises 40,APRL-0113,Eastern,485,received,Ecom Express,1414.8,2026-07-10,2026-07-15,2026-07-08
+SHIP-26-02367,Kinetic Industrial Private Ltd 36,INCH-0181,South-Western,311,behind_schedule,Safexpress,1086.07,2026-10-03,2026-10-06,
+SHIP-26-02368,BluePeak Materials Corporation 27,OPSU-0212,National,17,awaiting_pickup,Shadowfax,1133.49,2026-09-27,2026-10-30,
+SHIP-26-02369,Nova Trading Industries LLP 39,PKGS-0221,Eastern,108,received,Shadowfax,4863.35,2026-05-29,2026-05-11,2026-05-01
+SHIP-26-02370,Quantum Global Corporation 17,PART-0179,Himalayan,274,received,Safexpress,1067.52,2026-04-06,2026-05-15,2026-04-29
+SHIP-26-02371,Vertex Trading Corporation 47,BASE-0248,National,237,received,Ekart,954.25,2026-04-01,2026-04-17,2026-05-29
+SHIP-26-02372,Crestline Materials Solutions Pvt Ltd 3,EQPM-0153,North-Eastern,383,received,Ekart,1183.84,2026-08-03,2026-09-09,2026-10-02
+SHIP-26-02373,BluePeak Manufacturing Corporation 2,BASE-0150,National,454,received,Ecom Express,1347.9,2026-09-12,2026-09-05,2026-10-02
+SHIP-26-02374,Dharma Industrial Industries LLP 4,ELGD-0169,North-Eastern,246,received,Shadowfax,2512.46,2025-09-24,2025-10-28,2025-10-31
+SHIP-26-02375,Meridian Technologies Solutions Pvt Ltd 38,BASE-0151,South-Eastern,282,received,Safexpress,4237.06,2026-06-11,2026-07-25,2026-06-15
+SHIP-26-02376,Pioneer Global Private Ltd 41,INCH-0275,South-Western,205,received,Ekart,4042.68,2026-06-08,2026-05-28,2026-05-29
+SHIP-26-02377,Meridian Supply Solutions Pvt Ltd 13,PART-0284,Central,398,received,Safexpress,4565.24,2025-12-30,2026-02-04,2025-12-26
+SHIP-26-02378,Riverstone Manufacturing Solutions Pvt Ltd 18,APRL-0291,Eastern,293,received,Safexpress,1502.04,2026-08-28,2026-09-16,2026-10-11
+SHIP-26-02379,BluePeak Manufacturing Corporation 2,ELGD-0162,North-Eastern,129,received,Ecom Express,5119.98,2026-04-30,2026-05-05,2026-06-12
+SHIP-26-02380,Evergreen Technologies Enterprises 30,PART-0228,Himalayan,263,received,Ekart,4316.99,2025-11-25,2025-12-15,2025-12-15
+SHIP-26-02381,Crestline Materials Solutions Pvt Ltd 3,PKGS-0267,North-Western,293,received,Ekart,2163.39,2026-03-21,2026-04-07,2026-04-27
+SHIP-26-02382,Summit Industrial Industries LLP 44,ELGD-0233,North-Western,190,received,Shadowfax,3566.71,2025-10-25,2025-11-08,2025-11-07
+SHIP-26-02383,Lotus Industrial Corporation 12,OPSU-0241,North-Western,379,received,Ecom Express,714.67,2026-01-19,2025-12-27,2025-12-23
+SHIP-26-02384,Westbridge Logistics Solutions Pvt Ltd 48,OPSU-0246,Himalayan,473,received,Ecom Express,1160.94,2026-05-10,2026-06-04,2026-04-28
+SHIP-26-02385,Frontier Trading Private Ltd 31,ELGD-0169,South-Western,144,awaiting_pickup,Safexpress,1896.54,2026-07-02,2026-07-29,
+SHIP-26-02386,Unity Technologies Private Ltd 46,APRL-0285,North-Western,283,received,Ecom Express,2851.94,2026-09-12,2026-08-17,2026-09-01
+SHIP-26-02387,Horizon Global Solutions Pvt Ltd 33,EQPM-0157,North-Eastern,492,received,India Post,1532.96,2026-01-31,2026-02-12,2026-03-28
+SHIP-26-02388,Crestline Materials Solutions Pvt Ltd 3,INCH-0184,Central,12,received,Safexpress,2039.44,2026-01-22,2026-03-18,2026-03-29
+SHIP-26-02389,Frontier Trading Private Ltd 31,OPSU-0144,Western,156,on_route,India Post,1085.26,2026-10-22,2026-09-26,
+SHIP-26-02390,Horizon Global Solutions Pvt Ltd 33,PKGS-0156,National,399,received,India Post,570.49,2026-05-26,2026-05-15,2026-05-21
+SHIP-26-02391,Vertex Trading Corporation 47,APRL-0149,South-Western,42,received,Ecom Express,2230.13,2026-05-15,2026-06-08,2026-06-29
+SHIP-26-02392,Frontier Trading Private Ltd 31,EQPM-0195,South-Eastern,22,on_route,Safexpress,3799.26,2025-11-24,2025-12-07,
+SHIP-26-02393,Pioneer Global Private Ltd 41,BASE-0177,North-Western,370,on_route,Safexpress,4126.28,2026-07-13,2026-06-13,
+SHIP-26-02394,Westbridge Trading Solutions Pvt Ltd 23,PKGS-0107,Himalayan,408,received,Safexpress,1691.75,2025-10-31,2026-01-02,2026-01-06
+SHIP-26-02395,Aarav Manufacturing Private Ltd 26,OPSU-0144,Southern,179,received,India Post,896.53,2025-10-09,2025-11-09,2025-11-07
+SHIP-26-02396,Lotus Industrial Corporation 12,ELGD-0169,Western,252,received,Ecom Express,877.56,2026-02-06,2026-01-07,2026-02-07
+SHIP-26-02397,Vertex Technologies Corporation 22,PKGS-0194,Southern,171,received,Safexpress,3930.8,2025-09-23,2025-10-03,2025-11-16
+SHIP-26-02398,Trident Industrial Enterprises 20,PKGS-0207,National,33,received,Ekart,2980.02,2025-11-08,2025-09-29,2025-10-08
+SHIP-26-02399,Pioneer Global Private Ltd 41,INCH-0275,National,431,received,India Post,763.5,2026-07-17,2026-07-12,2026-06-25
+SHIP-26-02400,Westbridge Logistics Solutions Pvt Ltd 48,ELGD-0197,National,323,received,Ecom Express,2428.38,2026-01-18,2026-01-22,2026-01-31
+SHIP-26-02401,Nova Technologies Industries LLP 14,OPSU-0246,North-Western,304,received,Ecom Express,3409.0,2026-01-08,2026-01-26,2026-02-16
+SHIP-26-02402,Riverstone Materials Solutions Pvt Ltd 43,ELGD-0256,South-Eastern,316,received,Ekart,2595.92,2026-02-09,2026-03-31,2026-03-23
+SHIP-26-02403,Lotus Supply Corporation 37,EQPM-0266,South-Western,138,on_route,India Post,1192.51,2026-07-29,2026-08-12,
+SHIP-26-02404,Nova Technologies Industries LLP 14,PART-0263,Eastern,101,received,Safexpress,2057.43,2026-02-16,2026-02-10,2026-02-13
+SHIP-26-02405,Meridian Technologies Solutions Pvt Ltd 38,BASE-0121,North-Eastern,349,aborted,Ecom Express,708.83,2026-08-11,2026-07-11,
+SHIP-26-02406,Nova Technologies Industries LLP 14,OPSU-0136,North-Eastern,196,received,Ecom Express,4995.75,2026-05-12,2026-06-04,2026-07-09
+SHIP-26-02407,Orchid Logistics Enterprises 40,PKGS-0127,Eastern,295,received,Safexpress,1331.88,2025-12-30,2025-12-19,2026-01-09
+SHIP-26-02408,Lotus Industrial Corporation 12,OPSU-0278,Eastern,359,received,Ecom Express,4473.22,2026-05-17,2026-05-13,2026-07-06
+SHIP-26-02409,Quantum Global Corporation 17,PKGS-0166,Southern,124,received,Ekart,1203.55,2026-05-09,2026-06-18,2026-06-11
+SHIP-26-02410,Westbridge Logistics Solutions Pvt Ltd 48,EQPM-0210,South-Eastern,27,received,Ecom Express,5065.4,2025-11-28,2025-12-26,2025-11-26
+SHIP-26-02411,Orchid Logistics Enterprises 40,APRL-0265,Western,318,aborted,Ecom Express,5087.2,2026-08-27,2026-09-25,
+SHIP-26-02412,Yellowstone Global Industries LLP 49,OPSU-0247,South-Western,35,received,India Post,1955.38,2026-02-02,2026-02-26,2026-02-13
+SHIP-26-02413,Meridian Technologies Solutions Pvt Ltd 38,PART-0218,South-Western,29,behind_schedule,Safexpress,4380.9,2026-06-06,2026-07-05,
+SHIP-26-02414,Aarav Manufacturing Private Ltd 26,ELGD-0233,North-Eastern,221,on_route,Ecom Express,3375.02,2026-09-03,2026-09-27,
+SHIP-26-02415,Riverstone Materials Solutions Pvt Ltd 43,PKGS-0135,North-Eastern,370,received,Ecom Express,803.03,2025-11-17,2025-11-27,2025-12-26
+SHIP-26-02416,Indus Global Industries LLP 9,INCH-0237,South-Western,145,received,Ekart,3766.36,2025-11-15,2026-01-03,2025-12-23
+SHIP-26-02417,Indus Global Industries LLP 9,BASE-0152,Southern,415,on_route,Ekart,3239.04,2026-03-26,2026-03-18,
+SHIP-26-02418,Frontier Trading Private Ltd 31,OPSU-0293,Eastern,195,aborted,India Post,1062.69,2026-07-29,2026-09-14,
+SHIP-26-02419,Orchid Logistics Enterprises 40,EQPM-0195,Western,58,received,Shadowfax,2353.2,2026-08-03,2026-09-04,2026-09-16
+SHIP-26-02420,Unity Supply Private Ltd 21,EQPM-0210,Eastern,13,behind_schedule,Ecom Express,329.0,2026-05-23,2026-07-12,
+SHIP-26-02421,Nova Trading Industries LLP 39,ELGD-0169,Central,81,received,Safexpress,4056.76,2026-01-02,2026-02-04,2026-02-02
+SHIP-26-02422,Pioneer Global Private Ltd 41,INCH-0110,Eastern,233,received,Shadowfax,340.79,2025-11-14,2025-11-14,2025-10-11
+SHIP-26-02423,Nova Trading Industries LLP 39,INCH-0140,Western,211,received,Ecom Express,1286.04,2026-07-04,2026-07-27,2026-07-17
+SHIP-26-02424,Dharma Supply Industries LLP 29,OPSU-0281,Southern,334,received,Safexpress,4413.84,2026-02-24,2026-03-06,2026-02-15
+SHIP-26-02425,Riverstone Manufacturing Solutions Pvt Ltd 18,OPSU-0241,Eastern,528,received,India Post,2367.14,2026-01-09,2026-02-02,2026-01-05
+SHIP-26-02426,Nova Technologies Industries LLP 14,APRL-0208,National,102,received,Ecom Express,4351.02,2026-03-06,2026-03-28,2026-03-02
+SHIP-26-02427,Summit Industrial Industries LLP 44,BASE-0250,Himalayan,178,awaiting_pickup,Safexpress,2881.52,2026-04-03,2026-03-23,
+SHIP-26-02428,Westbridge Trading Solutions Pvt Ltd 23,INCH-0275,North-Western,515,received,India Post,800.54,2026-06-07,2026-08-22,2026-08-10
+SHIP-26-02429,BluePeak Materials Corporation 27,PKGS-0289,Eastern,485,aborted,Ecom Express,2419.33,2026-08-16,2026-09-01,
+SHIP-26-02430,Pioneer Logistics Private Ltd 16,PKGS-0161,Himalayan,114,on_route,Safexpress,3978.89,2025-12-16,2025-11-30,
+SHIP-26-02431,Zenith Global Enterprises 25,APRL-0132,Eastern,155,received,Ecom Express,1749.76,2025-11-11,2025-10-21,2025-10-21
+SHIP-26-02432,Aarav Manufacturing Private Ltd 26,PART-0255,North-Western,337,received,Ecom Express,3750.38,2026-09-30,2026-10-04,2026-11-20
+SHIP-26-02433,Unity Supply Private Ltd 21,PKGS-0174,Southern,91,received,Shadowfax,1500.79,2026-02-11,2026-03-30,2026-03-08
+SHIP-26-02434,Aarav Manufacturing Private Ltd 26,PKGS-0207,South-Western,175,behind_schedule,Shadowfax,561.48,2026-08-14,2026-10-21,
+SHIP-26-02435,Quantum Manufacturing Corporation 42,PART-0116,Southern,508,awaiting_pickup,Safexpress,3076.26,2026-01-30,2026-02-01,
+SHIP-26-02436,Kinetic Industrial Private Ltd 36,INCH-0200,North-Eastern,475,received,Safexpress,1625.09,2026-04-14,2026-04-28,2026-06-08
+SHIP-26-02437,Unity Technologies Private Ltd 46,PKGS-0137,South-Western,82,received,Safexpress,2652.18,2025-10-12,2025-11-02,2025-11-30
+SHIP-26-02438,Summit Materials Industries LLP 19,APRL-0259,North-Western,300,received,Shadowfax,1485.76,2026-10-10,2026-09-08,2026-09-06
+SHIP-26-02439,BluePeak Manufacturing Corporation 2,APRL-0259,South-Eastern,510,awaiting_pickup,Ecom Express,3164.72,2025-09-20,2025-10-30,
+SHIP-26-02440,Summit Industrial Industries LLP 44,OPSU-0278,Himalayan,196,received,India Post,3759.87,2025-10-01,2025-10-07,2025-10-14
+SHIP-26-02441,Yellowstone Global Industries LLP 49,OPSU-0204,Western,127,received,Shadowfax,4786.87,2026-05-30,2026-06-05,2026-05-21
+SHIP-26-02442,Vertex Technologies Corporation 22,EQPM-0266,National,19,received,Safexpress,1740.11,2026-07-25,2026-06-21,2026-06-29
+SHIP-26-02443,Dharma Industrial Industries LLP 4,PKGS-0180,Western,199,behind_schedule,Ecom Express,4508.66,2026-09-09,2026-09-09,
+SHIP-26-02444,Orchid Trading Enterprises 15,PKGS-0173,National,69,awaiting_pickup,India Post,1820.68,2026-04-28,2026-05-27,
+SHIP-26-02445,Granite Trading Corporation 7,ELGD-0162,Central,119,on_route,Ecom Express,5287.89,2026-06-06,2026-05-29,
+SHIP-26-02446,Unity Supply Private Ltd 21,OPSU-0204,South-Eastern,158,received,Shadowfax,4830.4,2026-03-13,2026-04-13,2026-03-07
+SHIP-26-02447,BluePeak Materials Corporation 27,BASE-0188,South-Western,586,awaiting_pickup,Shadowfax,4116.67,2026-10-20,2026-10-11,
+SHIP-26-02448,Zenith Global Enterprises 25,EQPM-0172,Western,257,received,Safexpress,2062.37,2026-07-29,2026-07-21,2026-07-03
+SHIP-26-02449,Indus Manufacturing Industries LLP 34,OPSU-0139,South-Eastern,251,received,Ecom Express,3920.52,2025-12-21,2026-01-22,2025-12-10
+SHIP-26-02450,Vertex Technologies Corporation 22,PKGS-0173,South-Western,54,received,Shadowfax,335.48,2025-10-22,2025-10-20,2025-10-30
+SHIP-26-02451,Kinetic Materials Private Ltd 11,BASE-0248,Central,427,received,Safexpress,3230.12,2025-11-09,2025-10-26,2025-11-02
+SHIP-26-02452,Trident Industrial Enterprises 20,EQPM-0193,Southern,246,received,Ecom Express,4804.03,2025-12-24,2026-01-06,2025-12-27
+SHIP-26-02453,Crestline Industrial Solutions Pvt Ltd 28,PKGS-0215,South-Eastern,357,received,Safexpress,1253.53,2026-02-16,2026-04-01,2026-02-18
+SHIP-26-02454,BluePeak Materials Corporation 27,PKGS-0173,South-Eastern,278,received,Safexpress,2627.88,2026-08-03,2026-09-23,2026-09-12
+SHIP-26-02455,Yellowstone Logistics Industries LLP 24,APRL-0264,South-Western,292,received,Safexpress,5134.15,2026-07-29,2026-09-16,2026-08-31
+SHIP-26-02456,Orchid Logistics Enterprises 40,EQPM-0195,National,324,behind_schedule,India Post,3736.21,2026-02-19,2026-02-13,
+SHIP-26-02457,Trident Industrial Enterprises 20,APRL-0109,South-Eastern,20,on_route,Ekart,2652.14,2026-05-22,2026-06-28,
+SHIP-26-02458,BluePeak Manufacturing Corporation 2,ELGD-0164,National,98,received,Safexpress,4622.1,2026-07-06,2026-05-21,2026-07-02
+SHIP-26-02459,Vertex Technologies Corporation 22,PART-0236,National,434,awaiting_pickup,Ekart,2594.32,2026-01-22,2025-12-11,
+SHIP-26-02460,Lotus Industrial Corporation 12,OPSU-0238,North-Eastern,80,received,Shadowfax,2507.45,2026-02-23,2026-03-09,2026-02-25
+SHIP-26-02461,Crestline Materials Solutions Pvt Ltd 3,PART-0158,Eastern,120,on_route,Ekart,1656.88,2026-04-08,2026-03-27,
+SHIP-26-02462,Summit Industrial Industries LLP 44,PKGS-0180,National,302,received,Ekart,947.95,2026-05-20,2026-07-04,2026-07-09
+SHIP-26-02463,Granite Trading Corporation 7,EQPM-0153,Southern,155,received,Shadowfax,5504.38,2026-02-21,2026-02-16,2026-01-30
+SHIP-26-02464,Frontier Technologies Private Ltd 6,BASE-0186,North-Western,53,received,Safexpress,5538.85,2026-04-16,2026-03-23,2026-04-09
+SHIP-26-02465,Unity Supply Private Ltd 21,BASE-0177,South-Eastern,207,received,Safexpress,2602.67,2026-07-31,2026-07-04,2026-07-30
+SHIP-26-02466,Frontier Technologies Private Ltd 6,ELGD-0130,Western,336,received,India Post,1868.52,2026-04-30,2026-03-30,2026-04-13
+SHIP-26-02467,Meridian Supply Solutions Pvt Ltd 13,PKGS-0133,South-Eastern,228,aborted,India Post,351.22,2026-04-22,2026-05-11,
+SHIP-26-02468,Riverstone Manufacturing Solutions Pvt Ltd 18,ELGD-0148,South-Eastern,17,received,Shadowfax,2308.32,2026-07-17,2026-08-07,2026-08-21
+SHIP-26-02469,Kinetic Industrial Private Ltd 36,APRL-0260,South-Eastern,573,awaiting_pickup,Shadowfax,4407.14,2025-10-31,2025-12-12,
+SHIP-26-02470,Aarav Global Private Ltd 1,BASE-0277,Western,45,aborted,India Post,4181.54,2025-11-25,2026-01-12,
+SHIP-26-02471,Trident Industrial Enterprises 20,INCH-0103,South-Eastern,417,aborted,Safexpress,2397.19,2026-08-04,2026-08-29,
+SHIP-26-02472,Vertex Trading Corporation 47,EQPM-0124,Eastern,204,received,India Post,4045.93,2026-07-17,2026-07-18,2026-07-03
+SHIP-26-02473,Summit Materials Industries LLP 19,INCH-0213,Himalayan,322,received,India Post,2310.68,2026-07-15,2026-08-25,2026-07-21
+SHIP-26-02474,Jade Manufacturing Enterprises 10,EQPM-0266,Eastern,100,received,Ecom Express,4102.53,2026-03-29,2026-04-01,2026-04-19
+SHIP-26-02475,Riverstone Manufacturing Solutions Pvt Ltd 18,ELGD-0141,National,143,received,India Post,1991.39,2026-07-10,2026-08-24,2026-06-28
+SHIP-26-02476,Unity Supply Private Ltd 21,ELGD-0131,Southern,367,received,India Post,5017.93,2025-11-21,2025-11-23,2025-12-12
+SHIP-26-02477,Yellowstone Logistics Industries LLP 24,INCH-0275,South-Eastern,479,on_route,Shadowfax,2893.13,2026-09-19,2026-08-17,
+SHIP-26-02478,Vertex Trading Corporation 47,INCH-0110,Southern,32,behind_schedule,Ekart,5358.11,2026-05-21,2026-05-28,
+SHIP-26-02479,Pioneer Logistics Private Ltd 16,OPSU-0139,Central,101,received,Ecom Express,4587.74,2026-09-11,2026-10-27,2026-10-16
+SHIP-26-02480,Dharma Industrial Industries LLP 4,BASE-0288,Central,62,on_route,Shadowfax,3394.0,2026-03-31,2026-03-24,
+SHIP-26-02481,Evergreen Supply Enterprises 5,OPSU-0287,Southern,327,received,Ekart,3824.14,2025-11-12,2025-12-04,2026-01-26
+SHIP-26-02482,Evergreen Supply Enterprises 5,ELGD-0257,Central,345,received,Shadowfax,4395.93,2026-01-18,2026-04-04,2026-04-09
+SHIP-26-02483,Crestline Industrial Solutions Pvt Ltd 28,BASE-0151,National,315,received,Safexpress,5207.96,2026-05-19,2026-07-13,2026-06-15
+SHIP-26-02484,Indus Global Industries LLP 9,ELGD-0126,South-Eastern,95,received,India Post,942.55,2026-08-28,2026-10-01,2026-08-30
+SHIP-26-02485,Quantum Global Corporation 17,EQPM-0112,North-Eastern,29,received,Shadowfax,3193.48,2026-04-14,2026-05-13,2026-05-16
+SHIP-26-02486,Frontier Trading Private Ltd 31,PKGS-0133,South-Western,265,received,Ekart,2830.46,2025-10-29,2025-11-06,2025-11-23
+SHIP-26-02487,Aarav Global Private Ltd 1,BASE-0270,Himalayan,379,on_route,Shadowfax,1073.64,2026-01-28,2026-01-26,
+SHIP-26-02488,Kinetic Industrial Private Ltd 36,APRL-0240,South-Eastern,27,received,Ecom Express,2605.56,2026-04-23,2026-06-22,2026-06-09
+SHIP-26-02489,Nova Trading Industries LLP 39,ELGD-0257,National,53,received,Safexpress,3362.39,2026-01-11,2026-02-10,2026-02-01
+SHIP-26-02490,Orchid Logistics Enterprises 40,BASE-0203,Himalayan,434,received,Ecom Express,3816.12,2026-01-09,2026-01-23,2026-01-20
+SHIP-26-02491,Nova Technologies Industries LLP 14,PKGS-0296,Himalayan,65,received,Safexpress,4342.58,2026-08-08,2026-08-22,2026-08-01
+SHIP-26-02492,Crestline Industrial Solutions Pvt Ltd 28,ELGD-0105,Southern,64,aborted,India Post,1134.65,2026-01-13,2026-02-22,
+SHIP-26-02493,Riverstone Materials Solutions Pvt Ltd 43,PKGS-0196,South-Eastern,237,received,Shadowfax,4935.51,2026-02-16,2026-03-25,2026-03-23
+SHIP-26-02494,Trident Supply Enterprises 45,BASE-0151,North-Eastern,84,received,India Post,4261.46,2025-12-17,2026-02-11,2026-01-13
+SHIP-26-02495,Kinetic Materials Private Ltd 11,INCH-0103,South-Eastern,453,behind_schedule,Safexpress,2891.62,2026-04-06,2026-05-25,
+SHIP-26-02496,Granite Logistics Corporation 32,ELGD-0223,South-Eastern,273,received,Safexpress,4060.89,2026-04-29,2026-04-11,2026-05-30
+SHIP-26-02497,Granite Trading Corporation 7,ELGD-0223,National,270,received,Shadowfax,2489.45,2026-05-18,2026-05-24,2026-07-12
+SHIP-26-02498,Pioneer Global Private Ltd 41,EQPM-0112,Central,28,received,India Post,1054.63,2026-07-25,2026-07-23,2026-08-07
+SHIP-26-02499,Dharma Supply Industries LLP 29,ELGD-0257,Eastern,215,on_route,India Post,3928.89,2026-05-30,2026-06-01,
+SHIP-26-02500,Jade Materials Enterprises 35,BASE-0288,South-Eastern,129,received,Ekart,1575.48,2026-05-02,2026-03-26,2026-05-09
+SHIP-26-02501,BluePeak Materials Corporation 27,PKGS-0290,North-Eastern,315,received,India Post,4138.18,2026-03-17,2026-05-28,2026-06-04
+SHIP-26-02502,Orchid Trading Enterprises 15,OPSU-0176,Western,128,received,Shadowfax,1592.14,2026-02-08,2026-03-01,2026-02-10
+SHIP-26-02503,Frontier Trading Private Ltd 31,ELGD-0141,Himalayan,74,received,Safexpress,4776.51,2026-05-19,2026-05-25,2026-06-05
+SHIP-26-02504,Evergreen Technologies Enterprises 30,BASE-0177,National,131,received,India Post,1184.83,2026-08-27,2026-09-28,2026-08-17
+SHIP-26-02505,Quantum Manufacturing Corporation 42,ELGD-0120,Southern,22,received,Safexpress,1775.03,2026-04-09,2026-05-18,2026-05-22
+SHIP-26-02506,Evergreen Supply Enterprises 5,APRL-0298,South-Eastern,609,received,Shadowfax,2268.42,2026-10-05,2026-11-25,2026-09-27
+SHIP-26-02507,Westbridge Logistics Solutions Pvt Ltd 48,PKGS-0229,Himalayan,212,received,Ecom Express,4295.37,2026-06-16,2026-06-14,2026-05-12
+SHIP-26-02508,Westbridge Logistics Solutions Pvt Ltd 48,PKGS-0290,Central,356,behind_schedule,Safexpress,895.73,2026-02-25,2026-03-05,
+SHIP-26-02509,Evergreen Supply Enterprises 5,EQPM-0122,Central,104,aborted,Ekart,3892.17,2025-10-19,2025-12-29,
+SHIP-26-02510,Jade Materials Enterprises 35,OPSU-0192,North-Eastern,308,received,Ecom Express,3392.03,2026-05-23,2026-06-13,2026-07-03
+SHIP-26-02511,Evergreen Supply Enterprises 5,PART-0262,Central,83,received,Ekart,4061.7,2026-05-15,2026-07-04,2026-06-22
+SHIP-26-02512,Vertex Trading Corporation 47,ELGD-0162,South-Western,526,on_route,Shadowfax,420.96,2026-03-02,2026-02-11,
+SHIP-26-02513,Granite Logistics Corporation 32,APRL-0108,Himalayan,342,received,Shadowfax,1279.36,2026-03-18,2026-05-08,2026-04-18
+SHIP-26-02514,Trident Industrial Enterprises 20,PKGS-0161,Central,54,aborted,Shadowfax,1639.91,2026-04-29,2026-06-09,
+SHIP-26-02515,Yellowstone Logistics Industries LLP 24,APRL-0298,South-Western,427,received,India Post,2740.85,2026-01-18,2026-01-14,2025-12-19
+SHIP-26-02516,Westbridge Trading Solutions Pvt Ltd 23,BASE-0188,North-Eastern,253,received,Ecom Express,4399.15,2026-04-18,2026-06-20,2026-05-24
+SHIP-26-02517,Meridian Supply Solutions Pvt Ltd 13,OPSU-0230,Southern,38,on_route,Ecom Express,2244.54,2026-05-09,2026-06-01,
+SHIP-26-02518,Orchid Trading Enterprises 15,APRL-0129,North-Eastern,30,received,Ekart,3693.17,2026-05-08,2026-05-22,2026-06-06
+SHIP-26-02519,Granite Logistics Corporation 32,INCH-0103,North-Western,391,received,Ecom Express,3472.41,2026-04-25,2026-05-07,2026-04-28
+SHIP-26-02520,Trident Industrial Enterprises 20,EQPM-0118,North-Eastern,246,on_route,Ecom Express,2966.35,2026-05-31,2026-06-11,
+SHIP-26-02521,Westbridge Trading Solutions Pvt Ltd 23,ELGD-0145,North-Eastern,458,received,Shadowfax,4054.45,2025-10-23,2025-12-08,2025-10-22
+SHIP-26-02522,Pioneer Global Private Ltd 41,BASE-0251,South-Eastern,230,received,Ecom Express,5324.66,2026-02-24,2026-02-23,2026-01-24
+SHIP-26-02523,Orchid Trading Enterprises 15,EQPM-0170,North-Western,289,received,Ekart,2567.77,2026-04-14,2026-04-13,2026-04-15
+SHIP-26-02524,Crestline Industrial Solutions Pvt Ltd 28,PKGS-0214,National,207,received,Ekart,2350.9,2026-01-01,2025-12-14,2026-01-07
+SHIP-26-02525,Evergreen Technologies Enterprises 30,ELGD-0148,North-Western,348,behind_schedule,Safexpress,1233.59,2026-02-02,2026-02-14,
+SHIP-26-02526,Orchid Trading Enterprises 15,EQPM-0239,Himalayan,87,awaiting_pickup,Ekart,4099.67,2026-04-04,2026-03-26,
+SHIP-26-02527,BluePeak Manufacturing Corporation 2,OPSU-0278,South-Eastern,420,behind_schedule,Safexpress,4101.15,2026-05-31,2026-06-30,
+SHIP-26-02528,Vertex Trading Corporation 47,APRL-0190,North-Western,610,behind_schedule,Safexpress,4606.48,2026-01-26,2026-03-12,
+SHIP-26-02529,Jade Materials Enterprises 35,PKGS-0215,North-Western,368,received,Safexpress,1506.71,2026-02-02,2026-02-05,2026-03-09
+SHIP-26-02530,Frontier Trading Private Ltd 31,ELGD-0130,National,50,behind_schedule,Shadowfax,2960.07,2026-07-20,2026-06-16,
+SHIP-26-02531,Summit Industrial Industries LLP 44,INCH-0110,South-Western,450,received,Shadowfax,902.72,2026-04-09,2026-04-11,2026-03-04
+SHIP-26-02532,Aarav Manufacturing Private Ltd 26,INCH-0110,South-Eastern,558,received,Ekart,1888.55,2026-08-09,2026-08-25,2026-08-29
+SHIP-26-02533,Trident Industrial Enterprises 20,ELGD-0272,South-Eastern,149,received,Shadowfax,4896.1,2026-07-30,2026-07-03,2026-07-22
+SHIP-26-02534,Summit Materials Industries LLP 19,BASE-0286,North-Eastern,344,received,Ecom Express,716.22,2026-08-05,2026-09-12,2026-08-13
+SHIP-26-02535,Unity Supply Private Ltd 21,PKGS-0209,North-Eastern,113,received,Ecom Express,4204.07,2026-06-08,2026-05-20,2026-04-30
+SHIP-26-02536,Unity Technologies Private Ltd 46,EQPM-0195,South-Western,418,awaiting_pickup,Shadowfax,753.02,2025-11-02,2025-12-04,
+SHIP-26-02537,Aarav Global Private Ltd 1,EQPM-0112,National,311,received,India Post,2250.0,2026-03-15,2026-03-17,2026-03-06
+SHIP-26-02538,Trident Industrial Enterprises 20,ELGD-0223,Southern,103,received,Shadowfax,1509.69,2026-02-08,2026-04-07,2026-02-19
+SHIP-26-02539,Aarav Manufacturing Private Ltd 26,PART-0258,Central,268,received,Ekart,2296.68,2025-11-25,2025-12-09,2025-11-29
+SHIP-26-02540,Pioneer Global Private Ltd 41,APRL-0260,North-Western,239,awaiting_pickup,India Post,694.51,2026-08-12,2026-08-18,
+SHIP-26-02541,Nova Technologies Industries LLP 14,EQPM-0106,Central,31,received,India Post,3280.42,2026-08-29,2026-08-08,2026-08-04
+SHIP-26-02542,Unity Technologies Private Ltd 46,BASE-0288,South-Eastern,146,received,Ecom Express,4851.64,2026-01-10,2026-01-09,2025-12-18
+SHIP-26-02543,Summit Materials Industries LLP 19,BASE-0188,Southern,200,received,Safexpress,2867.04,2025-11-29,2025-12-20,2025-12-22
+SHIP-26-02544,Orchid Trading Enterprises 15,APRL-0261,Himalayan,318,received,India Post,4596.91,2026-03-22,2026-02-26,2026-04-19
+SHIP-26-02545,Indus Manufacturing Industries LLP 34,PKGS-0127,National,518,aborted,India Post,310.78,2026-07-15,2026-09-08,
+SHIP-26-02546,Quantum Global Corporation 17,ELGD-0272,Himalayan,380,received,India Post,4328.86,2026-04-18,2026-06-06,2026-06-18
+SHIP-26-02547,Zenith Global Enterprises 25,PKGS-0207,National,112,received,Shadowfax,3776.67,2026-06-12,2026-07-22,2026-07-29
+SHIP-26-02548,Horizon Global Solutions Pvt Ltd 33,PKGS-0174,North-Eastern,261,received,Safexpress,806.82,2025-11-10,2025-12-20,2025-11-18
+SHIP-26-02549,Unity Supply Private Ltd 21,PKGS-0137,South-Eastern,251,received,India Post,1098.55,2026-07-01,2026-06-07,2026-07-04
+SHIP-26-02550,Indus Manufacturing Industries LLP 34,APRL-0178,Eastern,281,received,Shadowfax,1515.74,2026-03-23,2026-04-22,2026-04-10
+SHIP-26-02551,Quantum Manufacturing Corporation 42,EQPM-0210,Southern,121,awaiting_pickup,Safexpress,300.85,2025-11-06,2025-11-01,
+SHIP-26-02552,Horizon Logistics Solutions Pvt Ltd 8,PART-0222,Southern,321,received,Ecom Express,1230.81,2025-11-12,2025-11-22,2025-10-14
+SHIP-26-02553,Lotus Supply Corporation 37,EQPM-0239,Himalayan,204,on_route,India Post,1849.43,2026-08-06,2026-08-28,
+SHIP-26-02554,Nova Trading Industries LLP 39,EQPM-0226,Western,489,on_route,India Post,359.64,2026-02-01,2026-03-15,
+SHIP-26-02555,Indus Global Industries LLP 9,PKGS-0180,South-Eastern,426,behind_schedule,Shadowfax,3080.56,2025-10-25,2025-10-24,
+SHIP-26-02556,Unity Technologies Private Ltd 46,APRL-0178,South-Western,517,awaiting_pickup,Ekart,2371.05,2026-04-06,2026-03-17,
+SHIP-26-02557,Zenith Global Enterprises 25,APRL-0291,South-Eastern,22,received,Shadowfax,254.19,2026-04-25,2026-05-11,2026-04-13
+SHIP-26-02558,Dharma Supply Industries LLP 29,BASE-0203,National,247,behind_schedule,Ekart,1238.63,2026-04-12,2026-03-19,
+SHIP-26-02559,Unity Technologies Private Ltd 46,PKGS-0267,Central,214,received,India Post,365.02,2026-05-25,2026-06-25,2026-06-10
+SHIP-26-02560,Summit Materials Industries LLP 19,EQPM-0195,Southern,340,received,Ecom Express,3011.44,2025-12-30,2026-01-03,2026-02-08
+SHIP-26-02561,Meridian Supply Solutions Pvt Ltd 13,APRL-0201,Eastern,31,received,Ekart,560.68,2026-03-15,2026-05-16,2026-04-24
+SHIP-26-02562,Vertex Trading Corporation 47,ELGD-0119,National,455,received,Ecom Express,3703.4,2026-03-10,2026-03-06,2026-04-01
+SHIP-26-02563,Riverstone Manufacturing Solutions Pvt Ltd 18,EQPM-0266,North-Western,333,received,Ekart,2042.66,2026-01-19,2026-01-12,2026-02-03
+SHIP-26-02564,Indus Global Industries LLP 9,BASE-0171,Eastern,270,received,Shadowfax,3753.92,2025-12-13,2025-12-16,2025-12-21
+SHIP-26-02565,Dharma Supply Industries LLP 29,APRL-0132,North-Eastern,449,behind_schedule,Ekart,285.3,2025-10-07,2025-12-01,
+SHIP-26-02566,Indus Manufacturing Industries LLP 34,APRL-0260,Central,331,received,India Post,1301.53,2026-04-26,2026-05-18,2026-05-02
+SHIP-26-02567,Vertex Trading Corporation 47,APRL-0101,South-Eastern,16,received,Ekart,3643.6,2025-12-05,2025-12-24,2025-12-06
+SHIP-26-02568,Aarav Manufacturing Private Ltd 26,ELGD-0217,North-Western,482,on_route,Shadowfax,1275.5,2026-09-07,2026-09-06,
+SHIP-26-02569,Zenith Manufacturing Enterprises 50,EQPM-0122,South-Eastern,442,received,Ekart,2727.76,2026-01-27,2026-01-22,2026-03-16
+SHIP-26-02570,Kinetic Materials Private Ltd 11,APRL-0109,Southern,612,on_route,Safexpress,374.55,2026-05-06,2026-06-01,
+SHIP-26-02571,Indus Manufacturing Industries LLP 34,ELGD-0202,South-Eastern,435,on_route,Ekart,1266.82,2026-07-09,2026-08-08,
+SHIP-26-02572,Zenith Global Enterprises 25,INCH-0245,South-Eastern,176,received,Safexpress,5202.19,2026-09-16,2026-09-19,2026-08-10
+SHIP-26-02573,Pioneer Global Private Ltd 41,APRL-0108,South-Eastern,494,received,Safexpress,3170.99,2026-08-02,2026-08-07,2026-08-30
+SHIP-26-02574,Meridian Supply Solutions Pvt Ltd 13,APRL-0101,Western,423,aborted,Shadowfax,3893.38,2026-04-29,2026-04-24,
+SHIP-26-02575,Zenith Global Enterprises 25,PKGS-0249,Himalayan,239,on_route,Ecom Express,2234.74,2026-03-16,2026-04-20,
+SHIP-26-02576,Quantum Global Corporation 17,APRL-0129,North-Western,14,aborted,Ekart,2306.12,2026-02-24,2026-05-05,
+SHIP-26-02577,Aarav Global Private Ltd 1,APRL-0234,Himalayan,532,received,Shadowfax,1605.6,2026-06-08,2026-06-27,2026-05-10
+SHIP-26-02578,Indus Manufacturing Industries LLP 34,EQPM-0122,South-Eastern,77,received,Ekart,291.08,2025-10-18,2025-12-07,2025-11-06
+SHIP-26-02579,Orchid Trading Enterprises 15,INCH-0224,South-Western,330,received,Shadowfax,1726.83,2026-09-27,2026-11-12,2026-10-28
+SHIP-26-02580,Crestline Industrial Solutions Pvt Ltd 28,APRL-0129,Western,217,received,Shadowfax,1819.41,2026-01-24,2026-02-25,2026-02-06
+SHIP-26-02581,Westbridge Trading Solutions Pvt Ltd 23,INCH-0143,South-Eastern,288,received,India Post,391.13,2025-12-06,2026-01-05,2025-12-12
+SHIP-26-02582,Kinetic Industrial Private Ltd 36,PKGS-0137,North-Eastern,203,received,Ekart,2782.48,2025-12-14,2026-01-15,2025-12-26
+SHIP-26-02583,Lotus Supply Corporation 37,PKGS-0133,National,56,behind_schedule,Shadowfax,4776.38,2025-09-24,2025-11-12,
+SHIP-26-02584,Granite Logistics Corporation 32,APRL-0264,Western,50,received,Shadowfax,1303.09,2025-12-25,2026-01-31,2026-01-24
+SHIP-26-02585,Aarav Global Private Ltd 1,OPSU-0231,North-Eastern,238,received,India Post,3409.57,2026-08-11,2026-08-23,2026-09-22
+SHIP-26-02586,Meridian Technologies Solutions Pvt Ltd 38,OPSU-0300,Western,420,behind_schedule,Shadowfax,2692.29,2025-10-31,2025-11-10,
+SHIP-26-02587,Granite Logistics Corporation 32,PKGS-0173,North-Western,76,received,India Post,2176.16,2026-04-02,2026-04-12,2026-05-02
+SHIP-26-02588,Kinetic Industrial Private Ltd 36,APRL-0108,South-Eastern,191,aborted,Ecom Express,301.58,2026-04-02,2026-03-18,
+SHIP-26-02589,Pioneer Logistics Private Ltd 16,INCH-0103,South-Western,246,received,Safexpress,4633.4,2026-02-25,2026-02-25,2026-03-11
+SHIP-26-02590,Lotus Supply Corporation 37,EQPM-0157,North-Eastern,250,received,Shadowfax,2260.95,2026-08-28,2026-09-13,2026-09-27
+SHIP-26-02591,Nova Technologies Industries LLP 14,PKGS-0229,North-Eastern,315,on_route,Shadowfax,1981.89,2025-12-05,2025-12-24,
+SHIP-26-02592,Summit Materials Industries LLP 19,OPSU-0136,Himalayan,397,received,Safexpress,2536.35,2025-12-24,2025-11-28,2025-12-21
+SHIP-26-02593,Kinetic Industrial Private Ltd 36,PKGS-0127,Southern,259,aborted,Ekart,4065.41,2025-12-27,2026-02-09,
+SHIP-26-02594,Pioneer Global Private Ltd 41,PART-0258,Southern,114,received,Ecom Express,3751.07,2026-08-29,2026-08-16,2026-08-07
+SHIP-26-02595,Frontier Technologies Private Ltd 6,PKGS-0273,National,382,awaiting_pickup,Ecom Express,1410.31,2026-06-10,2026-06-27,
+SHIP-26-02596,Westbridge Trading Solutions Pvt Ltd 23,APRL-0285,South-Western,498,behind_schedule,Safexpress,1713.98,2026-08-01,2026-07-11,
+SHIP-26-02597,Nova Trading Industries LLP 39,EQPM-0157,Western,230,behind_schedule,India Post,1839.68,2026-10-05,2026-09-29,
+SHIP-26-02598,Pioneer Global Private Ltd 41,APRL-0101,Central,366,awaiting_pickup,Shadowfax,2749.29,2026-07-21,2026-09-20,
+SHIP-26-02599,Orchid Trading Enterprises 15,BASE-0205,Eastern,214,on_route,Ecom Express,965.96,2026-01-29,2026-01-23,
+SHIP-26-02600,Summit Materials Industries LLP 19,EQPM-0124,National,369,awaiting_pickup,Ecom Express,2005.73,2026-01-16,2026-01-07,
+SHIP-26-02601,Unity Technologies Private Ltd 46,OPSU-0212,Eastern,146,received,India Post,3052.95,2025-11-06,2025-12-05,2025-12-23
+SHIP-26-02602,Lotus Supply Corporation 37,INCH-0110,Western,492,awaiting_pickup,Safexpress,953.03,2026-02-09,2026-03-12,
+SHIP-26-02603,Quantum Global Corporation 17,APRL-0285,Himalayan,42,awaiting_pickup,Ekart,3331.81,2026-05-09,2026-05-27,
+SHIP-26-02604,Unity Supply Private Ltd 21,OPSU-0280,Southern,228,awaiting_pickup,Ekart,1575.51,2026-04-27,2026-04-03,
+SHIP-26-02605,Riverstone Manufacturing Solutions Pvt Ltd 18,OPSU-0128,Southern,11,received,Ekart,1825.73,2026-03-29,2026-03-31,2026-05-04
+SHIP-26-02606,Aarav Manufacturing Private Ltd 26,PART-0268,National,241,aborted,Shadowfax,4392.37,2025-12-14,2025-11-06,
+SHIP-26-02607,Horizon Logistics Solutions Pvt Ltd 8,INCH-0138,Eastern,143,received,Safexpress,579.38,2026-03-26,2026-04-02,2026-03-18
+SHIP-26-02608,Jade Materials Enterprises 35,INCH-0163,North-Western,480,received,India Post,391.41,2026-07-14,2026-07-25,2026-06-27
+SHIP-26-02609,Summit Materials Industries LLP 19,APRL-0149,North-Eastern,97,received,Ecom Express,698.6,2025-10-12,2025-11-21,2025-11-23
+SHIP-26-02610,Westbridge Logistics Solutions Pvt Ltd 48,EQPM-0195,Western,424,awaiting_pickup,India Post,3716.65,2026-01-04,2026-02-10,
+SHIP-26-02611,Evergreen Supply Enterprises 5,PART-0147,Central,276,received,Ekart,3193.1,2026-05-04,2026-05-27,2026-07-06
+SHIP-26-02612,Frontier Technologies Private Ltd 6,EQPM-0172,South-Eastern,11,received,Ekart,239.77,2026-04-15,2026-05-10,2026-04-21
+SHIP-26-02613,Unity Supply Private Ltd 21,OPSU-0204,Himalayan,144,received,Ecom Express,4066.37,2026-05-12,2026-05-22,2026-05-08
+SHIP-26-02614,Vertex Technologies Corporation 22,BASE-0248,Central,320,received,Shadowfax,612.61,2026-05-27,2026-06-10,2026-07-16
+SHIP-26-02615,Lotus Supply Corporation 37,INCH-0185,Western,316,received,India Post,3697.28,2025-10-11,2025-12-10,2025-10-17
+SHIP-26-02616,Jade Materials Enterprises 35,INCH-0181,National,194,received,India Post,1399.29,2026-08-25,2026-08-22,2026-09-10
+SHIP-26-02617,Aarav Global Private Ltd 1,PART-0269,Western,368,received,Ecom Express,4066.77,2026-01-29,2026-01-22,2026-03-06
+SHIP-26-02618,BluePeak Manufacturing Corporation 2,OPSU-0280,Western,265,behind_schedule,Safexpress,1972.23,2026-10-12,2026-09-30,
+SHIP-26-02619,Evergreen Supply Enterprises 5,PART-0268,Southern,504,received,Ecom Express,1166.35,2026-02-04,2026-03-18,2026-04-07
+SHIP-26-02620,Dharma Industrial Industries LLP 4,OPSU-0204,South-Eastern,374,received,India Post,3286.49,2026-01-20,2026-01-03,2026-02-25
+SHIP-26-02621,Lotus Industrial Corporation 12,PKGS-0127,Southern,431,received,Ecom Express,371.25,2026-05-07,2026-05-25,2026-04-27
+SHIP-26-02622,Yellowstone Logistics Industries LLP 24,APRL-0242,National,298,received,Ecom Express,1304.37,2026-10-18,2026-09-11,2026-09-25
+SHIP-26-02623,Quantum Global Corporation 17,ELGD-0162,Himalayan,292,received,Ekart,1615.05,2026-09-05,2026-09-04,2026-10-12
+SHIP-26-02624,Riverstone Materials Solutions Pvt Ltd 43,PKGS-0155,North-Eastern,540,received,Shadowfax,1170.42,2025-10-02,2025-11-14,2025-11-13
+SHIP-26-02625,Kinetic Materials Private Ltd 11,PART-0222,Southern,294,received,Ekart,3165.03,2026-04-30,2026-06-11,2026-05-15
+SHIP-26-02626,Granite Trading Corporation 7,APRL-0208,National,109,received,Safexpress,4950.27,2025-11-26,2025-11-28,2025-11-16
+SHIP-26-02627,Summit Materials Industries LLP 19,OPSU-0136,Central,570,aborted,Shadowfax,2698.2,2026-03-11,2026-03-20,
+SHIP-26-02628,Summit Industrial Industries LLP 44,ELGD-0148,Western,106,received,Ekart,5271.94,2026-04-12,2026-06-01,2026-05-14
+SHIP-26-02629,Summit Materials Industries LLP 19,EQPM-0195,Southern,252,received,Shadowfax,3676.08,2026-03-16,2026-02-08,2026-01-31
+SHIP-26-02630,Indus Manufacturing Industries LLP 34,PKGS-0296,South-Eastern,16,received,Shadowfax,2296.2,2025-12-29,2026-01-25,2026-02-15
+SHIP-26-02631,Westbridge Logistics Solutions Pvt Ltd 48,ELGD-0162,South-Western,280,received,India Post,2329.82,2026-08-21,2026-08-24,2026-08-15
+SHIP-26-02632,Meridian Supply Solutions Pvt Ltd 13,ELGD-0198,Western,327,received,Ecom Express,4289.89,2026-07-07,2026-06-24,2026-06-26
+SHIP-26-02633,Indus Manufacturing Industries LLP 34,PKGS-0206,Himalayan,460,received,India Post,4015.84,2026-09-01,2026-09-02,2026-09-07
+SHIP-26-02634,Summit Materials Industries LLP 19,PKGS-0229,Eastern,392,aborted,Ecom Express,743.83,2026-04-11,2026-04-29,
+SHIP-26-02635,Crestline Materials Solutions Pvt Ltd 3,BASE-0152,National,218,received,Ekart,3725.76,2026-06-06,2026-07-19,2026-08-17
+SHIP-26-02636,Aarav Global Private Ltd 1,APRL-0114,Western,53,received,Safexpress,3397.86,2026-05-25,2026-06-18,2026-07-01
+SHIP-26-02637,Kinetic Industrial Private Ltd 36,BASE-0216,Central,356,received,Safexpress,2747.35,2025-12-26,2025-12-05,2025-12-31
+SHIP-26-02638,Horizon Global Solutions Pvt Ltd 33,PKGS-0180,South-Eastern,343,behind_schedule,Ekart,1110.81,2025-10-13,2025-12-01,
+SHIP-26-02639,Vertex Trading Corporation 47,ELGD-0120,South-Eastern,319,received,Safexpress,3289.18,2026-03-25,2026-04-15,2026-04-11
+SHIP-26-02640,Yellowstone Logistics Industries LLP 24,PKGS-0133,Southern,312,awaiting_pickup,Ekart,1517.35,2026-04-03,2026-05-15,
+SHIP-26-02641,Frontier Trading Private Ltd 31,PKGS-0290,Himalayan,227,on_route,Safexpress,1197.65,2026-03-27,2026-03-20,
+SHIP-26-02642,Indus Manufacturing Industries LLP 34,ELGD-0198,Central,51,received,Safexpress,2000.94,2026-02-23,2026-03-02,2026-03-09
+SHIP-26-02643,Orchid Logistics Enterprises 40,INCH-0138,Central,401,received,India Post,5198.44,2026-06-01,2026-05-03,2026-06-06
+SHIP-26-02644,Kinetic Materials Private Ltd 11,PKGS-0290,Central,28,behind_schedule,India Post,1842.64,2026-09-25,2026-09-21,
+SHIP-26-02645,Aarav Global Private Ltd 1,BASE-0270,National,45,received,India Post,1481.93,2026-04-30,2026-06-05,2026-05-18
+SHIP-26-02646,Crestline Materials Solutions Pvt Ltd 3,EQPM-0122,Western,347,received,Safexpress,2826.7,2026-04-13,2026-04-01,2026-04-16
+SHIP-26-02647,Unity Supply Private Ltd 21,ELGD-0233,Southern,14,received,Ekart,1540.0,2026-02-25,2026-04-08,2026-04-20
+SHIP-26-02648,Kinetic Industrial Private Ltd 36,OPSU-0238,Eastern,494,received,India Post,3516.39,2026-07-26,2026-08-25,2026-08-27
+SHIP-26-02649,Aarav Global Private Ltd 1,ELGD-0197,Central,239,received,Safexpress,5273.55,2026-07-24,2026-09-17,2026-09-17
+SHIP-26-02650,Jade Manufacturing Enterprises 10,PART-0263,Eastern,506,received,Safexpress,843.78,2026-10-22,2026-09-29,2026-10-13
+SHIP-26-02651,Nova Technologies Industries LLP 14,EQPM-0191,Eastern,450,received,Safexpress,4338.29,2026-09-13,2026-10-25,2026-10-01
+SHIP-26-02652,Vertex Technologies Corporation 22,ELGD-0220,South-Eastern,127,received,India Post,467.84,2026-07-22,2026-09-26,2026-08-25
+SHIP-26-02653,Unity Technologies Private Ltd 46,ELGD-0217,National,61,received,India Post,3868.61,2026-06-02,2026-06-17,2026-06-19
+SHIP-26-02654,Aarav Global Private Ltd 1,ELGD-0198,National,298,received,Ecom Express,500.69,2026-04-27,2026-05-21,2026-04-09
+SHIP-26-02655,Riverstone Manufacturing Solutions Pvt Ltd 18,PART-0158,National,262,aborted,Safexpress,341.59,2026-04-26,2026-05-26,
+SHIP-26-02656,Lotus Supply Corporation 37,OPSU-0231,Southern,56,received,Safexpress,3645.08,2026-09-13,2026-10-02,2026-10-18
+SHIP-26-02657,Aarav Manufacturing Private Ltd 26,OPSU-0293,Western,113,received,Safexpress,3391.39,2025-11-01,2025-12-16,2025-12-10
+SHIP-26-02658,Dharma Industrial Industries LLP 4,BASE-0150,Central,456,behind_schedule,Ecom Express,4259.7,2026-09-04,2026-09-28,
+SHIP-26-02659,Indus Manufacturing Industries LLP 34,OPSU-0212,North-Eastern,261,received,Safexpress,1165.46,2026-08-22,2026-09-09,2026-08-13
+SHIP-26-02660,Vertex Trading Corporation 47,ELGD-0141,Western,284,received,Ecom Express,3757.1,2026-10-01,2026-08-21,2026-10-20
+SHIP-26-02661,Horizon Logistics Solutions Pvt Ltd 8,OPSU-0139,North-Western,315,received,India Post,1159.88,2026-02-03,2026-03-03,2026-02-13
+SHIP-26-02662,Vertex Technologies Corporation 22,BASE-0165,Central,304,behind_schedule,Ekart,2026.41,2026-08-23,2026-09-16,
+SHIP-26-02663,Aarav Manufacturing Private Ltd 26,PART-0179,Central,38,received,India Post,655.97,2026-02-07,2026-03-03,2026-04-01
+SHIP-26-02664,Lotus Industrial Corporation 12,PKGS-0187,Eastern,345,received,Ecom Express,5527.64,2026-02-07,2026-04-02,2026-03-13
+SHIP-26-02665,Frontier Trading Private Ltd 31,PKGS-0215,Southern,377,on_route,Ekart,2155.13,2025-10-27,2025-12-31,
+SHIP-26-02666,Frontier Trading Private Ltd 31,PART-0115,Himalayan,133,received,Shadowfax,3765.28,2026-07-16,2026-07-19,2026-08-02
+SHIP-26-02667,Vertex Technologies Corporation 22,EQPM-0124,Central,163,received,Shadowfax,5003.75,2026-08-14,2026-09-26,2026-09-03
+SHIP-26-02668,Vertex Trading Corporation 47,OPSU-0123,Southern,222,received,Ekart,2165.54,2026-08-05,2026-08-01,2026-07-03
+SHIP-26-02669,Lotus Industrial Corporation 12,BASE-0102,South-Eastern,513,aborted,Ekart,2755.76,2026-07-10,2026-06-14,
+SHIP-26-02670,Evergreen Technologies Enterprises 30,ELGD-0148,South-Eastern,53,received,India Post,3616.63,2026-05-13,2026-05-04,2026-05-30
+SHIP-26-02671,Riverstone Materials Solutions Pvt Ltd 43,APRL-0160,Eastern,277,aborted,Ecom Express,504.4,2026-01-03,2025-12-17,
+SHIP-26-02672,Granite Logistics Corporation 32,INCH-0245,North-Western,368,received,Shadowfax,4136.37,2026-10-24,2026-10-05,2026-09-18
+SHIP-26-02673,Evergreen Technologies Enterprises 30,APRL-0264,Western,153,received,Ecom Express,3330.59,2026-05-23,2026-05-31,2026-07-01
+SHIP-26-02674,Lotus Industrial Corporation 12,APRL-0264,North-Western,222,on_route,Shadowfax,3091.86,2026-03-03,2026-03-19,
+SHIP-26-02675,Nova Technologies Industries LLP 14,ELGD-0169,South-Eastern,271,received,Shadowfax,3850.77,2026-07-05,2026-08-07,2026-06-28
+SHIP-26-02676,Vertex Technologies Corporation 22,OPSU-0136,North-Western,68,received,Safexpress,3865.91,2026-04-21,2026-05-13,2026-05-04
+SHIP-26-02677,Jade Manufacturing Enterprises 10,PART-0252,Southern,305,behind_schedule,Ecom Express,3989.36,2026-01-30,2026-02-28,
+SHIP-26-02678,Zenith Global Enterprises 25,OPSU-0204,South-Western,570,received,Shadowfax,3814.03,2025-12-03,2025-11-08,2025-12-23
+SHIP-26-02679,Dharma Supply Industries LLP 29,OPSU-0241,Central,121,behind_schedule,Shadowfax,4332.96,2026-08-24,2026-08-20,
+SHIP-26-02680,Evergreen Technologies Enterprises 30,OPSU-0123,Central,188,received,Ecom Express,5094.08,2025-10-16,2025-11-06,2025-12-01
+SHIP-26-02681,Frontier Trading Private Ltd 31,ELGD-0168,North-Western,447,received,Ecom Express,3312.86,2026-08-16,2026-08-01,2026-08-22
+SHIP-26-02682,Evergreen Technologies Enterprises 30,PKGS-0267,South-Western,174,received,Ekart,1151.65,2026-05-19,2026-05-10,2026-04-26
+SHIP-26-02683,Zenith Global Enterprises 25,APRL-0101,Himalayan,249,received,Ekart,1004.41,2026-06-01,2026-04-29,2026-06-18
+SHIP-26-02684,Unity Supply Private Ltd 21,OPSU-0300,Himalayan,290,received,Ecom Express,3673.28,2025-09-22,2025-11-24,2025-11-14
+SHIP-26-02685,Frontier Trading Private Ltd 31,OPSU-0204,Western,290,awaiting_pickup,Shadowfax,1281.29,2026-07-31,2026-10-04,
+SHIP-26-02686,Zenith Manufacturing Enterprises 50,APRL-0234,Western,296,received,Shadowfax,3741.61,2026-04-18,2026-04-04,2026-04-26
+SHIP-26-02687,Evergreen Technologies Enterprises 30,INCH-0200,Western,482,received,Safexpress,1144.69,2026-08-24,2026-07-28,2026-07-28
+SHIP-26-02688,Vertex Technologies Corporation 22,PART-0269,North-Western,280,received,Ekart,4214.22,2026-02-13,2026-01-23,2026-01-25
+SHIP-26-02689,Lotus Supply Corporation 37,PART-0222,Southern,604,behind_schedule,Safexpress,1224.66,2026-09-12,2026-10-15,
+SHIP-26-02690,Unity Technologies Private Ltd 46,BASE-0186,North-Eastern,441,received,Ecom Express,365.52,2026-06-24,2026-07-05,2026-05-11
+SHIP-26-02691,Orchid Logistics Enterprises 40,PART-0116,Western,419,received,Shadowfax,2678.46,2026-01-24,2026-01-06,2026-02-08
+SHIP-26-02692,Trident Industrial Enterprises 20,BASE-0152,National,140,received,Shadowfax,5123.0,2026-04-08,2026-03-18,2026-04-05
+SHIP-26-02693,Zenith Manufacturing Enterprises 50,OPSU-0128,South-Western,92,awaiting_pickup,Ecom Express,3664.97,2026-06-15,2026-06-24,
+SHIP-26-02694,Vertex Trading Corporation 47,APRL-0294,Western,312,on_route,Safexpress,1899.93,2026-04-05,2026-04-26,
+SHIP-26-02695,Jade Manufacturing Enterprises 10,PART-0274,South-Western,170,on_route,Ecom Express,498.01,2026-08-23,2026-09-15,
+SHIP-26-02696,Evergreen Technologies Enterprises 30,OPSU-0212,Eastern,410,received,Shadowfax,1955.3,2026-04-27,2026-04-30,2026-06-03
+SHIP-26-02697,Vertex Technologies Corporation 22,PART-0115,North-Western,303,received,Ecom Express,1531.41,2026-01-16,2026-01-25,2026-01-22
+SHIP-26-02698,Lotus Supply Corporation 37,ELGD-0292,Southern,99,on_route,Ekart,1614.89,2026-02-25,2026-03-05,
+SHIP-26-02699,Vertex Technologies Corporation 22,OPSU-0287,Central,33,received,Safexpress,360.53,2026-06-26,2026-07-12,2026-07-07
+SHIP-26-02700,Granite Trading Corporation 7,EQPM-0170,Southern,409,received,Shadowfax,3251.37,2026-07-04,2026-07-27,2026-07-01
+SHIP-26-02701,Granite Trading Corporation 7,INCH-0103,Eastern,281,received,Shadowfax,3841.2,2026-07-20,2026-07-16,2026-08-09
+SHIP-26-02702,Trident Industrial Enterprises 20,INCH-0185,Southern,396,received,India Post,4983.99,2026-08-12,2026-08-19,2026-08-20
+SHIP-26-02703,Lotus Supply Corporation 37,PKGS-0127,Central,265,received,India Post,4111.01,2026-01-09,2026-02-12,2026-01-30
+SHIP-26-02704,Quantum Manufacturing Corporation 42,PKGS-0107,Himalayan,32,received,India Post,4742.11,2025-12-29,2026-01-25,2025-12-28
+SHIP-26-02705,Jade Materials Enterprises 35,APRL-0225,National,147,received,Ekart,1375.3,2026-02-27,2026-05-05,2026-04-27
+SHIP-26-02706,Nova Trading Industries LLP 39,ELGD-0272,South-Western,413,received,Safexpress,5247.81,2026-01-11,2026-01-17,2026-03-06
+SHIP-26-02707,Summit Industrial Industries LLP 44,OPSU-0254,Himalayan,454,received,India Post,1597.2,2025-12-02,2026-01-27,2025-12-30
+SHIP-26-02708,Meridian Technologies Solutions Pvt Ltd 38,APRL-0160,Western,309,received,Ekart,651.69,2026-03-12,2026-04-22,2026-04-10
+SHIP-26-02709,BluePeak Manufacturing Corporation 2,PART-0295,Eastern,91,received,Ecom Express,3049.17,2025-12-10,2026-01-08,2025-12-24
+SHIP-26-02710,Frontier Trading Private Ltd 31,EQPM-0153,South-Eastern,263,behind_schedule,Ekart,3617.42,2026-07-26,2026-08-26,
+SHIP-26-02711,Westbridge Logistics Solutions Pvt Ltd 48,APRL-0264,Central,303,aborted,Safexpress,3692.87,2026-10-09,2026-09-05,
+SHIP-26-02712,Frontier Technologies Private Ltd 6,PKGS-0174,South-Eastern,134,received,Safexpress,3252.66,2026-03-21,2026-04-10,2026-05-03
+SHIP-26-02713,Jade Manufacturing Enterprises 10,ELGD-0232,South-Eastern,359,received,Safexpress,2489.86,2026-09-03,2026-09-29,2026-09-01
+SHIP-26-02714,Summit Industrial Industries LLP 44,OPSU-0176,Southern,597,received,Ecom Express,4206.74,2025-11-14,2025-11-23,2025-11-10
+SHIP-26-02715,Horizon Global Solutions Pvt Ltd 33,EQPM-0191,Eastern,624,behind_schedule,Safexpress,4690.96,2026-03-12,2026-04-15,
+SHIP-26-02716,Yellowstone Global Industries LLP 49,EQPM-0239,Western,338,received,Safexpress,4273.78,2026-03-27,2026-04-03,2026-04-30
+SHIP-26-02717,Summit Industrial Industries LLP 44,APRL-0298,Western,97,received,Shadowfax,4114.71,2026-09-09,2026-10-27,2026-10-26
+SHIP-26-02718,Jade Manufacturing Enterprises 10,APRL-0208,North-Eastern,318,on_route,Ekart,3519.65,2026-05-28,2026-06-07,
+SHIP-26-02719,Westbridge Logistics Solutions Pvt Ltd 48,ELGD-0211,South-Eastern,374,behind_schedule,Shadowfax,2753.29,2026-03-04,2026-03-29,
+SHIP-26-02720,Unity Supply Private Ltd 21,PART-0282,North-Eastern,41,received,India Post,1501.51,2025-12-30,2026-03-03,2026-01-27
+SHIP-26-02721,Riverstone Manufacturing Solutions Pvt Ltd 18,EQPM-0124,Central,423,received,India Post,4449.42,2025-12-11,2025-12-23,2025-11-18
+SHIP-26-02722,Meridian Supply Solutions Pvt Ltd 13,OPSU-0183,South-Western,27,received,Shadowfax,1690.73,2026-05-08,2026-04-26,2026-05-10
+SHIP-26-02723,Frontier Technologies Private Ltd 6,PKGS-0137,South-Western,258,behind_schedule,Ecom Express,3811.87,2026-04-19,2026-04-23,
+SHIP-26-02724,Lotus Industrial Corporation 12,BASE-0186,South-Western,369,on_route,Safexpress,1606.55,2026-06-14,2026-07-15,
+SHIP-26-02725,BluePeak Manufacturing Corporation 2,OPSU-0254,North-Western,508,behind_schedule,India Post,4878.28,2026-05-26,2026-05-19,
+SHIP-26-02726,Lotus Industrial Corporation 12,OPSU-0238,North-Eastern,187,received,Ekart,5726.39,2026-03-24,2026-05-08,2026-03-28
+SHIP-26-02727,Vertex Trading Corporation 47,OPSU-0293,South-Western,149,received,Ekart,5183.5,2026-07-22,2026-08-18,2026-07-14
+SHIP-26-02728,Lotus Industrial Corporation 12,ELGD-0272,North-Eastern,62,aborted,Shadowfax,5031.19,2026-01-19,2026-02-04,
+SHIP-26-02729,Trident Industrial Enterprises 20,OPSU-0293,Eastern,180,received,Ecom Express,1702.29,2026-02-26,2026-03-10,2026-04-12
+SHIP-26-02730,Lotus Supply Corporation 37,APRL-0261,North-Western,283,behind_schedule,Ecom Express,1585.41,2026-04-25,2026-06-12,
+SHIP-26-02731,Summit Materials Industries LLP 19,PKGS-0173,Western,249,behind_schedule,Ekart,3880.14,2025-10-31,2025-10-29,
+SHIP-26-02732,Pioneer Logistics Private Ltd 16,BASE-0152,Central,48,behind_schedule,Ecom Express,3547.13,2026-01-19,2025-12-11,
+SHIP-26-02733,Unity Supply Private Ltd 21,PKGS-0166,South-Western,571,received,Ekart,2343.88,2026-01-01,2026-01-06,2025-12-24
+SHIP-26-02734,Frontier Trading Private Ltd 31,PART-0125,South-Western,223,on_route,India Post,5130.51,2026-09-02,2026-10-17,
+SHIP-26-02735,Vertex Technologies Corporation 22,BASE-0251,Southern,392,received,Shadowfax,967.8,2025-11-23,2025-12-07,2025-11-10
+SHIP-26-02736,Jade Materials Enterprises 35,INCH-0163,Southern,377,aborted,Ekart,4860.02,2026-07-18,2026-07-21,
+SHIP-26-02737,Evergreen Technologies Enterprises 30,OPSU-0293,Western,272,received,Ecom Express,4012.35,2026-05-11,2026-05-19,2026-05-21
+SHIP-26-02738,Orchid Trading Enterprises 15,ELGD-0272,North-Eastern,54,received,Shadowfax,3520.02,2026-06-12,2026-05-30,2026-06-29
+SHIP-26-02739,Indus Manufacturing Industries LLP 34,PART-0258,Central,31,received,India Post,2351.43,2026-09-07,2026-08-14,2026-08-14
+SHIP-26-02740,Lotus Supply Corporation 37,INCH-0200,Central,99,received,Shadowfax,1995.44,2025-11-09,2025-12-09,2025-11-15
+SHIP-26-02741,Summit Materials Industries LLP 19,PKGS-0271,Himalayan,79,received,Shadowfax,1686.73,2026-05-12,2026-07-08,2026-06-25
+SHIP-26-02742,Horizon Logistics Solutions Pvt Ltd 8,APRL-0294,South-Eastern,495,on_route,India Post,1816.48,2026-01-10,2025-12-15,
+SHIP-26-02743,Crestline Industrial Solutions Pvt Ltd 28,PKGS-0273,North-Eastern,503,received,India Post,911.42,2026-09-17,2026-09-27,2026-11-11
+SHIP-26-02744,Yellowstone Logistics Industries LLP 24,INCH-0245,Southern,215,received,Safexpress,880.1,2026-02-12,2026-02-10,2026-01-13
+SHIP-26-02745,Lotus Supply Corporation 37,ELGD-0130,Western,102,received,Safexpress,1118.86,2025-10-18,2025-12-17,2025-12-11
+SHIP-26-02746,Meridian Technologies Solutions Pvt Ltd 38,PART-0282,North-Eastern,119,behind_schedule,India Post,1136.33,2025-10-09,2025-10-15,
+SHIP-26-02747,Nova Technologies Industries LLP 14,BASE-0151,North-Eastern,351,behind_schedule,Shadowfax,283.29,2026-06-17,2026-07-24,
+SHIP-26-02748,Evergreen Technologies Enterprises 30,ELGD-0168,South-Eastern,379,received,Shadowfax,5134.63,2026-08-13,2026-10-01,2026-08-20
+SHIP-26-02749,Trident Supply Enterprises 45,APRL-0285,South-Western,280,received,Ecom Express,284.86,2026-04-13,2026-04-26,2026-05-19
+SHIP-26-02750,Lotus Industrial Corporation 12,PKGS-0273,Western,160,on_route,India Post,2853.16,2026-05-16,2026-06-06,
+SHIP-26-02751,Westbridge Logistics Solutions Pvt Ltd 48,ELGD-0256,North-Western,152,received,Ekart,3070.86,2026-01-20,2025-12-25,2026-01-18
+SHIP-26-02752,Horizon Logistics Solutions Pvt Ltd 8,ELGD-0120,South-Western,432,received,India Post,2910.89,2025-10-25,2025-11-06,2025-09-28
+SHIP-26-02753,Granite Trading Corporation 7,PKGS-0296,North-Western,450,received,Shadowfax,871.45,2025-12-08,2025-12-22,2026-01-13
+SHIP-26-02754,Meridian Supply Solutions Pvt Ltd 13,APRL-0132,National,54,received,India Post,2312.19,2026-07-01,2026-08-11,2026-08-13
+SHIP-26-02755,Trident Supply Enterprises 45,PART-0268,Himalayan,328,received,Ekart,726.2,2026-04-07,2026-04-23,2026-05-01
+SHIP-26-02756,Quantum Global Corporation 17,BASE-0250,Eastern,51,received,India Post,475.88,2026-01-09,2026-02-24,2026-03-02
+SHIP-26-02757,Zenith Manufacturing Enterprises 50,APRL-0108,South-Eastern,442,received,Safexpress,772.75,2026-08-14,2026-08-04,2026-08-08
+SHIP-26-02758,Frontier Technologies Private Ltd 6,APRL-0265,Southern,178,received,Shadowfax,2247.85,2025-11-30,2025-11-22,2025-10-11
+SHIP-26-02759,Lotus Industrial Corporation 12,PKGS-0166,Eastern,426,received,Ecom Express,2347.23,2026-01-18,2026-01-20,2025-12-28
+SHIP-26-02760,Orchid Logistics Enterprises 40,INCH-0154,South-Eastern,361,received,Safexpress,3335.71,2026-01-25,2025-12-25,2025-12-17
+SHIP-26-02761,Summit Industrial Industries LLP 44,APRL-0113,South-Western,358,on_route,Safexpress,443.53,2025-12-30,2026-01-16,
+SHIP-26-02762,Jade Materials Enterprises 35,INCH-0110,Eastern,175,received,Ecom Express,2143.85,2025-11-18,2026-01-25,2025-12-14
+SHIP-26-02763,Orchid Logistics Enterprises 40,ELGD-0119,Eastern,332,received,Ekart,487.15,2025-12-03,2025-12-25,2025-12-11
+SHIP-26-02764,Aarav Manufacturing Private Ltd 26,EQPM-0157,South-Eastern,507,aborted,Shadowfax,1317.09,2026-09-15,2026-09-05,
+SHIP-26-02765,Vertex Technologies Corporation 22,BASE-0297,Central,305,received,Shadowfax,3465.21,2026-08-09,2026-08-22,2026-08-21
+SHIP-26-02766,Jade Materials Enterprises 35,APRL-0298,North-Eastern,607,received,Shadowfax,4640.97,2026-06-28,2026-07-28,2026-07-29
+SHIP-26-02767,Riverstone Materials Solutions Pvt Ltd 43,BASE-0152,North-Eastern,15,behind_schedule,Ecom Express,1965.89,2026-05-06,2026-04-29,
+SHIP-26-02768,Lotus Industrial Corporation 12,OPSU-0287,Eastern,60,received,India Post,231.99,2026-04-17,2026-05-02,2026-05-01
+SHIP-26-02769,Jade Manufacturing Enterprises 10,BASE-0203,North-Eastern,494,received,Safexpress,1664.25,2026-02-02,2026-01-26,2026-01-01
+SHIP-26-02770,Horizon Logistics Solutions Pvt Ltd 8,APRL-0285,North-Western,589,received,Shadowfax,1903.48,2026-05-19,2026-07-04,2026-05-30
+SHIP-26-02771,Yellowstone Global Industries LLP 49,EQPM-0124,Eastern,331,awaiting_pickup,Ekart,2532.42,2025-12-01,2025-11-12,
+SHIP-26-02772,Zenith Manufacturing Enterprises 50,INCH-0140,Eastern,268,received,Shadowfax,4474.35,2026-05-13,2026-06-08,2026-06-01
+SHIP-26-02773,Aarav Manufacturing Private Ltd 26,BASE-0186,Himalayan,44,aborted,Ekart,463.12,2025-11-15,2025-10-26,
+SHIP-26-02774,Unity Supply Private Ltd 21,ELGD-0197,National,142,received,India Post,750.36,2025-12-12,2025-12-28,2025-12-23
+SHIP-26-02775,Summit Industrial Industries LLP 44,PKGS-0127,Western,310,behind_schedule,Safexpress,5284.36,2026-04-12,2026-03-27,
+SHIP-26-02776,Zenith Global Enterprises 25,PKGS-0135,South-Eastern,257,received,Shadowfax,4760.16,2026-08-08,2026-08-30,2026-07-25
+SHIP-26-02777,Granite Trading Corporation 7,APRL-0114,Southern,129,behind_schedule,Ecom Express,1835.59,2025-11-07,2025-11-01,
+SHIP-26-02778,Evergreen Technologies Enterprises 30,PKGS-0166,Western,317,received,India Post,806.24,2026-06-02,2026-05-13,2026-06-02
+SHIP-26-02779,Jade Materials Enterprises 35,EQPM-0191,South-Eastern,320,received,Shadowfax,4342.3,2025-11-07,2025-12-29,2025-12-15
+SHIP-26-02780,Vertex Technologies Corporation 22,OPSU-0175,National,420,received,Safexpress,2631.19,2026-07-01,2026-06-04,2026-05-29
+SHIP-26-02781,Meridian Technologies Solutions Pvt Ltd 38,PART-0236,North-Eastern,144,received,India Post,1298.18,2025-11-30,2025-12-02,2025-12-17
+SHIP-26-02782,Aarav Manufacturing Private Ltd 26,ELGD-0120,National,157,received,Safexpress,3766.99,2025-11-25,2025-12-19,2025-12-13
+SHIP-26-02783,Granite Logistics Corporation 32,APRL-0298,South-Eastern,381,behind_schedule,Ecom Express,3112.43,2026-08-16,2026-07-17,
+SHIP-26-02784,Vertex Trading Corporation 47,APRL-0132,Eastern,60,received,Safexpress,774.21,2025-10-08,2025-10-27,2025-10-20
+SHIP-26-02785,Trident Supply Enterprises 45,APRL-0234,North-Eastern,218,received,India Post,1365.97,2025-09-29,2025-11-22,2025-11-27
+SHIP-26-02786,Orchid Trading Enterprises 15,INCH-0154,South-Eastern,36,received,Ekart,331.66,2026-09-07,2026-08-18,2026-08-21
+SHIP-26-02787,Orchid Trading Enterprises 15,ELGD-0169,South-Western,362,received,Shadowfax,2130.78,2026-08-18,2026-07-29,2026-08-04
+SHIP-26-02788,Quantum Global Corporation 17,EQPM-0266,Eastern,270,awaiting_pickup,Ecom Express,5112.01,2026-08-02,2026-08-01,
+SHIP-26-02789,Indus Manufacturing Industries LLP 34,PART-0158,North-Western,438,received,Ecom Express,2493.27,2026-03-05,2026-04-01,2026-04-02
+SHIP-26-02790,Lotus Supply Corporation 37,OPSU-0238,Western,476,received,Ecom Express,605.46,2026-02-07,2026-03-27,2026-01-29
+SHIP-26-02791,Meridian Supply Solutions Pvt Ltd 13,APRL-0260,South-Eastern,333,received,Ekart,3315.3,2025-10-19,2025-10-17,2025-11-15
+SHIP-26-02792,Granite Logistics Corporation 32,PART-0116,National,470,received,Shadowfax,1571.82,2025-11-09,2025-11-19,2025-11-24
+SHIP-26-02793,Aarav Global Private Ltd 1,ELGD-0256,Himalayan,577,awaiting_pickup,Ecom Express,3558.66,2025-10-19,2025-12-18,
+SHIP-26-02794,Riverstone Materials Solutions Pvt Ltd 43,PKGS-0155,North-Eastern,212,aborted,India Post,2589.65,2025-09-14,2025-09-30,
+SHIP-26-02795,Kinetic Industrial Private Ltd 36,PKGS-0161,Western,194,received,Ekart,4655.86,2026-04-12,2026-04-23,2026-05-03
+SHIP-26-02796,Aarav Global Private Ltd 1,PKGS-0155,National,253,aborted,Ecom Express,1600.56,2026-02-13,2026-02-11,
+SHIP-26-02797,Granite Trading Corporation 7,OPSU-0212,North-Eastern,63,received,Ekart,546.41,2026-02-19,2026-02-03,2026-03-05
+SHIP-26-02798,Yellowstone Global Industries LLP 49,ELGD-0105,South-Eastern,540,behind_schedule,Ecom Express,3575.13,2025-09-18,2025-10-04,
+SHIP-26-02799,Unity Technologies Private Ltd 46,EQPM-0112,South-Eastern,321,received,Ecom Express,1399.48,2026-05-08,2026-05-23,2026-06-08
+SHIP-26-02800,Frontier Technologies Private Ltd 6,APRL-0283,South-Western,340,received,Ecom Express,2408.2,2026-04-04,2026-03-14,2026-05-02
+SHIP-26-02801,Kinetic Industrial Private Ltd 36,EQPM-0170,Western,128,received,India Post,923.92,2026-01-22,2026-03-25,2026-03-21
+SHIP-26-02802,Horizon Global Solutions Pvt Ltd 33,BASE-0216,National,445,on_route,Safexpress,1019.19,2026-07-28,2026-09-20,
+SHIP-26-02803,Vertex Technologies Corporation 22,EQPM-0266,North-Eastern,82,received,Ekart,1292.51,2026-09-19,2026-09-04,2026-11-03
+SHIP-26-02804,Unity Supply Private Ltd 21,PART-0189,South-Eastern,290,received,India Post,4531.63,2026-02-27,2026-03-22,2026-03-02
+SHIP-26-02805,Quantum Manufacturing Corporation 42,INCH-0237,Western,350,received,India Post,3147.81,2026-01-23,2026-01-14,2026-02-23
+SHIP-26-02806,Crestline Industrial Solutions Pvt Ltd 28,BASE-0177,National,471,received,Ecom Express,4291.8,2026-03-19,2026-04-14,2026-05-24
+SHIP-26-02807,Yellowstone Global Industries LLP 49,ELGD-0148,Eastern,182,received,Shadowfax,3144.55,2025-12-05,2026-01-13,2026-01-10
+SHIP-26-02808,Granite Logistics Corporation 32,OPSU-0243,South-Eastern,58,received,Ecom Express,728.42,2026-02-13,2026-01-16,2026-01-24
+SHIP-26-02809,Riverstone Materials Solutions Pvt Ltd 43,PART-0167,North-Western,39,received,India Post,757.61,2025-12-22,2026-01-30,2026-02-24
+SHIP-26-02810,Summit Materials Industries LLP 19,ELGD-0256,Himalayan,328,received,Ekart,1954.16,2025-11-09,2025-10-24,2025-10-08
+SHIP-26-02811,Horizon Logistics Solutions Pvt Ltd 8,APRL-0201,Western,253,received,Ekart,4058.36,2025-12-19,2025-11-22,2026-01-09
+SHIP-26-02812,BluePeak Manufacturing Corporation 2,BASE-0165,Western,398,received,Ekart,2326.15,2026-01-11,2026-02-21,2026-01-20
+SHIP-26-02813,Indus Manufacturing Industries LLP 34,PKGS-0133,South-Eastern,205,received,Safexpress,3947.93,2025-12-18,2026-01-20,2026-01-05
+SHIP-26-02814,Orchid Trading Enterprises 15,ELGD-0120,Central,94,on_route,Safexpress,2874.58,2026-07-04,2026-08-11,
+SHIP-26-02815,Kinetic Materials Private Ltd 11,PKGS-0267,North-Eastern,271,received,Safexpress,2505.53,2026-04-13,2026-04-21,2026-06-15
+SHIP-26-02816,BluePeak Materials Corporation 27,ELGD-0202,North-Western,414,received,Ecom Express,4989.1,2026-05-08,2026-05-13,2026-05-24
+SHIP-26-02817,Trident Supply Enterprises 45,INCH-0245,South-Eastern,397,received,Shadowfax,5300.49,2026-02-14,2026-03-21,2026-03-17
+SHIP-26-02818,Kinetic Industrial Private Ltd 36,PART-0125,Central,229,received,Safexpress,219.6,2026-04-05,2026-05-10,2026-04-15
+SHIP-26-02819,Aarav Manufacturing Private Ltd 26,BASE-0151,North-Eastern,452,behind_schedule,India Post,2368.23,2026-02-01,2026-02-27,
+SHIP-26-02820,Westbridge Logistics Solutions Pvt Ltd 48,PART-0125,South-Western,184,aborted,Shadowfax,1243.36,2026-08-13,2026-09-02,
+SHIP-26-02821,Summit Materials Industries LLP 19,BASE-0250,Southern,91,received,Safexpress,1440.6,2026-05-03,2026-04-25,2026-04-27
+SHIP-26-02822,Nova Technologies Industries LLP 14,PKGS-0161,South-Western,574,received,India Post,3679.17,2026-07-22,2026-09-22,2026-09-05
+SHIP-26-02823,Orchid Logistics Enterprises 40,OPSU-0246,Central,64,on_route,Ekart,624.77,2026-03-12,2026-04-18,
+SHIP-26-02824,Riverstone Manufacturing Solutions Pvt Ltd 18,ELGD-0120,North-Western,191,received,Safexpress,3859.53,2026-06-30,2026-06-30,2026-06-21
+SHIP-26-02825,Riverstone Materials Solutions Pvt Ltd 43,INCH-0110,Himalayan,27,received,Ekart,3074.84,2025-12-31,2026-02-05,2026-02-16
+SHIP-26-02826,Meridian Supply Solutions Pvt Ltd 13,APRL-0234,Central,476,on_route,Safexpress,3871.2,2025-10-03,2025-11-15,
+SHIP-26-02827,Frontier Technologies Private Ltd 6,EQPM-0124,Eastern,477,received,Shadowfax,4019.95,2026-07-19,2026-09-13,2026-09-27
+SHIP-26-02828,Unity Technologies Private Ltd 46,PART-0167,Central,367,received,Shadowfax,1529.21,2026-07-27,2026-08-04,2026-07-29
+SHIP-26-02829,Quantum Manufacturing Corporation 42,ELGD-0162,North-Western,468,received,Ecom Express,826.62,2026-09-14,2026-09-20,2026-08-30
+SHIP-26-02830,Riverstone Materials Solutions Pvt Ltd 43,OPSU-0175,National,203,received,India Post,1633.3,2026-05-06,2026-06-27,2026-05-24
+SHIP-26-02831,Kinetic Materials Private Ltd 11,ELGD-0130,Southern,503,received,Ekart,3142.46,2026-04-02,2026-03-15,2026-04-17
+SHIP-26-02832,Dharma Industrial Industries LLP 4,ELGD-0141,North-Eastern,218,received,India Post,3049.71,2026-07-15,2026-07-26,2026-08-11
+SHIP-26-02833,Zenith Global Enterprises 25,APRL-0240,Western,329,awaiting_pickup,India Post,5353.9,2025-11-05,2025-10-20,
+SHIP-26-02834,Nova Trading Industries LLP 39,PART-0228,Western,16,received,Ecom Express,1852.15,2026-04-10,2026-04-24,2026-04-06
+SHIP-26-02835,Granite Logistics Corporation 32,OPSU-0293,North-Western,395,received,Ecom Express,4062.11,2026-07-18,2026-07-28,2026-07-04
+SHIP-26-02836,Yellowstone Global Industries LLP 49,PART-0158,Central,460,received,Shadowfax,3982.51,2026-03-17,2026-03-24,2026-04-21
+SHIP-26-02837,Unity Supply Private Ltd 21,BASE-0121,North-Eastern,349,received,Ecom Express,4499.26,2026-06-26,2026-08-21,2026-06-29
+SHIP-26-02838,BluePeak Materials Corporation 27,EQPM-0122,National,15,behind_schedule,Ekart,3916.08,2026-04-19,2026-04-16,
+SHIP-26-02839,Nova Technologies Industries LLP 14,OPSU-0293,Central,40,awaiting_pickup,Safexpress,1701.75,2025-12-21,2026-01-28,
+SHIP-26-02840,Meridian Supply Solutions Pvt Ltd 13,EQPM-0195,North-Western,106,received,Shadowfax,635.01,2026-05-27,2026-06-29,2026-07-08
+SHIP-26-02841,Meridian Supply Solutions Pvt Ltd 13,PKGS-0196,Eastern,250,received,Shadowfax,2953.73,2025-12-06,2025-12-15,2026-01-01
+SHIP-26-02842,Trident Supply Enterprises 45,PKGS-0221,National,181,awaiting_pickup,Shadowfax,3347.63,2026-05-12,2026-05-26,
+SHIP-26-02843,Granite Logistics Corporation 32,BASE-0203,Eastern,102,received,India Post,953.93,2026-04-08,2026-05-03,2026-03-15
+SHIP-26-02844,Crestline Materials Solutions Pvt Ltd 3,PKGS-0174,Southern,139,behind_schedule,Ekart,1325.98,2025-12-23,2026-02-11,
+SHIP-26-02845,Pioneer Logistics Private Ltd 16,BASE-0297,National,15,received,Shadowfax,3473.69,2026-05-20,2026-04-13,2026-04-23
+SHIP-26-02846,Meridian Technologies Solutions Pvt Ltd 38,PKGS-0135,South-Western,131,received,Shadowfax,2792.47,2026-05-17,2026-05-23,2026-05-11
+SHIP-26-02847,BluePeak Manufacturing Corporation 2,PART-0279,South-Eastern,96,received,Ecom Express,375.15,2026-07-14,2026-06-17,2026-07-11
+SHIP-26-02848,Kinetic Industrial Private Ltd 36,PKGS-0290,South-Eastern,161,received,Shadowfax,5705.51,2026-05-14,2026-06-11,2026-05-24
+SHIP-26-02849,Trident Industrial Enterprises 20,APRL-0260,Eastern,251,awaiting_pickup,Ecom Express,2952.5,2025-11-27,2025-12-17,
+SHIP-26-02850,Horizon Logistics Solutions Pvt Ltd 8,OPSU-0241,Eastern,468,received,India Post,5449.26,2026-08-04,2026-07-24,2026-08-11
+SHIP-26-02851,Aarav Manufacturing Private Ltd 26,PKGS-0156,Central,429,received,India Post,4126.0,2026-02-18,2026-04-14,2026-03-13
+SHIP-26-02852,Frontier Trading Private Ltd 31,PART-0222,Southern,401,behind_schedule,India Post,1747.8,2026-02-02,2026-04-07,
+SHIP-26-02853,Vertex Trading Corporation 47,PART-0268,National,360,received,Ekart,3829.97,2026-10-29,2026-09-27,2026-10-08
+SHIP-26-02854,Zenith Manufacturing Enterprises 50,EQPM-0170,South-Eastern,164,received,Ekart,4187.49,2026-07-06,2026-07-12,2026-07-28
+SHIP-26-02855,Meridian Technologies Solutions Pvt Ltd 38,EQPM-0195,North-Western,437,received,Shadowfax,3566.97,2026-07-14,2026-08-11,2026-08-28
+SHIP-26-02856,Indus Global Industries LLP 9,APRL-0208,North-Western,261,received,India Post,1301.95,2026-10-13,2026-10-02,2026-11-04
+SHIP-26-02857,Lotus Industrial Corporation 12,EQPM-0227,South-Western,284,on_route,Ekart,2422.84,2025-11-29,2025-11-29,
+SHIP-26-02858,BluePeak Materials Corporation 27,PART-0189,Central,481,on_route,India Post,3178.94,2026-08-04,2026-09-30,
+SHIP-26-02859,Riverstone Materials Solutions Pvt Ltd 43,APRL-0109,Central,230,received,Ecom Express,3512.58,2026-07-29,2026-08-05,2026-08-03
+SHIP-26-02860,Nova Trading Industries LLP 39,PKGS-0290,South-Eastern,533,on_route,India Post,2584.86,2026-01-09,2026-01-25,
+SHIP-26-02861,Jade Manufacturing Enterprises 10,BASE-0165,Himalayan,72,received,Shadowfax,529.31,2026-07-17,2026-08-04,2026-08-15
+SHIP-26-02862,Meridian Supply Solutions Pvt Ltd 13,BASE-0151,North-Western,330,behind_schedule,India Post,2422.4,2026-03-30,2026-03-17,
+SHIP-26-02863,Lotus Industrial Corporation 12,APRL-0201,Southern,299,received,Shadowfax,3648.8,2025-11-30,2025-12-27,2025-11-25
+SHIP-26-02864,Pioneer Global Private Ltd 41,APRL-0234,Western,112,behind_schedule,Ecom Express,4828.79,2026-01-25,2026-01-26,
+SHIP-26-02865,Crestline Industrial Solutions Pvt Ltd 28,OPSU-0204,North-Western,234,received,Shadowfax,5027.1,2026-03-04,2026-04-24,2026-04-12
+SHIP-26-02866,Dharma Industrial Industries LLP 4,OPSU-0117,South-Eastern,48,received,Ekart,5342.83,2025-12-03,2026-01-08,2026-01-02
+SHIP-26-02867,Meridian Supply Solutions Pvt Ltd 13,APRL-0201,Western,261,on_route,Ecom Express,5104.26,2026-09-13,2026-08-10,
+SHIP-26-02868,Crestline Materials Solutions Pvt Ltd 3,APRL-0190,North-Western,156,received,Safexpress,3356.17,2026-05-12,2026-06-12,2026-05-16
+SHIP-26-02869,BluePeak Manufacturing Corporation 2,PART-0295,North-Eastern,267,received,Ecom Express,3184.38,2026-05-04,2026-06-21,2026-04-27
+SHIP-26-02870,Vertex Technologies Corporation 22,ELGD-0202,Eastern,244,received,Safexpress,3439.28,2025-12-17,2025-12-27,2025-12-14
+SHIP-26-02871,Lotus Supply Corporation 37,APRL-0261,Western,28,behind_schedule,Safexpress,3216.71,2025-10-31,2025-11-16,
+SHIP-26-02872,Granite Trading Corporation 7,BASE-0177,North-Eastern,319,received,Ecom Express,598.81,2026-04-21,2026-06-13,2026-06-26
+SHIP-26-02873,Jade Manufacturing Enterprises 10,PART-0282,National,245,received,Ekart,836.87,2026-08-26,2026-08-23,2026-09-26
+SHIP-26-02874,Aarav Manufacturing Private Ltd 26,ELGD-0141,Central,259,received,Ecom Express,4605.16,2026-07-15,2026-07-18,2026-07-26
+SHIP-26-02875,Crestline Materials Solutions Pvt Ltd 3,PKGS-0174,South-Western,24,received,Ecom Express,4233.2,2026-05-25,2026-07-23,2026-07-08
+SHIP-26-02876,Crestline Industrial Solutions Pvt Ltd 28,INCH-0299,North-Eastern,183,on_route,Ekart,4081.29,2026-03-24,2026-04-06,
+SHIP-26-02877,Unity Technologies Private Ltd 46,PART-0236,Southern,452,behind_schedule,Ecom Express,802.1,2026-01-14,2026-03-06,
+SHIP-26-02878,Granite Logistics Corporation 32,PART-0222,Eastern,136,received,India Post,2455.59,2025-11-30,2025-12-05,2025-10-30
+SHIP-26-02879,Kinetic Materials Private Ltd 11,OPSU-0128,South-Western,277,on_route,Safexpress,869.16,2026-03-09,2026-04-03,
+SHIP-26-02880,Yellowstone Global Industries LLP 49,OPSU-0230,Himalayan,305,received,Ecom Express,1969.12,2026-02-19,2026-02-18,2026-03-13
+SHIP-26-02881,Frontier Technologies Private Ltd 6,PART-0158,Southern,529,received,Safexpress,1894.19,2025-10-01,2025-11-09,2025-09-26
+SHIP-26-02882,Frontier Technologies Private Ltd 6,PART-0218,Western,358,on_route,India Post,3245.89,2026-06-14,2026-06-14,
+SHIP-26-02883,Orchid Trading Enterprises 15,PKGS-0137,South-Western,590,aborted,India Post,3024.18,2026-09-17,2026-09-20,
+SHIP-26-02884,Summit Industrial Industries LLP 44,PKGS-0166,Himalayan,453,received,India Post,3230.71,2026-08-10,2026-08-10,2026-09-24
+SHIP-26-02885,Summit Industrial Industries LLP 44,INCH-0185,Western,363,received,Safexpress,4682.29,2026-04-18,2026-03-31,2026-03-12
+SHIP-26-02886,Crestline Materials Solutions Pvt Ltd 3,BASE-0121,Central,296,on_route,Safexpress,1224.71,2026-02-06,2026-04-03,
+SHIP-26-02887,Kinetic Materials Private Ltd 11,PKGS-0133,South-Western,241,behind_schedule,Ekart,3788.59,2025-09-27,2025-10-21,
+SHIP-26-02888,Granite Logistics Corporation 32,BASE-0297,Himalayan,21,received,Ecom Express,924.43,2026-07-14,2026-07-23,2026-07-30
+SHIP-26-02889,Granite Logistics Corporation 32,PART-0115,Southern,309,on_route,Shadowfax,1439.51,2026-07-05,2026-06-20,
+SHIP-26-02890,Zenith Manufacturing Enterprises 50,BASE-0151,North-Eastern,105,received,Shadowfax,1798.8,2026-06-10,2026-05-15,2026-07-02
+SHIP-26-02891,Unity Supply Private Ltd 21,PKGS-0161,Southern,458,received,Safexpress,3249.37,2026-08-16,2026-10-08,2026-09-19
+SHIP-26-02892,Vertex Trading Corporation 47,PART-0179,Central,119,awaiting_pickup,Ecom Express,899.74,2026-06-10,2026-06-21,
+SHIP-26-02893,Horizon Logistics Solutions Pvt Ltd 8,OPSU-0128,South-Eastern,163,on_route,Ekart,778.9,2026-06-01,2026-06-15,
+SHIP-26-02894,Meridian Supply Solutions Pvt Ltd 13,INCH-0213,South-Western,127,received,Safexpress,2749.65,2025-11-15,2025-12-29,2025-11-08
+SHIP-26-02895,Zenith Global Enterprises 25,PKGS-0166,Central,160,received,India Post,4708.54,2026-04-27,2026-04-10,2026-03-28
+SHIP-26-02896,Horizon Logistics Solutions Pvt Ltd 8,EQPM-0235,Central,206,behind_schedule,Ecom Express,2610.98,2025-09-26,2025-11-30,
+SHIP-26-02897,Dharma Industrial Industries LLP 4,ELGD-0168,North-Eastern,86,received,Safexpress,3489.9,2026-03-06,2026-03-03,2026-01-20
+SHIP-26-02898,Frontier Trading Private Ltd 31,INCH-0245,North-Eastern,172,awaiting_pickup,Shadowfax,3008.53,2026-01-25,2025-12-25,
+SHIP-26-02899,Horizon Logistics Solutions Pvt Ltd 8,PART-0284,South-Western,380,received,India Post,1459.69,2026-10-01,2026-09-30,2026-10-15
+SHIP-26-02900,Jade Materials Enterprises 35,ELGD-0120,North-Eastern,320,received,Shadowfax,3986.01,2026-10-18,2026-11-06,2026-10-06
+SHIP-26-02901,Riverstone Manufacturing Solutions Pvt Ltd 18,INCH-0184,North-Eastern,39,received,Shadowfax,4451.41,2026-05-09,2026-04-21,2026-04-13
+SHIP-26-02902,Granite Trading Corporation 7,EQPM-0111,South-Eastern,342,behind_schedule,Shadowfax,1603.32,2025-10-11,2025-10-13,
+SHIP-26-02903,Aarav Global Private Ltd 1,PART-0179,Eastern,216,received,Safexpress,604.83,2026-06-15,2026-08-23,2026-07-23
+SHIP-26-02904,Jade Manufacturing Enterprises 10,EQPM-0111,Southern,318,awaiting_pickup,Shadowfax,1083.63,2025-12-10,2025-12-10,
+SHIP-26-02905,Vertex Trading Corporation 47,PKGS-0289,North-Western,419,received,Ekart,3709.48,2025-11-20,2025-12-09,2025-12-10
+SHIP-26-02906,BluePeak Materials Corporation 27,APRL-0291,North-Eastern,126,aborted,Safexpress,1385.12,2025-11-08,2025-10-29,
+SHIP-26-02907,Granite Logistics Corporation 32,PART-0255,North-Western,158,behind_schedule,India Post,3888.86,2026-05-12,2026-05-13,
+SHIP-26-02908,Jade Materials Enterprises 35,OPSU-0199,National,426,received,Ecom Express,1037.15,2026-01-15,2026-02-13,2026-02-12
+SHIP-26-02909,Westbridge Trading Solutions Pvt Ltd 23,APRL-0190,South-Eastern,282,received,Ecom Express,1876.28,2025-12-20,2025-11-21,2025-12-11
+SHIP-26-02910,Summit Materials Industries LLP 19,ELGD-0272,Central,212,received,Ecom Express,2223.13,2026-08-27,2026-08-01,2026-07-29
+SHIP-26-02911,Crestline Industrial Solutions Pvt Ltd 28,PKGS-0194,North-Western,492,received,Ekart,2009.59,2026-02-12,2026-03-28,2026-04-12
+SHIP-26-02912,Yellowstone Logistics Industries LLP 24,INCH-0138,North-Eastern,369,received,Ecom Express,1214.88,2025-11-22,2025-11-30,2025-12-14
+SHIP-26-02913,Lotus Supply Corporation 37,PKGS-0161,Southern,67,received,India Post,561.56,2025-12-30,2026-01-23,2026-02-14
+SHIP-26-02914,Zenith Global Enterprises 25,PKGS-0273,National,304,received,Ecom Express,4326.94,2026-04-19,2026-04-10,2026-03-28
+SHIP-26-02915,Dharma Supply Industries LLP 29,APRL-0285,National,145,received,Safexpress,2925.68,2026-03-11,2026-04-15,2026-03-05
+SHIP-26-02916,Summit Industrial Industries LLP 44,EQPM-0195,National,13,received,India Post,4017.01,2026-02-23,2026-04-07,2026-03-26
+SHIP-26-02917,Pioneer Logistics Private Ltd 16,APRL-0225,North-Western,429,received,India Post,4748.52,2025-11-09,2025-10-11,2025-10-13
+SHIP-26-02918,Trident Supply Enterprises 45,BASE-0251,Southern,364,received,Ecom Express,240.09,2026-01-02,2025-12-15,2026-01-14
+SHIP-26-02919,Horizon Global Solutions Pvt Ltd 33,ELGD-0211,South-Western,154,on_route,Safexpress,1490.07,2025-12-26,2025-12-22,
+SHIP-26-02920,Dharma Industrial Industries LLP 4,INCH-0213,North-Eastern,253,received,India Post,3078.26,2026-02-21,2026-03-27,2026-03-31
+SHIP-26-02921,Jade Manufacturing Enterprises 10,ELGD-0162,South-Eastern,83,received,Ecom Express,494.98,2026-06-22,2026-06-25,2026-07-17
+SHIP-26-02922,Jade Manufacturing Enterprises 10,PKGS-0219,North-Western,279,received,Ecom Express,3815.63,2025-11-28,2026-02-07,2025-12-29
+SHIP-26-02923,Orchid Logistics Enterprises 40,APRL-0294,Eastern,521,received,Safexpress,3116.77,2026-01-29,2026-04-03,2026-03-03
+SHIP-26-02924,Pioneer Global Private Ltd 41,BASE-0288,National,32,behind_schedule,Safexpress,5779.65,2026-08-01,2026-07-07,
+SHIP-26-02925,Crestline Industrial Solutions Pvt Ltd 28,APRL-0160,Central,163,received,Shadowfax,301.24,2025-10-31,2025-11-03,2025-10-20
+SHIP-26-02926,Zenith Global Enterprises 25,APRL-0160,National,296,received,Ekart,1358.68,2025-12-25,2026-01-01,2025-12-11
+SHIP-26-02927,Crestline Materials Solutions Pvt Ltd 3,PART-0295,South-Eastern,44,aborted,Ekart,769.53,2025-11-13,2025-11-27,
+SHIP-26-02928,Orchid Logistics Enterprises 40,PKGS-0229,Central,176,received,Safexpress,2761.25,2026-04-16,2026-04-28,2026-05-10
+SHIP-26-02929,Lotus Industrial Corporation 12,EQPM-0276,Central,262,received,India Post,4220.08,2025-12-24,2025-12-25,2025-11-27
+SHIP-26-02930,Aarav Manufacturing Private Ltd 26,EQPM-0146,National,205,received,India Post,951.61,2026-07-12,2026-07-12,2026-07-19
+SHIP-26-02931,Orchid Logistics Enterprises 40,BASE-0171,South-Western,60,on_route,Safexpress,3926.09,2026-08-20,2026-08-28,
+SHIP-26-02932,Riverstone Materials Solutions Pvt Ltd 43,OPSU-0134,South-Eastern,279,received,India Post,1264.91,2025-12-25,2026-02-13,2026-03-01
+SHIP-26-02933,Orchid Logistics Enterprises 40,PKGS-0214,South-Eastern,602,received,India Post,4242.66,2026-06-08,2026-06-02,2026-05-30
+SHIP-26-02934,Yellowstone Logistics Industries LLP 24,OPSU-0280,North-Western,533,received,Ecom Express,2634.02,2026-04-30,2026-07-01,2026-06-09
+SHIP-26-02935,Summit Industrial Industries LLP 44,PKGS-0296,Eastern,333,awaiting_pickup,Ekart,4835.3,2025-12-15,2026-01-31,
+SHIP-26-02936,Nova Trading Industries LLP 39,PART-0147,North-Eastern,138,received,Shadowfax,528.87,2026-08-24,2026-09-16,2026-09-22
+SHIP-26-02937,Lotus Supply Corporation 37,INCH-0224,South-Eastern,387,received,Ekart,4544.47,2026-01-12,2026-02-07,2025-12-28
+SHIP-26-02938,Meridian Supply Solutions Pvt Ltd 13,OPSU-0241,Central,211,received,Ekart,2371.42,2025-09-24,2025-10-11,2025-10-25
+SHIP-26-02939,Meridian Technologies Solutions Pvt Ltd 38,EQPM-0276,North-Eastern,292,received,Shadowfax,1566.62,2026-02-08,2026-03-14,2026-02-20
+SHIP-26-02940,Orchid Trading Enterprises 15,ELGD-0232,South-Eastern,69,received,Shadowfax,2672.54,2025-12-25,2025-12-30,2026-01-05
+SHIP-26-02941,Jade Manufacturing Enterprises 10,PART-0147,Eastern,78,received,Ekart,3710.08,2026-01-31,2026-02-23,2026-02-03
+SHIP-26-02942,Orchid Trading Enterprises 15,EQPM-0210,Western,194,received,Ekart,4743.77,2026-02-24,2026-01-24,2026-03-16
+SHIP-26-02943,Meridian Technologies Solutions Pvt Ltd 38,OPSU-0117,Western,427,received,Safexpress,2845.66,2025-12-14,2025-12-19,2025-12-14
+SHIP-26-02944,Yellowstone Logistics Industries LLP 24,ELGD-0164,Western,333,on_route,Safexpress,1420.16,2026-03-10,2026-03-15,
+SHIP-26-02945,Aarav Manufacturing Private Ltd 26,BASE-0171,North-Eastern,132,received,Ecom Express,2014.82,2026-02-03,2026-01-30,2026-02-08
+SHIP-26-02946,Vertex Technologies Corporation 22,PKGS-0290,North-Western,71,received,India Post,3489.2,2026-09-14,2026-10-20,2026-10-03
+SHIP-26-02947,Vertex Technologies Corporation 22,EQPM-0170,Eastern,50,aborted,Ekart,879.85,2026-02-18,2026-04-11,
+SHIP-26-02948,Meridian Supply Solutions Pvt Ltd 13,PKGS-0166,Central,46,received,Ekart,2506.73,2026-04-16,2026-05-10,2026-06-05
+SHIP-26-02949,Yellowstone Logistics Industries LLP 24,PKGS-0229,Western,475,behind_schedule,Shadowfax,3299.18,2026-07-06,2026-08-16,
+SHIP-26-02950,Summit Materials Industries LLP 19,ELGD-0272,Western,138,received,Safexpress,4905.34,2026-06-11,2026-07-07,2026-06-15
+SHIP-26-02951,Horizon Logistics Solutions Pvt Ltd 8,EQPM-0227,Central,574,received,Ecom Express,4547.17,2025-11-28,2025-12-04,2026-01-09
+SHIP-26-02952,Pioneer Logistics Private Ltd 16,INCH-0140,South-Eastern,343,on_route,Shadowfax,4104.22,2026-06-10,2026-07-17,
+SHIP-26-02953,Horizon Logistics Solutions Pvt Ltd 8,PART-0222,South-Eastern,415,received,Safexpress,4206.86,2026-05-15,2026-05-18,2026-04-21
+SHIP-26-02954,Quantum Global Corporation 17,PKGS-0155,South-Western,177,received,Ecom Express,1549.13,2026-09-28,2026-10-24,2026-09-28
+SHIP-26-02955,Lotus Supply Corporation 37,PKGS-0215,North-Western,424,received,Ecom Express,3831.4,2026-07-21,2026-06-30,2026-07-26
+SHIP-26-02956,Lotus Supply Corporation 37,BASE-0165,North-Western,151,received,Ekart,4721.94,2026-03-05,2026-04-25,2026-04-06
+SHIP-26-02957,Unity Supply Private Ltd 21,ELGD-0141,Southern,344,received,Safexpress,666.81,2025-12-07,2026-01-05,2025-12-15
+SHIP-26-02958,Riverstone Manufacturing Solutions Pvt Ltd 18,OPSU-0247,Central,462,received,India Post,5632.51,2025-12-29,2026-01-06,2026-01-02
+SHIP-26-02959,Lotus Industrial Corporation 12,OPSU-0243,Central,92,received,Ecom Express,4209.9,2026-02-21,2026-01-10,2026-02-20
+SHIP-26-02960,Kinetic Materials Private Ltd 11,APRL-0129,Eastern,340,received,Shadowfax,1051.08,2026-09-21,2026-09-23,2026-10-11
+SHIP-26-02961,Pioneer Logistics Private Ltd 16,APRL-0234,National,497,received,India Post,342.37,2025-10-16,2025-11-30,2025-12-15
+SHIP-26-02962,Yellowstone Global Industries LLP 49,APRL-0160,Southern,82,received,Safexpress,1527.98,2025-11-19,2025-11-03,2025-12-16
+SHIP-26-02963,Horizon Global Solutions Pvt Ltd 33,APRL-0114,South-Western,94,received,Safexpress,3827.62,2026-05-07,2026-05-22,2026-06-15
+SHIP-26-02964,Trident Supply Enterprises 45,APRL-0240,Central,359,received,Ekart,4950.32,2026-04-07,2026-04-15,2026-05-29
+SHIP-26-02965,Trident Industrial Enterprises 20,OPSU-0139,North-Western,198,received,India Post,3125.85,2025-12-16,2025-12-24,2026-01-26
+SHIP-26-02966,Unity Supply Private Ltd 21,OPSU-0247,Western,205,received,Ekart,1561.23,2025-11-09,2025-12-01,2026-01-03
+SHIP-26-02967,Lotus Industrial Corporation 12,EQPM-0106,Southern,68,aborted,Shadowfax,4580.86,2025-11-05,2025-12-14,
+SHIP-26-02968,Granite Trading Corporation 7,ELGD-0217,Himalayan,177,received,India Post,4543.58,2026-06-17,2026-06-12,2026-06-09
+SHIP-26-02969,BluePeak Manufacturing Corporation 2,ELGD-0169,South-Eastern,452,received,Shadowfax,1103.26,2026-10-16,2026-10-10,2026-11-03
+SHIP-26-02970,Trident Supply Enterprises 45,APRL-0240,South-Western,560,received,India Post,2375.17,2026-01-06,2025-12-20,2025-12-22
+SHIP-26-02971,Indus Global Industries LLP 9,BASE-0216,North-Eastern,253,on_route,Ecom Express,5248.54,2026-10-01,2026-09-11,
+SHIP-26-02972,Evergreen Supply Enterprises 5,EQPM-0182,Central,359,received,Ekart,2303.61,2026-01-07,2026-02-02,2026-02-08
+SHIP-26-02973,Dharma Supply Industries LLP 29,OPSU-0192,Southern,49,on_route,Safexpress,2706.75,2026-06-16,2026-06-24,
+SHIP-26-02974,Quantum Global Corporation 17,BASE-0150,Himalayan,172,received,Ekart,489.96,2025-11-10,2026-01-12,2026-01-06
+SHIP-26-02975,Trident Supply Enterprises 45,BASE-0121,Western,290,received,Safexpress,2772.59,2025-10-17,2025-10-21,2025-10-16
+SHIP-26-02976,Evergreen Technologies Enterprises 30,ELGD-0233,South-Eastern,28,received,India Post,3088.11,2026-05-09,2026-05-22,2026-05-06
+SHIP-26-02977,Meridian Technologies Solutions Pvt Ltd 38,EQPM-0276,Southern,164,awaiting_pickup,Safexpress,5051.44,2026-03-12,2026-03-23,
+SHIP-26-02978,Aarav Global Private Ltd 1,ELGD-0232,North-Eastern,53,received,Safexpress,3607.82,2026-04-22,2026-04-15,2026-05-20
+SHIP-26-02979,Horizon Logistics Solutions Pvt Ltd 8,BASE-0286,North-Eastern,455,behind_schedule,Shadowfax,3632.87,2026-01-04,2026-01-07,
+SHIP-26-02980,Orchid Trading Enterprises 15,PKGS-0209,Western,407,received,Shadowfax,5064.13,2026-05-16,2026-05-25,2026-06-14
+SHIP-26-02981,Nova Trading Industries LLP 39,APRL-0114,North-Western,386,received,Ekart,4591.86,2026-04-01,2026-04-26,2026-04-05
+SHIP-26-02982,Horizon Global Solutions Pvt Ltd 33,EQPM-0195,Western,483,received,Ekart,514.23,2026-08-07,2026-09-24,2026-08-18
+SHIP-26-02983,Orchid Trading Enterprises 15,PART-0189,National,417,on_route,India Post,2879.33,2026-01-11,2026-01-13,
+SHIP-26-02984,Lotus Industrial Corporation 12,ELGD-0145,North-Eastern,76,received,Ekart,2473.19,2026-05-20,2026-04-27,2026-05-26
+SHIP-26-02985,BluePeak Materials Corporation 27,PKGS-0135,National,556,received,Ecom Express,1280.07,2026-07-13,2026-09-20,2026-08-12
+SHIP-26-02986,Yellowstone Global Industries LLP 49,PART-0147,Himalayan,455,awaiting_pickup,Safexpress,2914.24,2026-05-01,2026-05-29,
+SHIP-26-02987,Kinetic Materials Private Ltd 11,ELGD-0223,North-Western,558,received,Ecom Express,3722.08,2026-07-27,2026-08-23,2026-09-13
+SHIP-26-02988,Nova Technologies Industries LLP 14,PKGS-0135,Southern,72,behind_schedule,Safexpress,4468.04,2025-12-08,2026-01-05,
+SHIP-26-02989,BluePeak Manufacturing Corporation 2,PKGS-0209,North-Western,367,received,India Post,818.82,2026-03-02,2026-03-01,2026-01-22
+SHIP-26-02990,Westbridge Trading Solutions Pvt Ltd 23,PKGS-0221,National,40,behind_schedule,Shadowfax,1535.22,2026-01-05,2026-02-28,
+SHIP-26-02991,Vertex Technologies Corporation 22,EQPM-0266,Southern,178,received,Ecom Express,3519.68,2026-09-04,2026-10-06,2026-10-02
+SHIP-26-02992,Frontier Technologies Private Ltd 6,EQPM-0182,Western,26,received,India Post,3470.66,2026-06-03,2026-05-21,2026-05-12
+SHIP-26-02993,Zenith Global Enterprises 25,EQPM-0124,South-Western,111,on_route,Safexpress,3920.61,2026-10-08,2026-10-17,
+SHIP-26-02994,Nova Technologies Industries LLP 14,PART-0158,National,586,received,Safexpress,4502.07,2025-11-10,2025-11-05,2025-11-16
+SHIP-26-02995,Horizon Logistics Solutions Pvt Ltd 8,APRL-0294,North-Eastern,78,received,Shadowfax,1113.48,2026-05-05,2026-05-06,2026-03-26
+SHIP-26-02996,Jade Manufacturing Enterprises 10,OPSU-0278,North-Western,241,on_route,Ecom Express,589.13,2026-10-04,2026-10-10,
+SHIP-26-02997,Frontier Trading Private Ltd 31,PKGS-0249,Southern,500,received,Ecom Express,2024.53,2026-04-20,2026-04-15,2026-05-24
+SHIP-26-02998,Nova Technologies Industries LLP 14,EQPM-0112,Central,104,received,Safexpress,4508.79,2026-02-13,2026-01-24,2026-02-23
+SHIP-26-02999,Nova Technologies Industries LLP 14,EQPM-0153,Central,455,received,Shadowfax,766.47,2026-04-13,2026-04-10,2026-03-27
+SHIP-26-03000,Trident Industrial Enterprises 20,PKGS-0207,South-Western,166,behind_schedule,Ecom Express,2302.37,2026-01-17,2026-01-22,

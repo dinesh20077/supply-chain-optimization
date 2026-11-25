@@ -1,0 +1,51 @@
+name,contact_email,contact_phone,region_name,lead_time_days,reliability_score,status
+Aarav Global Private Ltd 1,vendor1@aaravglobalprivateltd.in,+91 6357003815,South-Eastern,13,0.8,verified
+BluePeak Manufacturing Corporation 2,vendor2@bluepeakmanufacturingcorporation.in,+91 9095824193,South-Western,3,0.96,verified
+Crestline Materials Solutions Pvt Ltd 3,vendor3@crestlinematerialssolutionspvtltd.in,+91 8618286073,Himalayan,24,0.51,on_hold
+Dharma Industrial Industries LLP 4,vendor4@dharmaindustrialindustriesllp.in,+91 7755513757,Western,6,0.83,verified
+Evergreen Supply Enterprises 5,vendor5@evergreensupplyenterprises.in,+91 7732060942,North-Western,24,0.5,verified
+Frontier Technologies Private Ltd 6,vendor6@frontiertechnologiesprivateltd.in,+91 9434391678,Eastern,7,0.82,verified
+Granite Trading Corporation 7,vendor7@granitetradingcorporation.in,+91 6343782556,Central,16,0.83,verified
+Horizon Logistics Solutions Pvt Ltd 8,vendor8@horizonlogisticssolutionspvtltd.in,+91 8789472115,National,15,0.99,verified
+Indus Global Industries LLP 9,vendor9@indusglobalindustriesllp.in,+91 6805878142,Southern,7,0.79,verified
+Jade Manufacturing Enterprises 10,vendor10@jademanufacturingenterprises.in,+91 6376709391,Central,10,0.99,verified
+Kinetic Materials Private Ltd 11,vendor11@kineticmaterialsprivateltd.in,+91 8105915914,Eastern,14,0.76,verified
+Lotus Industrial Corporation 12,vendor12@lotusindustrialcorporation.in,+91 9902489405,North-Western,4,0.73,verified
+Meridian Supply Solutions Pvt Ltd 13,vendor13@meridiansupplysolutionspvtltd.in,+91 9044558806,North-Eastern,5,0.91,on_hold
+Nova Technologies Industries LLP 14,vendor14@novatechnologiesindustriesllp.in,+91 8869909106,Southern,14,0.87,verified
+Orchid Trading Enterprises 15,vendor15@orchidtradingenterprises.in,+91 9144257219,North-Eastern,15,0.69,verified
+Pioneer Logistics Private Ltd 16,vendor16@pioneerlogisticsprivateltd.in,+91 8052906291,Southern,5,0.99,verified
+Quantum Global Corporation 17,vendor17@quantumglobalcorporation.in,+91 6512454530,Southern,29,0.55,verified
+Riverstone Manufacturing Solutions Pvt Ltd 18,vendor18@riverstonemanufacturingsolutionspvtltd.in,+91 9358992916,Western,13,0.73,verified
+Summit Materials Industries LLP 19,vendor19@summitmaterialsindustriesllp.in,+91 7801543750,Southern,1,0.99,verified
+Trident Industrial Enterprises 20,vendor20@tridentindustrialenterprises.in,+91 8001407660,Eastern,4,0.76,verified
+Unity Supply Private Ltd 21,vendor21@unitysupplyprivateltd.in,+91 7483192096,Southern,13,0.58,verified
+Vertex Technologies Corporation 22,vendor22@vertextechnologiescorporation.in,+91 6730198546,North-Eastern,11,0.69,verified
+Westbridge Trading Solutions Pvt Ltd 23,vendor23@westbridgetradingsolutionspvtltd.in,+91 9707059954,South-Eastern,19,0.5,verified
+Yellowstone Logistics Industries LLP 24,vendor24@yellowstonelogisticsindustriesllp.in,+91 9126269822,Southern,6,0.95,verified
+Zenith Global Enterprises 25,vendor25@zenithglobalenterprises.in,+91 8575460478,Himalayan,3,0.8,verified
+Aarav Manufacturing Private Ltd 26,vendor26@aaravmanufacturingprivateltd.in,+91 7609657456,North-Eastern,16,0.59,verified
+BluePeak Materials Corporation 27,vendor27@bluepeakmaterialscorporation.in,+91 9291046451,South-Western,30,0.5,verified
+Crestline Industrial Solutions Pvt Ltd 28,vendor28@crestlineindustrialsolutionspvtltd.in,+91 8181716474,Himalayan,32,0.69,verified
+Dharma Supply Industries LLP 29,vendor29@dharmasupplyindustriesllp.in,+91 7773656794,South-Eastern,19,0.65,verified
+Evergreen Technologies Enterprises 30,vendor30@evergreentechnologiesenterprises.in,+91 7801838213,Southern,5,0.82,verified
+Frontier Trading Private Ltd 31,vendor31@frontiertradingprivateltd.in,+91 6908954886,Central,18,0.92,verified
+Granite Logistics Corporation 32,vendor32@granitelogisticscorporation.in,+91 6368543656,North-Eastern,13,0.73,verified
+Horizon Global Solutions Pvt Ltd 33,vendor33@horizonglobalsolutionspvtltd.in,+91 8218339147,South-Western,17,0.92,on_hold
+Indus Manufacturing Industries LLP 34,vendor34@indusmanufacturingindustriesllp.in,+91 9551559371,Himalayan,5,0.85,verified
+Jade Materials Enterprises 35,vendor35@jadematerialsenterprises.in,+91 6255269023,Himalayan,13,0.75,verified
+Kinetic Industrial Private Ltd 36,vendor36@kineticindustrialprivateltd.in,+91 9433165174,Western,20,0.72,verified
+Lotus Supply Corporation 37,vendor37@lotussupplycorporation.in,+91 9310524686,Western,17,0.89,verified
+Meridian Technologies Solutions Pvt Ltd 38,vendor38@meridiantechnologiessolutionspvtltd.in,+91 8526657595,Himalayan,8,0.82,verified
+Nova Trading Industries LLP 39,vendor39@novatradingindustriesllp.in,+91 9032350959,South-Western,7,0.99,on_hold
+Orchid Logistics Enterprises 40,vendor40@orchidlogisticsenterprises.in,+91 8802091865,Central,8,0.84,on_hold
+Pioneer Global Private Ltd 41,vendor41@pioneerglobalprivateltd.in,+91 7418103871,Eastern,10,0.81,on_hold
+Quantum Manufacturing Corporation 42,vendor42@quantummanufacturingcorporation.in,+91 6271680005,North-Western,13,0.9,verified
+Riverstone Materials Solutions Pvt Ltd 43,vendor43@riverstonematerialssolutionspvtltd.in,+91 9882792096,North-Western,13,0.59,verified
+Summit Industrial Industries LLP 44,vendor44@summitindustrialindustriesllp.in,+91 7782749946,North-Eastern,10,0.88,verified
+Trident Supply Enterprises 45,vendor45@tridentsupplyenterprises.in,+91 9572484483,Southern,15,0.72,verified
+Unity Technologies Private Ltd 46,vendor46@unitytechnologiesprivateltd.in,+91 8711676045,National,9,0.68,verified
+Vertex Trading Corporation 47,vendor47@vertextradingcorporation.in,+91 9113533986,North-Eastern,7,0.8,verified
+Westbridge Logistics Solutions Pvt Ltd 48,vendor48@westbridgelogisticssolutionspvtltd.in,+91 9039597763,South-Western,15,0.9,verified
+Yellowstone Global Industries LLP 49,vendor49@yellowstoneglobalindustriesllp.in,+91 6778554830,Himalayan,1,0.79,verified
+Zenith Manufacturing Enterprises 50,vendor50@zenithmanufacturingenterprises.in,+91 7455624124,Central,24,0.54,verified

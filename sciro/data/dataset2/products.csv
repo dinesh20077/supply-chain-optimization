@@ -1,0 +1,201 @@
+sku,name,category,unit_price,cost_price,weight_kg,reorder_point,safety_stock,supplier_name,status
+APRL-0101,Apparel Item 101,Apparel,45869.72,38861.46,425.7,84,30,Summit Materials Industries LLP 19,available
+BASE-0102,Base Materials Item 102,Base Materials,22586.47,14290.69,5.52,168,28,Jade Materials Enterprises 35,available
+INCH-0103,Industrial Chemicals Item 103,Industrial Chemicals,9265.54,7081.49,501.72,178,74,Indus Global Industries LLP 9,available
+PART-0104,Parts Item 104,Parts,7795.48,4916.84,211.27,83,19,Zenith Manufacturing Enterprises 50,available
+ELGD-0105,Electronic Goods Item 105,Electronic Goods,23762.01,14434.69,87.76,73,93,Vertex Technologies Corporation 22,available
+EQPM-0106,Equipment Item 106,Equipment,14071.4,10680.05,317.96,173,46,Lotus Industrial Corporation 12,available
+PKGS-0107,Packing Supplies Item 107,Packing Supplies,38311.15,28915.5,327.44,93,64,Lotus Industrial Corporation 12,available
+APRL-0108,Apparel Item 108,Apparel,21001.16,11819.69,156.68,190,80,Dharma Industrial Industries LLP 4,available
+APRL-0109,Apparel Item 109,Apparel,43134.42,29842.67,416.52,92,71,Lotus Supply Corporation 37,available
+INCH-0110,Industrial Chemicals Item 110,Industrial Chemicals,23458.66,17342.84,57.06,25,54,Quantum Global Corporation 17,available
+EQPM-0111,Equipment Item 111,Equipment,8677.45,5579.61,87.46,77,14,Evergreen Technologies Enterprises 30,available
+EQPM-0112,Equipment Item 112,Equipment,16187.0,10774.35,3.62,113,44,Vertex Technologies Corporation 22,available
+APRL-0113,Apparel Item 113,Apparel,45717.73,34441.64,232.48,227,97,Evergreen Technologies Enterprises 30,available
+APRL-0114,Apparel Item 114,Apparel,54349.4,34916.8,406.56,29,25,Jade Materials Enterprises 35,available
+PART-0115,Parts Item 115,Parts,30469.06,19686.04,469.91,41,82,Vertex Technologies Corporation 22,available
+PART-0116,Parts Item 116,Parts,40850.48,26499.98,65.95,62,11,Kinetic Industrial Private Ltd 36,available
+OPSU-0117,Operating Supplies Item 117,Operating Supplies,49539.97,32447.57,441.64,69,44,Yellowstone Logistics Industries LLP 24,available
+EQPM-0118,Equipment Item 118,Equipment,29539.99,23822.1,500.26,123,88,Evergreen Supply Enterprises 5,available
+ELGD-0119,Electronic Goods Item 119,Electronic Goods,2655.01,1758.06,367.56,162,62,Summit Materials Industries LLP 19,available
+ELGD-0120,Electronic Goods Item 120,Electronic Goods,39530.32,28120.31,24.14,182,37,Trident Supply Enterprises 45,available
+BASE-0121,Base Materials Item 121,Base Materials,293.56,218.71,316.26,94,13,Summit Industrial Industries LLP 44,available
+EQPM-0122,Equipment Item 122,Equipment,33633.12,22082.86,440.13,140,43,Unity Technologies Private Ltd 46,available
+OPSU-0123,Operating Supplies Item 123,Operating Supplies,26366.84,22070.88,127.36,100,78,Pioneer Logistics Private Ltd 16,available
+EQPM-0124,Equipment Item 124,Equipment,17561.3,13350.06,395.78,95,90,Evergreen Supply Enterprises 5,available
+PART-0125,Parts Item 125,Parts,6758.77,5384.72,554.08,158,64,Trident Industrial Enterprises 20,available
+ELGD-0126,Electronic Goods Item 126,Electronic Goods,42199.06,32456.06,75.28,32,50,Trident Industrial Enterprises 20,available
+PKGS-0127,Packing Supplies Item 127,Packing Supplies,893.31,705.72,339.48,179,43,Jade Manufacturing Enterprises 10,available
+OPSU-0128,Operating Supplies Item 128,Operating Supplies,39519.79,25252.76,137.84,85,102,Yellowstone Global Industries LLP 49,available
+APRL-0129,Apparel Item 129,Apparel,42255.96,34288.03,390.22,55,59,Quantum Global Corporation 17,available
+ELGD-0130,Electronic Goods Item 130,Electronic Goods,13945.31,7461.9,82.1,67,85,Pioneer Logistics Private Ltd 16,available
+ELGD-0131,Electronic Goods Item 131,Electronic Goods,41541.37,31709.53,216.03,148,51,BluePeak Materials Corporation 27,retired
+APRL-0132,Apparel Item 132,Apparel,39959.58,35062.94,409.96,101,30,Granite Logistics Corporation 32,available
+PKGS-0133,Packing Supplies Item 133,Packing Supplies,34359.48,23414.06,231.37,156,55,Frontier Technologies Private Ltd 6,available
+OPSU-0134,Operating Supplies Item 134,Operating Supplies,4645.7,3301.31,116.46,136,13,Yellowstone Global Industries LLP 49,available
+PKGS-0135,Packing Supplies Item 135,Packing Supplies,18177.12,8579.08,56.76,120,54,Zenith Global Enterprises 25,available
+OPSU-0136,Operating Supplies Item 136,Operating Supplies,10637.56,7342.58,184.51,57,40,Indus Manufacturing Industries LLP 34,available
+PKGS-0137,Packing Supplies Item 137,Packing Supplies,47768.92,23125.48,237.99,67,65,Frontier Technologies Private Ltd 6,available
+INCH-0138,Industrial Chemicals Item 138,Industrial Chemicals,35301.78,33681.75,141.19,60,33,Unity Supply Private Ltd 21,available
+OPSU-0139,Operating Supplies Item 139,Operating Supplies,34917.15,20026.74,184.89,51,85,Yellowstone Logistics Industries LLP 24,available
+INCH-0140,Industrial Chemicals Item 140,Industrial Chemicals,36400.96,25327.36,24.31,65,26,Westbridge Trading Solutions Pvt Ltd 23,available
+ELGD-0141,Electronic Goods Item 141,Electronic Goods,10940.57,6254.32,60.09,175,57,Aarav Global Private Ltd 1,available
+ELGD-0142,Electronic Goods Item 142,Electronic Goods,30904.21,23439.95,2.76,56,85,Crestline Industrial Solutions Pvt Ltd 28,available
+INCH-0143,Industrial Chemicals Item 143,Industrial Chemicals,39339.02,32242.5,118.45,66,92,Indus Global Industries LLP 9,available
+OPSU-0144,Operating Supplies Item 144,Operating Supplies,47137.77,35903.35,406.04,47,35,Dharma Supply Industries LLP 29,available
+ELGD-0145,Electronic Goods Item 145,Electronic Goods,10636.33,8373.12,156.72,160,19,Dharma Supply Industries LLP 29,available
+EQPM-0146,Equipment Item 146,Equipment,1082.34,623.7,332.74,171,86,Riverstone Manufacturing Solutions Pvt Ltd 18,available
+PART-0147,Parts Item 147,Parts,44836.21,32931.77,67.28,183,26,Pioneer Logistics Private Ltd 16,available
+ELGD-0148,Electronic Goods Item 148,Electronic Goods,22523.52,18172.4,2.09,219,10,Indus Global Industries LLP 9,retired
+APRL-0149,Apparel Item 149,Apparel,7202.33,5196.46,441.63,86,60,Crestline Industrial Solutions Pvt Ltd 28,available
+BASE-0150,Base Materials Item 150,Base Materials,2987.56,1726.41,137.59,77,63,Orchid Trading Enterprises 15,available
+BASE-0151,Base Materials Item 151,Base Materials,27460.08,19709.71,410.66,155,29,Aarav Global Private Ltd 1,available
+BASE-0152,Base Materials Item 152,Base Materials,20676.78,14972.77,399.04,160,53,BluePeak Materials Corporation 27,available
+EQPM-0153,Equipment Item 153,Equipment,19161.0,14714.67,5.76,29,99,Zenith Manufacturing Enterprises 50,available
+INCH-0154,Industrial Chemicals Item 154,Industrial Chemicals,5153.51,3770.99,187.92,43,85,Trident Industrial Enterprises 20,available
+PKGS-0155,Packing Supplies Item 155,Packing Supplies,8658.1,6201.29,414.16,187,106,Yellowstone Global Industries LLP 49,available
+PKGS-0156,Packing Supplies Item 156,Packing Supplies,39315.73,30910.76,191.08,115,58,Westbridge Trading Solutions Pvt Ltd 23,available
+EQPM-0157,Equipment Item 157,Equipment,42727.43,28047.23,53.92,131,93,Kinetic Industrial Private Ltd 36,available
+PART-0158,Parts Item 158,Parts,5606.23,3361.57,375.0,103,12,Quantum Manufacturing Corporation 42,retired
+OPSU-0159,Operating Supplies Item 159,Operating Supplies,32799.07,31384.01,181.29,148,40,Summit Materials Industries LLP 19,available
+APRL-0160,Apparel Item 160,Apparel,23504.11,13335.38,446.0,95,52,Crestline Industrial Solutions Pvt Ltd 28,available
+PKGS-0161,Packing Supplies Item 161,Packing Supplies,18713.64,11160.1,88.5,62,61,Summit Materials Industries LLP 19,available
+ELGD-0162,Electronic Goods Item 162,Electronic Goods,10917.79,6788.19,391.95,108,76,Yellowstone Global Industries LLP 49,available
+INCH-0163,Industrial Chemicals Item 163,Industrial Chemicals,9753.02,6914.38,244.29,123,41,Jade Manufacturing Enterprises 10,available
+ELGD-0164,Electronic Goods Item 164,Electronic Goods,47374.28,34447.89,259.56,144,19,Yellowstone Logistics Industries LLP 24,available
+BASE-0165,Base Materials Item 165,Base Materials,42879.8,32013.17,481.41,34,120,Orchid Trading Enterprises 15,retired
+PKGS-0166,Packing Supplies Item 166,Packing Supplies,4105.33,2430.32,139.02,49,52,Westbridge Logistics Solutions Pvt Ltd 48,available
+PART-0167,Parts Item 167,Parts,30010.68,21001.7,81.14,29,34,Summit Industrial Industries LLP 44,available
+ELGD-0168,Electronic Goods Item 168,Electronic Goods,33826.4,24312.45,150.86,186,38,Summit Industrial Industries LLP 44,available
+ELGD-0169,Electronic Goods Item 169,Electronic Goods,37263.5,26663.11,458.76,85,18,Lotus Supply Corporation 37,available
+EQPM-0170,Equipment Item 170,Equipment,13691.13,9649.28,97.54,145,38,Frontier Technologies Private Ltd 6,available
+BASE-0171,Base Materials Item 171,Base Materials,33914.51,26509.28,440.0,164,34,Lotus Industrial Corporation 12,available
+EQPM-0172,Equipment Item 172,Equipment,14180.54,7435.21,502.5,39,108,Lotus Industrial Corporation 12,available
+PKGS-0173,Packing Supplies Item 173,Packing Supplies,22804.99,15835.72,291.79,135,46,Zenith Global Enterprises 25,available
+PKGS-0174,Packing Supplies Item 174,Packing Supplies,42523.36,30173.2,481.88,54,26,Granite Trading Corporation 7,available
+OPSU-0175,Operating Supplies Item 175,Operating Supplies,12812.58,8664.17,65.52,52,93,Kinetic Materials Private Ltd 11,available
+OPSU-0176,Operating Supplies Item 176,Operating Supplies,27214.4,15662.48,273.75,121,25,Dharma Supply Industries LLP 29,retired
+BASE-0177,Base Materials Item 177,Base Materials,42249.04,25060.47,83.18,194,96,Riverstone Materials Solutions Pvt Ltd 43,available
+APRL-0178,Apparel Item 178,Apparel,18854.63,13916.29,303.58,34,68,Dharma Industrial Industries LLP 4,available
+PART-0179,Parts Item 179,Parts,52587.18,32378.14,322.65,142,12,Kinetic Materials Private Ltd 11,retired
+PKGS-0180,Packing Supplies Item 180,Packing Supplies,3641.64,2482.62,65.69,119,27,Orchid Trading Enterprises 15,available
+INCH-0181,Industrial Chemicals Item 181,Industrial Chemicals,47505.07,33072.0,335.19,150,58,Trident Industrial Enterprises 20,available
+EQPM-0182,Equipment Item 182,Equipment,23019.53,18706.24,169.31,129,25,Dharma Supply Industries LLP 29,available
+OPSU-0183,Operating Supplies Item 183,Operating Supplies,2327.72,1413.53,491.68,191,67,Summit Industrial Industries LLP 44,retired
+INCH-0184,Industrial Chemicals Item 184,Industrial Chemicals,35408.32,24794.55,492.14,142,51,Aarav Manufacturing Private Ltd 26,available
+INCH-0185,Industrial Chemicals Item 185,Industrial Chemicals,27807.29,22266.34,239.01,175,87,Trident Industrial Enterprises 20,available
+BASE-0186,Base Materials Item 186,Base Materials,15592.58,13198.55,214.48,62,17,Frontier Trading Private Ltd 31,available
+PKGS-0187,Packing Supplies Item 187,Packing Supplies,35978.8,21680.45,9.4,208,37,Granite Logistics Corporation 32,available
+BASE-0188,Base Materials Item 188,Base Materials,41156.35,30736.12,302.39,54,24,Meridian Technologies Solutions Pvt Ltd 38,available
+PART-0189,Parts Item 189,Parts,16408.72,10911.2,502.53,137,30,Horizon Logistics Solutions Pvt Ltd 8,available
+APRL-0190,Apparel Item 190,Apparel,45262.64,31064.45,127.45,74,75,Indus Manufacturing Industries LLP 34,available
+EQPM-0191,Equipment Item 191,Equipment,18352.14,15199.95,11.33,110,53,Yellowstone Global Industries LLP 49,available
+OPSU-0192,Operating Supplies Item 192,Operating Supplies,24945.84,18484.84,440.53,66,34,Dharma Supply Industries LLP 29,available
+EQPM-0193,Equipment Item 193,Equipment,29256.05,18429.59,110.16,75,112,Yellowstone Logistics Industries LLP 24,available
+PKGS-0194,Packing Supplies Item 194,Packing Supplies,45585.76,36366.62,367.51,58,78,Summit Industrial Industries LLP 44,available
+EQPM-0195,Equipment Item 195,Equipment,12737.84,9629.39,152.64,60,36,Westbridge Trading Solutions Pvt Ltd 23,available
+PKGS-0196,Packing Supplies Item 196,Packing Supplies,12493.59,7988.62,447.27,107,20,Unity Supply Private Ltd 21,available
+ELGD-0197,Electronic Goods Item 197,Electronic Goods,37381.0,30443.7,77.28,163,99,Quantum Global Corporation 17,available
+ELGD-0198,Electronic Goods Item 198,Electronic Goods,48432.39,31544.45,79.88,27,44,Trident Industrial Enterprises 20,available
+OPSU-0199,Operating Supplies Item 199,Operating Supplies,54214.43,28649.19,69.43,142,67,Westbridge Logistics Solutions Pvt Ltd 48,available
+INCH-0200,Industrial Chemicals Item 200,Industrial Chemicals,38580.09,23104.81,444.39,116,25,Trident Supply Enterprises 45,available
+APRL-0201,Apparel Item 201,Apparel,25720.83,19993.09,358.6,24,85,BluePeak Materials Corporation 27,retired
+ELGD-0202,Electronic Goods Item 202,Electronic Goods,4470.79,3254.19,516.92,82,33,Zenith Global Enterprises 25,available
+BASE-0203,Base Materials Item 203,Base Materials,2356.7,2230.46,196.51,67,87,Unity Supply Private Ltd 21,available
+OPSU-0204,Operating Supplies Item 204,Operating Supplies,19776.02,15368.83,401.42,128,80,Riverstone Materials Solutions Pvt Ltd 43,available
+BASE-0205,Base Materials Item 205,Base Materials,6685.66,5347.4,52.51,87,28,Unity Technologies Private Ltd 46,available
+PKGS-0206,Packing Supplies Item 206,Packing Supplies,2944.36,1798.84,201.87,152,75,Dharma Industrial Industries LLP 4,available
+PKGS-0207,Packing Supplies Item 207,Packing Supplies,37687.9,23446.05,78.01,32,98,Frontier Trading Private Ltd 31,available
+APRL-0208,Apparel Item 208,Apparel,42077.74,28889.5,196.67,147,77,Aarav Manufacturing Private Ltd 26,available
+PKGS-0209,Packing Supplies Item 209,Packing Supplies,27312.94,19887.47,237.43,60,47,Lotus Supply Corporation 37,available
+EQPM-0210,Equipment Item 210,Equipment,39423.86,24521.77,44.97,65,27,Kinetic Materials Private Ltd 11,available
+ELGD-0211,Electronic Goods Item 211,Electronic Goods,18745.08,14265.96,76.48,246,69,Riverstone Materials Solutions Pvt Ltd 43,available
+OPSU-0212,Operating Supplies Item 212,Operating Supplies,48720.92,38704.24,487.33,107,33,Trident Industrial Enterprises 20,available
+INCH-0213,Industrial Chemicals Item 213,Industrial Chemicals,15795.77,9524.09,272.89,132,56,Frontier Trading Private Ltd 31,available
+PKGS-0214,Packing Supplies Item 214,Packing Supplies,1560.73,813.33,319.3,104,47,Jade Materials Enterprises 35,available
+PKGS-0215,Packing Supplies Item 215,Packing Supplies,34810.56,26368.77,298.9,57,49,Unity Supply Private Ltd 21,available
+BASE-0216,Base Materials Item 216,Base Materials,14476.54,12165.09,330.32,178,18,Zenith Global Enterprises 25,available
+ELGD-0217,Electronic Goods Item 217,Electronic Goods,51401.49,30128.92,79.8,185,74,Kinetic Materials Private Ltd 11,available
+PART-0218,Parts Item 218,Parts,46563.55,31943.78,97.87,97,62,Westbridge Trading Solutions Pvt Ltd 23,available
+PKGS-0219,Packing Supplies Item 219,Packing Supplies,10430.33,6999.19,110.93,31,58,Granite Logistics Corporation 32,available
+ELGD-0220,Electronic Goods Item 220,Electronic Goods,43961.32,25138.42,181.84,67,16,Granite Trading Corporation 7,available
+PKGS-0221,Packing Supplies Item 221,Packing Supplies,32770.8,17074.98,496.08,23,116,Nova Technologies Industries LLP 14,available
+PART-0222,Parts Item 222,Parts,6774.76,3746.49,61.21,60,89,Frontier Technologies Private Ltd 6,available
+ELGD-0223,Electronic Goods Item 223,Electronic Goods,25377.28,21770.53,24.73,67,50,Riverstone Materials Solutions Pvt Ltd 43,available
+INCH-0224,Industrial Chemicals Item 224,Industrial Chemicals,33166.01,23888.46,84.44,133,92,Westbridge Logistics Solutions Pvt Ltd 48,available
+APRL-0225,Apparel Item 225,Apparel,43071.48,30671.97,213.65,174,76,Yellowstone Logistics Industries LLP 24,available
+EQPM-0226,Equipment Item 226,Equipment,10140.56,6646.48,397.86,23,61,Quantum Global Corporation 17,available
+EQPM-0227,Equipment Item 227,Equipment,23014.11,13918.47,473.68,196,105,Trident Industrial Enterprises 20,available
+PART-0228,Parts Item 228,Parts,20588.63,17523.79,248.62,66,68,Quantum Global Corporation 17,available
+PKGS-0229,Packing Supplies Item 229,Packing Supplies,15975.93,13137.97,52.31,81,25,Quantum Global Corporation 17,available
+OPSU-0230,Operating Supplies Item 230,Operating Supplies,10822.16,8303.45,408.38,121,37,Trident Industrial Enterprises 20,available
+OPSU-0231,Operating Supplies Item 231,Operating Supplies,34701.79,23231.41,23.96,135,98,Vertex Trading Corporation 47,available
+ELGD-0232,Electronic Goods Item 232,Electronic Goods,30523.22,19098.26,19.02,208,86,Vertex Trading Corporation 47,available
+ELGD-0233,Electronic Goods Item 233,Electronic Goods,42799.9,25243.95,226.09,63,50,BluePeak Manufacturing Corporation 2,available
+APRL-0234,Apparel Item 234,Apparel,18483.23,11906.96,172.42,183,65,Meridian Technologies Solutions Pvt Ltd 38,available
+EQPM-0235,Equipment Item 235,Equipment,39370.38,24501.1,281.32,72,92,Indus Global Industries LLP 9,retired
+PART-0236,Parts Item 236,Parts,10479.6,6843.92,464.08,154,42,Summit Industrial Industries LLP 44,available
+INCH-0237,Industrial Chemicals Item 237,Industrial Chemicals,21368.07,18434.18,525.55,149,64,Quantum Manufacturing Corporation 42,available
+OPSU-0238,Operating Supplies Item 238,Operating Supplies,19089.26,13583.08,433.33,61,73,Summit Materials Industries LLP 19,available
+EQPM-0239,Equipment Item 239,Equipment,49000.16,29086.78,276.59,89,43,Pioneer Logistics Private Ltd 16,available
+APRL-0240,Apparel Item 240,Apparel,37165.19,20600.13,332.97,51,14,Indus Global Industries LLP 9,available
+OPSU-0241,Operating Supplies Item 241,Operating Supplies,10227.79,7241.67,85.9,112,44,Zenith Global Enterprises 25,available
+APRL-0242,Apparel Item 242,Apparel,20998.15,14266.53,463.63,63,19,Westbridge Logistics Solutions Pvt Ltd 48,available
+OPSU-0243,Operating Supplies Item 243,Operating Supplies,33518.1,20534.36,223.54,72,11,Trident Supply Enterprises 45,available
+PKGS-0244,Packing Supplies Item 244,Packing Supplies,54250.47,30948.92,384.27,142,35,Zenith Manufacturing Enterprises 50,available
+INCH-0245,Industrial Chemicals Item 245,Industrial Chemicals,49369.5,40755.52,53.01,68,13,BluePeak Manufacturing Corporation 2,available
+OPSU-0246,Operating Supplies Item 246,Operating Supplies,26781.93,21718.48,287.52,163,52,Horizon Logistics Solutions Pvt Ltd 8,available
+OPSU-0247,Operating Supplies Item 247,Operating Supplies,47884.32,28376.45,99.4,97,42,Dharma Industrial Industries LLP 4,retired
+BASE-0248,Base Materials Item 248,Base Materials,43530.5,33339.11,376.23,52,88,Frontier Technologies Private Ltd 6,available
+PKGS-0249,Packing Supplies Item 249,Packing Supplies,6878.41,4305.34,269.69,78,64,Westbridge Logistics Solutions Pvt Ltd 48,available
+BASE-0250,Base Materials Item 250,Base Materials,39912.17,27240.85,250.41,156,38,Yellowstone Global Industries LLP 49,available
+BASE-0251,Base Materials Item 251,Base Materials,4631.94,2991.68,408.58,178,46,Trident Industrial Enterprises 20,available
+PART-0252,Parts Item 252,Parts,1765.99,1074.08,98.08,85,84,Dharma Supply Industries LLP 29,available
+INCH-0253,Industrial Chemicals Item 253,Industrial Chemicals,44410.43,33319.82,128.62,108,13,Zenith Global Enterprises 25,available
+OPSU-0254,Operating Supplies Item 254,Operating Supplies,10784.41,6455.81,445.54,67,64,Dharma Industrial Industries LLP 4,available
+PART-0255,Parts Item 255,Parts,44727.06,32878.48,469.99,149,115,Jade Manufacturing Enterprises 10,available
+ELGD-0256,Electronic Goods Item 256,Electronic Goods,10356.25,7771.9,456.66,206,39,Evergreen Supply Enterprises 5,available
+ELGD-0257,Electronic Goods Item 257,Electronic Goods,8293.51,6625.28,336.39,49,73,Aarav Manufacturing Private Ltd 26,available
+PART-0258,Parts Item 258,Parts,38015.49,23851.59,462.4,162,29,Lotus Industrial Corporation 12,available
+APRL-0259,Apparel Item 259,Apparel,24005.69,18708.83,209.76,78,122,Yellowstone Logistics Industries LLP 24,available
+APRL-0260,Apparel Item 260,Apparel,23665.75,11792.4,324.7,71,32,Yellowstone Logistics Industries LLP 24,available
+APRL-0261,Apparel Item 261,Apparel,47598.94,38315.89,422.06,81,48,Dharma Industrial Industries LLP 4,available
+PART-0262,Parts Item 262,Parts,29904.72,23345.81,196.72,108,72,Riverstone Materials Solutions Pvt Ltd 43,available
+PART-0263,Parts Item 263,Parts,20015.32,13114.57,327.64,158,91,Evergreen Technologies Enterprises 30,available
+APRL-0264,Apparel Item 264,Apparel,37700.11,30163.12,389.63,130,63,Unity Supply Private Ltd 21,available
+APRL-0265,Apparel Item 265,Apparel,6395.92,4443.22,337.78,48,75,Kinetic Industrial Private Ltd 36,available
+EQPM-0266,Equipment Item 266,Equipment,5200.71,5002.37,86.55,81,30,Nova Technologies Industries LLP 14,available
+PKGS-0267,Packing Supplies Item 267,Packing Supplies,40333.42,30221.77,341.79,144,20,Aarav Manufacturing Private Ltd 26,available
+PART-0268,Parts Item 268,Parts,6607.5,4917.12,152.66,78,21,Yellowstone Logistics Industries LLP 24,available
+PART-0269,Parts Item 269,Parts,3216.5,2446.9,363.79,141,92,Jade Materials Enterprises 35,available
+BASE-0270,Base Materials Item 270,Base Materials,38199.11,26551.33,185.25,42,27,Vertex Technologies Corporation 22,available
+PKGS-0271,Packing Supplies Item 271,Packing Supplies,10855.25,8206.32,175.75,66,34,Trident Industrial Enterprises 20,available
+ELGD-0272,Electronic Goods Item 272,Electronic Goods,16000.61,9292.85,124.48,113,95,Vertex Technologies Corporation 22,available
+PKGS-0273,Packing Supplies Item 273,Packing Supplies,34677.02,23526.33,514.87,117,77,Yellowstone Logistics Industries LLP 24,available
+PART-0274,Parts Item 274,Parts,39361.92,26097.95,40.11,176,10,Unity Technologies Private Ltd 46,available
+INCH-0275,Industrial Chemicals Item 275,Industrial Chemicals,19859.85,14366.78,304.12,132,89,Yellowstone Logistics Industries LLP 24,available
+EQPM-0276,Equipment Item 276,Equipment,40714.8,31596.98,502.05,132,90,Kinetic Materials Private Ltd 11,available
+BASE-0277,Base Materials Item 277,Base Materials,22837.06,13710.15,281.83,143,102,Pioneer Logistics Private Ltd 16,available
+OPSU-0278,Operating Supplies Item 278,Operating Supplies,16773.23,9259.21,95.75,163,14,BluePeak Materials Corporation 27,available
+PART-0279,Parts Item 279,Parts,37241.94,30115.98,87.86,151,23,Trident Industrial Enterprises 20,available
+OPSU-0280,Operating Supplies Item 280,Operating Supplies,42596.15,26639.72,320.06,213,100,Nova Technologies Industries LLP 14,available
+OPSU-0281,Operating Supplies Item 281,Operating Supplies,45753.2,32398.24,194.37,241,58,Orchid Trading Enterprises 15,available
+PART-0282,Parts Item 282,Parts,36774.2,24932.53,417.46,173,34,Meridian Technologies Solutions Pvt Ltd 38,available
+APRL-0283,Apparel Item 283,Apparel,51973.86,26574.06,108.2,161,69,Crestline Industrial Solutions Pvt Ltd 28,available
+PART-0284,Parts Item 284,Parts,19836.4,14602.05,181.28,60,30,Evergreen Supply Enterprises 5,available
+APRL-0285,Apparel Item 285,Apparel,21483.3,18517.59,318.75,149,82,Unity Supply Private Ltd 21,retired
+BASE-0286,Base Materials Item 286,Base Materials,19991.69,14775.23,136.67,170,86,Unity Supply Private Ltd 21,available
+OPSU-0287,Operating Supplies Item 287,Operating Supplies,24213.0,15389.03,98.84,80,52,Frontier Technologies Private Ltd 6,available
+BASE-0288,Base Materials Item 288,Base Materials,41281.04,35306.35,135.62,142,34,Quantum Manufacturing Corporation 42,available
+PKGS-0289,Packing Supplies Item 289,Packing Supplies,52939.38,34024.29,108.22,88,78,Granite Trading Corporation 7,available
+PKGS-0290,Packing Supplies Item 290,Packing Supplies,7322.45,6222.09,429.58,59,31,BluePeak Manufacturing Corporation 2,available
+APRL-0291,Apparel Item 291,Apparel,48723.12,28657.0,24.14,158,82,Summit Industrial Industries LLP 44,available
+ELGD-0292,Electronic Goods Item 292,Electronic Goods,34552.54,22727.49,379.34,41,86,Evergreen Technologies Enterprises 30,available
+OPSU-0293,Operating Supplies Item 293,Operating Supplies,49311.09,33488.44,409.65,32,88,Vertex Technologies Corporation 22,available
+APRL-0294,Apparel Item 294,Apparel,6828.25,3944.08,255.64,169,54,Orchid Trading Enterprises 15,available
+PART-0295,Parts Item 295,Parts,45824.86,30392.5,131.25,147,68,Trident Industrial Enterprises 20,available
+PKGS-0296,Packing Supplies Item 296,Packing Supplies,10578.1,7498.37,494.71,19,86,Aarav Manufacturing Private Ltd 26,available
+BASE-0297,Base Materials Item 297,Base Materials,19540.92,12436.16,247.39,28,116,Zenith Manufacturing Enterprises 50,available
+APRL-0298,Apparel Item 298,Apparel,46693.52,29004.06,380.47,132,39,Unity Supply Private Ltd 21,retired
+INCH-0299,Industrial Chemicals Item 299,Industrial Chemicals,16738.92,12199.52,160.59,63,51,Trident Supply Enterprises 45,available
+OPSU-0300,Operating Supplies Item 300,Operating Supplies,1213.2,943.13,345.65,71,57,Riverstone Materials Solutions Pvt Ltd 43,available
