@@ -460,14 +460,33 @@ def load_all_data(data_dir: str) -> dict:
     return data
 
 
-def ensure_full_data_context() -> None:
+def get_available_sample_datasets() -> dict:
+    """Scan data directory for available sample dataset folders."""
+    settings = get_settings()
+    data_dir = Path(settings.DATA_DIR)
+    found = {}
+    if settings.SAMPLE_DATA_DIR.exists():
+        found["Enterprise Demo (Default)"] = str(settings.SAMPLE_DATA_DIR)
+
+    if data_dir.exists():
+        for item in sorted(data_dir.iterdir()):
+            if item.is_dir() and item.name not in ("raw", "processed", "sample", ".git"):
+                csvs = list(item.glob("*.csv"))
+                if csvs:
+                    display_name = item.name.replace("_", " ").title()
+                    found[f"Scenario: {display_name} ({len(csvs)} files)"] = str(item)
+    return found
+
+
+def ensure_full_data_context(sample_dir: str = None) -> None:
     """Ensure baseline supply chain datasets exist in session state.
 
     If any standard table is missing, backfills it from sample data
     while preserving any uploaded custom datasets.
     """
     settings = get_settings()
-    sample_dir = str(settings.SAMPLE_DATA_DIR)
+    if not sample_dir:
+        sample_dir = st.session_state.get("active_sample_dir", str(settings.SAMPLE_DATA_DIR))
 
     if "data" not in st.session_state:
         st.session_state.data = {}
@@ -694,23 +713,52 @@ def data_sidebar():
     )
 
     if source_choice == "Enterprise Demo Warehouse (Built-in)":
-        if not st.session_state.data_loaded:
-            if st.sidebar.button("⚡ Connect & Load Demo Data", use_container_width=True, key="btn_load_demo_sb"):
+        datasets = get_available_sample_datasets()
+        chosen_label = None
+        if len(datasets) > 1:
+            chosen_label = st.sidebar.selectbox(
+                "Select Scenario Dataset",
+                options=list(datasets.keys()),
+                key="sidebar_dataset_choice",
+                help="Choose between available sample supply chain scenarios.",
+            )
+            target_dir = datasets[chosen_label]
+        elif datasets:
+            target_dir = list(datasets.values())[0]
+            chosen_label = list(datasets.keys())[0]
+        else:
+            settings = get_settings()
+            target_dir = str(settings.SAMPLE_DATA_DIR)
+
+        current_active = st.session_state.get("active_sample_dir")
+        if not st.session_state.data_loaded or (current_active and current_active != target_dir):
+            btn_text = f"⚡ Load {chosen_label.split('(')[0].strip()}" if chosen_label else "⚡ Connect & Load Demo Data"
+            if st.sidebar.button(btn_text, use_container_width=True, key="btn_load_demo_sb"):
                 with st.spinner("Loading demo records..."):
-                    ensure_full_data_context()
-                    st.session_state.data_loaded = True
-                st.sidebar.success("✅ Demo warehouse active")
+                    st.session_state.active_sample_dir = target_dir
+                    loaded = load_all_data(target_dir)
+                    if loaded:
+                        st.session_state.data = loaded
+                        st.session_state.data_loaded = True
+                    else:
+                        ensure_full_data_context(target_dir)
+                st.sidebar.success(f"✅ Loaded: {chosen_label or 'Demo Data'}")
                 st.rerun()
         else:
-            st.sidebar.markdown("""
+            active_name = chosen_label or "Default Demo Warehouse"
+            st.sidebar.markdown(f"""
             <div style='background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.25); border-radius: 8px; padding: 6px 10px; margin-bottom: 8px; font-size: 0.8rem; color: #34d399;'>
-                ● Active Demo Warehouse Connected
+                ● Active: {active_name}
             </div>
             """, unsafe_allow_html=True)
             if st.sidebar.button("🔄 Reload Demo Data", use_container_width=True, key="btn_reload_demo_sb"):
                 with st.spinner("Refreshing data..."):
-                    ensure_full_data_context()
-                    st.session_state.data_loaded = True
+                    loaded = load_all_data(target_dir)
+                    if loaded:
+                        st.session_state.data = loaded
+                        st.session_state.data_loaded = True
+                    else:
+                        ensure_full_data_context(target_dir)
                 st.sidebar.success("✅ Refreshed")
                 st.rerun()
 
