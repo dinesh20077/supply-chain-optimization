@@ -15,6 +15,11 @@ python -m venv .venv
 # source .venv/bin/activate   # Linux/Mac
 
 pip install -r requirements.txt
+
+
+
+
+
 2. Configure Environment
 copy .env.example .env
 # Edit .env with your PostgreSQL credentials
@@ -27,6 +32,14 @@ DB_USER=postgres
 DB_PASSWORD=your_password
 LOG_LEVEL=INFO
 DATA_DIR=data
+
+
+
+
+
+
+
+
 3. Create the Database
 Create the sciro_db database in PostgreSQL:
 
@@ -34,6 +47,11 @@ CREATE DATABASE sciro_db;
 4. Run Database Migration
 python -m sciro.database.migrate
 This creates all tables, indexes, constraints, triggers, and analytics views in the sciro schema.
+
+
+
+
+
 
 5. Generate Sample Data
 python -m sciro.scripts.generate_sample_data
