@@ -53,66 +53,7 @@ Loads all CSV files from data/sample/ into PostgreSQL in FK-dependency order.
 
 7. Run Tests
 python -m pytest tests/ -v
-Project Architecture
-sciro/
-├── sciro/
-│   ├── config/
-│   │   ├── settings.py          # Environment configuration
-│   │   └── logging_config.py    # Centralized logging
-│   │
-│   ├── database/
-│   │   ├── schema.sql           # Tables, constraints, indexes, triggers
-│   │   ├── views.sql            # Analytics SQL views (5 views)
-│   │   ├── connection.py        # Connection pool & context managers
-│   │   └── migrate.py           # Schema migration script
-│   │
-│   ├── ingestion/
-│   │   ├── validators.py        # Pydantic models for all entities
-│   │   ├── loader.py            # CSV/Excel file loader
-│   │   └── pipeline.py          # Full ingestion orchestration
-│   │
-│   ├── etl/
-│   │   ├── cleaning.py          # Missing values, duplicates, type coercion
-│   │   ├── transformations.py   # Derived columns, normalization
-│   │   └── quality.py           # Data quality checks & reporting
-│   │
-│   └── scripts/
-│       └── generate_sample_data.py  # Synthetic data generator
-│
-├── data/
-│   ├── raw/                     # User-uploaded files
-│   ├── processed/               # Cleaned exports
-│   └── sample/                  # Generated sample data
-│
-├── tests/
-│   ├── test_validators.py       # Validator unit tests
-│   ├── test_cleaning.py         # ETL cleaning tests
-│   └── test_quality.py          # Data quality tests
-│
-├── .env.example
-├── .gitignore
-├── requirements.txt
-└── README.md
-Database Schema
-Tables (8)
-Table	Description	Key Relationships
-regions	Geographic regions	—
-suppliers	Supplier master data	FK → regions
-products	Product catalog	FK → suppliers
-inventory	Stock levels	FK → products, regions
-shipments	Inbound shipments	FK → suppliers, products, regions
-customers	Customer master data	FK → regions
-orders	Order headers	FK → customers, regions
-order_items	Order line items	FK → orders, products
-Analytics Views (5)
-View	Purpose
-v_supplier_performance	On-time delivery, lead time stats, shipping costs per supplier
-v_inventory_status	Stock health classification (HEALTHY/LOW/CRITICAL/OUT_OF_STOCK)
-v_revenue_summary	Revenue, COGS, gross margin by region, product, month
-v_order_summary	Per-customer order metrics, recency, AOV
-v_shipment_analysis	Delay analysis, shipment value at risk
-Modules Roadmap
-Module	Status	Description
+
 1. Data & Database	✅ Complete	Schema, ingestion, ETL, validation
 2. Supply Chain & Business Intelligence	✅ Complete	Analytics engine, risk scoring, revenue-at-risk
 3. AI/ML Prediction Engine	✅ Complete	Demand, revenue, stockout, supplier risk forecasting
