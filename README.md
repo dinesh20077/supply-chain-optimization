@@ -1,4 +1,4 @@
-# supply-chain-optimization
+# supply-chain-optimization & revenue optimization ai
 
 An AI-powered decision-intelligence platform that integrates supply-chain and business data to detect risks, predict demand, simulate disruptions, and optimize decisions.
 
